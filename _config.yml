@@ -7,17 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dante A. Capone"
+title                    : "Lantao Yu"
 title_separator          : "-"
-name                     : &name "Dante A. Capone"
-description              : &description "personal description"
-url                      : https://dantecapone.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Lantao Yu"
+description              : &description "Ph.D. student, Computer Science Department, Stanford University"
+url                      : https://lantaoyu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "LantaoYu/lantaoyu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -48,16 +47,16 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -73,43 +72,43 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
 
 
 # Site Author
 author:
-  name             : "Dante A. Capone"
-  avatar           : "profile.png"
-  bio              : "PhD Student in Biological Oceanography, Sub-elite Runner"
-  location         : "La Jolla, CA"
-  employer         : "Scripps Institution of Oceanography"
-  googlescholar    : 
-  email            : "danteacapone@gmail.com"
-  uri              :
+  name             : "Lantao Yu"
+  avatar           : "lantaoyu.jpg"
+  bio              : "Ph.D. student, Computer Science Department, Stanford University"
+  location         : "Stanford, California"
+  employer         : 
+  googlescholar    : "https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en"
+  email            : "lantaoyu@cs.stanford.edu"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : 
   foursquare       :
-  github           : "DanteCapone"
+  github           : "LantaoYu"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : 
   lastfm           :
   linkedin         :
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@dante_capone
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
-  wikipedia        :
+  wikipedia        : 
 
 
 # Reading Files
@@ -118,8 +117,8 @@ include:
   - _pages
   - files
 exclude:
-  - ".sublime-project"
-  - ".sublime-workspace"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -238,7 +237,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -255,14 +254,14 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 # Plugins
 gems:
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
@@ -302,4 +301,8 @@ tag_archive:
 compress_html:
   clippings: all
   ignore:
+    envs: development
+
+theme: jekyll-theme-merlot
+
     envs: development
