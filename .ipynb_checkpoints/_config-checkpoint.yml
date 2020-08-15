@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Dante A. Capone"
   avatar           : "professional_headshot.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Incoming PhD Student in Biological Oceanography, Runner for SRA Elite, Challenge Enthusiast"
   location         : "San Diego, CA"
   employer         : "Scripps Institution of Oceanography"
   pubmed           : 
   googlescholar    : 
-  email            : "dcapone@ucsd.edi"
+  email            : "dcapone@ucsd.edu"
   researchgate     :  
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "www.linkedin.com/in/dante-capone"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
