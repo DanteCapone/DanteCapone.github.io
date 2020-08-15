@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "/images/my_pics/profile/professional_headshot.jpg"
+  avatar           : "professional_headshot.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "San Diego, CA"
   employer         : "Scripps Institution of Oceanography"
