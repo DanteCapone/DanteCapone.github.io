@@ -1,0 +1,19 @@
+---
+title: 'The Quarantine Begins'
+date: 2020-08-15
+permalink: /posts/2012/08/blog-post-1/
+tags:
+  - quarantine
+  - SR2007
+  - preboarding
+---
+
+
+SR2007 Cruise Preboarding August 14th/15th, 2020: Humphrey's Half Moon Inn
+======
+
+The journey for this cruise begins with an extended period of isolation on land in the generous accomodations of Humphrey's Halfmoon Inn on Shelter Island in San Diego, CA. Due to the global pandemic of COVID-19, the process of getting everyone safely aboard the RV Sally Ride and out to sea has become slightly more complicated. To ensure that the virus does not maje its way onto the ship, all cruise participants were required to undergo a series of tests and practice isolation prior ro departure.
+
+First, we were all initially tested for COVID on August 6th. This was my first time getting tested and it was more than mildly uncomfortable. Between getting a shot and having my nose swabbed I'm not sure which I would pick. After this first test we all buckled down for shelter-in-place in our respective homes, only leving for essential activities such as grocery shopping or exercise. On August 14th we returned to the testing facility to get another COVID test 
+
+------
