@@ -9,8 +9,7 @@ tags:
 ---
 
 
-Preboarding Isolation at Humphrey's Half Moon Inn
-======
+### Preboarding Isolation at Humphrey's Half Moon Inn
 
 <center>
     <div style="width:400px; height:300px">
