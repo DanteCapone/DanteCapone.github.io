@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'The Quarantine Begins'
 date: 2020-08-15
 permalink: /posts/2020/08/blog-post-1/
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 
 
- Preboarding at Humphrey's Half Moon Inn
+Preboarding Isolation at Humphrey's Half Moon Inn
 ======
 
 <center>
