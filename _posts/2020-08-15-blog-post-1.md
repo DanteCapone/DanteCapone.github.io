@@ -14,7 +14,7 @@ Preboarding Isolation at Humphrey's Half Moon Inn
 
 <center>
     <div style="width:800px; height:600px">
-<img src="/images/sr2007bp1_1.jpg"/>
+<img src="/images/sr2007bp1_1.JPG"/>
     </div>
 </center>
 
@@ -22,7 +22,7 @@ The journey for this cruise begins with an extended period of isolation on land 
 
 <center>
     <div style="width:800px; height:600px">
-<img src="/images/sr2007bp1_2.jpg"/>
+<img src="/images/sr2007bp1_2.JPG"/>
     </div>
 </center>
 
