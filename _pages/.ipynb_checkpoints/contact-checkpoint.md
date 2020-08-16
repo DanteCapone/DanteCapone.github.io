@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /contact/
 title: "Get in Touch"
 excerpt: "get in touch"

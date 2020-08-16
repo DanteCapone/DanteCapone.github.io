@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my personal website"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,7 +10,9 @@ redirect_from:
 
 
 <center>
-<img src="/images/Jenner_RR_Mouth.jpg" width="150" height="100"/>
+    <div style="width:150px; height:100px">
+<img src="/images/Jenner_RR_Mouth.jpg"/>
+    </div>
 </center>
 
 
