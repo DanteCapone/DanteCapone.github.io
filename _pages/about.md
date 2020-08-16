@@ -10,7 +10,7 @@ redirect_from:
 
 
 <center>
-<img src="/images/Jenner_RR_Mouth.jpg" />
+<img src="/images/Jenner_RR_Mouth.jpg" width="150" height="100"/>
 </center>
 
 

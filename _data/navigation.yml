@@ -11,6 +11,9 @@ main:
     
 #   - title: "Portfolio"
 #     url: /portfolio/
+
+#   - title: "Blog Posts"
+#     url: /year-archive/
         
   - title: "Blog Posts"
     url: /year-archive/
@@ -18,8 +21,17 @@ main:
   - title: "CV"
     url: /cv/
     
+#   - title: "Guide"
+#     url: /markdown/
+
+  - title: "Personal"
+    url: /personal/
+    
+  - title: "Running"
+    url: /running/
+    
   - title: "Resources"
     url: /resources/
     
-#   - title: "Guide"
-#     url: /markdown/
+  - title: "Contact"
+    url: /contact/

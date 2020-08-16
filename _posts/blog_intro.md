@@ -1,5 +1,5 @@
 ---
-title: 'Overview-SR2007 Research Cruise Blog'
+title: 'Introduction: SR2007 Research Cruise Blog'
 date: 2020-08-15
 permalink: /posts/2020/08/blog_intro/
 tags:
@@ -8,7 +8,7 @@ tags:
 ---
 
 
-SR2007 SiphWeb Cruise
+SR2007 SiphWeb Cruise, August/September 2020
 ======
 
 
