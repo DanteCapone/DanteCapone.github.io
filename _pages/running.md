@@ -24,14 +24,11 @@ Post Collegiate
 
 ### PRs
 
-    <div style="width:400px; height:300px">
-<img src="/images/sr2007bp1_2.JPG"/>
-    </div>
 
 
 <br>
 
-800m: 2:04
+800m: 2:04 <img src="/images/Finish_4.jpg"/>
 <br>
 1500m: 4:07
 <br> 
