@@ -9,15 +9,15 @@ redirect_from:
   - "/nmp.html"
 ---
 
-
+<br> 
 <address>
   Dante Capone<br /> 5927 Erlanger St<br /> San Diego, CA 92122<br /> United States
 </address>
-<br> </br>
+<br> 
 danteacapone@gmail.com (personal)
-<br> </br>
+<br> 
 
 dcapone@ucsd.edu (institution)
-<br> </br>
+<br>
 
 +1-(707)-326-8161

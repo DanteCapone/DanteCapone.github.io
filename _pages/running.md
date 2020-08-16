@@ -5,8 +5,8 @@ title: "Running"
 excerpt: "running"
 author_profile: true
 redirect_from: 
-  - "/running/"
-  - "/running.html"
+  - "/nmp/"
+  - "/nmp.html"
 ---
 
 
@@ -16,6 +16,13 @@ History
 
 PRs
 ======
+<center>
+    <div style="width:400px; height:300px">
+<img src="/images/sr2007bp1_2.JPG"/>
+    </div>
+</center>
+
+<br>
 
 800m: 2:04
 <br> </br>
