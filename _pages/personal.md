@@ -1,16 +1,12 @@
 ---
 layout: archive
-permalink: /personal/
-title: "Personal Background"
-excerpt: "personal"
+permalink: /research-interests/
+title: "Research Interests"
+excerpt: "research interests"
 author_profile: true
 redirect_from: 
-  - "/personal/"
-  - "/personal.html"
+  - "/nmp/"
+  - "/nmp.html"
 ---
 
-Heading 1
-======
 
-Heading 2
-======
