@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /personal/
 title: "Personal Background"
 excerpt: "personal"

@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+### 
 
 <center>
-    <div style="width:150px; height:100px">
+    <div style="width:800px; height:600px">
 <img src="/images/Jenner_RR_Mouth.jpg"/>
     </div>
 </center>

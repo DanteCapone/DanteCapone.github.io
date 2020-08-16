@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /running/
 title: "Running"
 excerpt: "running"
