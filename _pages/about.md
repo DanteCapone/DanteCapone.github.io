@@ -11,11 +11,11 @@ redirect_from:
 ### 
 
 <center>
-    <div style="width:800px; height:600px">
+    <div style="width:800px; height:800px">
 <img src="/images/Jenner_RR_Mouth.jpg"/>
     </div>
 </center>
-
+<br> </br>
 
 I am an incoming graduate student to Scripps Institution of Oceanography, pursuing a PhD in Biological Oceanography and participating in the Program for Interdisciplinary Environmental Research. The complexity and interconnectedness of the ocean drives me to understand biological and physical linkages between the surface and the deep ocean. I am passionate about education and strive to find creative and intriguing ways to share scientific knowledge with a broader audience.
 
