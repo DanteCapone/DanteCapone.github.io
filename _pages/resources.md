@@ -9,9 +9,6 @@ redirect_from:
   - "/nmp.html"
 ---
 
-Helpful Resources
-======
-
 Programming tutorials
 ======
 
