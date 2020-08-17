@@ -8,8 +8,6 @@ redirect_from:
   - "/nmp/"
   - "/nmp.html"
 ---
-
-<br> 
 <address>
   Dante Capone<br /> 5927 Erlanger St<br /> San Diego, CA 92122<br /> United States
 </address>

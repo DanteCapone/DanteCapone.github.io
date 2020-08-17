@@ -16,7 +16,6 @@ The journey for this cruise begins with an extended period of isolation on land 
         <img src="/images/sr2007bp1_2.JPG"/>
     </div>
         <i>Waterfront view from the Humphrey's patio</i>
-
 </center>
 <br>
 
