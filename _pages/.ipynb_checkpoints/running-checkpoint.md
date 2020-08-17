@@ -10,7 +10,7 @@ redirect_from:
 ---
 <br>
 <center>
-    <div style="width:700px; height:450px">
+    <div style="width:600px; height:400px">
         <img src="/images/Finish_4.jpg"/>
     </div>
         <i>15k victory at the Greater Springfield Running Festival in Queensland, Australia September 2019.</i>
