@@ -17,6 +17,11 @@ redirect_from:
         <i></i>
 </center>
 
+<br>
+<br>
+<br>
+<br>
+
 I am an incoming graduate student to Scripps Institution of Oceanography, pursuing a PhD in Biological Oceanography and participating in the Program for Interdisciplinary Environmental Research. The complexity and interconnectedness of the ocean drives me to understand biological and physical linkages between the surface and the deep ocean. I am passionate about education and strive to find creative and intriguing ways to share scientific knowledge with a broader audience.
 
 I completed my Bachelors of Science in Earth Science-Ocean Science and Marine Biology at the University of California, Santa Cruz in Fall 2019 and have worked as a lab assistant for the Coastal Oceanography group at the Bodega Bay Marine Lab until moving down to San Diego.
