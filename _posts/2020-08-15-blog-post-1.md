@@ -1,5 +1,5 @@
 ---
-title: 'Quarantining at Humphrey's
+title: 'Quarantining at Humphreys'
 date: 2020-08-15
 permalink: /posts/2020/08/15
 tags:
@@ -7,8 +7,6 @@ tags:
   - SR2007
   - preboarding
 ---
-
-
 The journey for this cruise begins with an extended period of isolation on land in the generous accomodations of Humphrey's Halfmoon Inn on Shelter Island in San Diego, CA. Due to the global pandemic of COVID-19, the process of getting everyone safely aboard the RV Sally Ride and out to sea has become slightly more complicated. To ensure that the virus does not make its way onto the ship, all participants in Scripps cruises are required to undergo a series of tests and practice isolation prior to departure.
 <br>
 <center>
