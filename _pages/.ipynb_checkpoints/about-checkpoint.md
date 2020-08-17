@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+### ** THIS WEBSITE IS STILL UNDER CONSTRUCTION **
+
 <center>
     <div style="width:500px; height:400px">
 <img src="/images/Jenner_RR_Mouth.jpg"/>

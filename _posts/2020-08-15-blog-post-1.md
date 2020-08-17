@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Quarantining at Humphrey's
 date: 2020-08-15
 permalink: /posts/2020/08/15
 tags:
@@ -15,9 +15,11 @@ The journey for this cruise begins with an extended period of isolation on land 
     <div style="width:600px; height:400px">
         <img src="/images/sr2007bp1_2.JPG"/>
     </div>
-    <i>Waterfront view from the Humphrey's patio</i>
+        <i>Waterfront view from the Humphrey's patio</i>
+
 </center>
 <br>
+
 First, we were all initially tested for COVID on August 6th. I chose to get this test in San Diego, moving down the day before to relocate before begining my PhD at Scripps in the Fall. This was my first time getting tested and it was more than mildly uncomfortable. Between getting a shot and having my nose swabbed I'm not sure which I would pick, however with a COVID test, the legnth of discomfort is within the hands of the test.
 
 After this first test we all buckled down for shelter-in-place in our respective homes, only leaving for essential activities such as grocery shopping or exercise. On August 14th we returned to the testing facility to get another COVID test, after which we drove directly to Humphrey's Half Moon Inn on Shelter Island where we would remain until the cruise. This meant that we needed to bring everything we would need to maintain sanity during isolation, as well as all of our cruise gear. 
