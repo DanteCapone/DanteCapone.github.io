@@ -47,21 +47,23 @@ On Tuesday, August 18th we met in the parking lot of Humphrey's at 7:30 AM to bo
 <br>
 <center>
     <div>
-        <img src="/images/hotel_art.jpg" width="700" height="300"/>
+        <img src="/images/hotel_art.jpg" width="600" height="400"/>
     </div>
     <i>Art in Humphrey's hotel room. </i>
 </center>
 <br>
 
-We faced some slight obstacles when entering the parking lot where the tests were conducted. There was a long line of cars into the lot, which made it difficult for the bus to maneuver in. On top of this, arriving cars persistently tried to cut us off in line, which made us early risers even more irritable. We all agreed that maybe the comfort of our simple hotel room existences wasn't so bad. 
+We faced some slight obstacles when entering the parking lot where the tests were conducted. There was a long line of cars into the lot, which made it difficult for the bus to maneuver in. On top of this, arriving cars persistently tried to cut us off in line, which made us early risers even more irritable. Amidst this minor chaos, we all agreed that maybe the comfort of our simple hotel room existences wasn't so bad. 
 
 <center>
     <div>
-        <img src="/images/naval_ship.jpg" width="700" height="300"/>
+        <img src="/images/naval_ship.jpg" width="600" height="400"/>
     </div>
     <i>Naval ship passing by. </i>
 </center>
 
-Finally, the bus pulled into the lot and we all hung around outside in the sun light while we waited for the go-ahead to walk into the testing site. One by one we lined up and made our way in for the third and final test. At this point I anticipated the discomfort of the test entering my nostril, but it still caused my eyes to water. 
+Finally, the bus pulled into the lot and we all lingered outside in the sun light while we waited for the go-ahead to walk into the testing site. One-by-one we lined up and made our way in for the third and final test. At this point I anticipated the discomfort of the test entering my nostril, but the wriggling rod deep in my nose still triggered my eyes to water. While waiting for the tests to finish up I got a chance to talk to several new faces, including my advisor Moira and a post-doc in Anela's lab named Liz. Coincidentally Liz and I were both wearing items from the 2016 Santa Cruz Half Ironman, which I volunteered. We connected over our interest in running and it was nice to know that someone else had brought a bicycle to the hotel room to maintain their sanity.
+
+**To be continued...**
 
 ------
