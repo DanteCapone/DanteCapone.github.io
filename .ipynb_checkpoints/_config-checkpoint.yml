@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Dante A. Capone"
   avatar           : "professional_headshot.jpg"
-  bio              : "Incoming PhD Student in Biological Oceanography, Runner for SRA Elite, Challenge Enthusiast"
+  bio              : "Incoming PhD Student in Biological Oceanography, Runner for SRA Elite, Challenge Seeker"
   location         : "San Diego, CA"
   employer         : "Scripps Institution of Oceanography"
   pubmed           : 
@@ -309,3 +309,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+ #Add remote theme
+remote_theme: chrisrhymes/bulma-clean-theme
