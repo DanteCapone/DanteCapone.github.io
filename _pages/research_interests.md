@@ -12,7 +12,7 @@ redirect_from:
 <br>
 <center>
     <div style="width:600px; height:400px">
-        <img src="/images/squid.JPG"/>
+        <img src="/images/surf_poster.JPG"/>
     </div>
 </center>
 <br>

@@ -12,7 +12,7 @@ redirect_from:
 <br>
 <center>
     <div style="width:600px; height:400px">
-        <img src="/images/squid.JPG"/>
+        <img src="/images/surf_poster.JPG"/>
     </div>
 </center>
 <br>
@@ -21,4 +21,4 @@ redirect_from:
 <br>
 <br>
 
-I am broadly interested in studying physical-biological interactions in aquatic ecosystems. I hope to use observational methods and a data-driven approach to quantify environmental processes and use this information to infer ecological response. I am most interested in deep-sea and estuarine systems.
+I am broadly interested in studying physical-biological interactions in aquatic ecosystems. For my PhD I hope to examine benthic-pelagic coupling between the deep-sea and the surface ocean through not only carbon export pathways, but also mechansims that transport carbon from deep ocean environments vertically and laterally. 
