@@ -20,7 +20,7 @@ Following the cultural trend that occurred during the initiation of the COVID-19
 <br>
 <center>
     <div style="width:600px; height:400px">
-        <img src="/images/squid.JPG"/>
+        <img src="/images/bread.jpg"/>
     </div>
     <i>Sticky date and walnut load with cinnamon and cardamom topping.</i>
 
