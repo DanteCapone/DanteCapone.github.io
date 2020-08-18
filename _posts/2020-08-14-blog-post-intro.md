@@ -10,8 +10,8 @@ This is an NSF-funded cruise led by Anela Choy to investigate the vertical struc
 
 <br>
 <center>
-    <div style="width:600px; height:400px">
-        <img src="/images/SallyRide.jpg"/>
+    <div>
+        <img src="/images/SallyRide.jpg" width="700" height="300"/>
     </div>
     <i>The RV Sally Ride. Photo: Erik Jepsen</i>
 </center>

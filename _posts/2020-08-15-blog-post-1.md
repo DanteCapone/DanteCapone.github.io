@@ -44,7 +44,23 @@ To stay connected some of the students have also met through Zoom for a game nig
 
 On Tuesday, August 18th we met in the parking lot of Humphrey's at 7:30 AM to board charter buses to our final COVID test at the same testing site. It was our first time leaving the small space of the hotel room since Friday and I felt an odd freedom of movement. I joyfully ran to the bus, not because I was late, but simply to move through a space that was not room 104 of Humphrey's. Aboard the bus we sat as distanced as possible with masks and I quickly learned the difficulty of communication through masks, something we will all need to adapt to aboard the <i> RV Sally Ride </i>. I never realized how much watching the movement of one's lips helps in understanding their words. When in a noisy environment such as a bus or ship, it might be beneficial to adopt some hand or body signals.
 
+<br>
+<center>
+    <div>
+        <img src="/images/hotel_art.jpg" width="700" height="300"/>
+    </div>
+    <i>Art in Humphrey's hotel room. </i>
+</center>
+<br>
+
 We faced some slight obstacles when entering the parking lot where the tests were conducted. There was a long line of cars into the lot, which made it difficult for the bus to maneuver in. On top of this, arriving cars persistently tried to cut us off in line, which made us early risers even more irritable. We all agreed that maybe the comfort of our simple hotel room existences wasn't so bad. 
+
+<center>
+    <div>
+        <img src="/images/naval_ship.jpg" width="700" height="300"/>
+    </div>
+    <i>Naval ship passing by. </i>
+</center>
 
 Finally, the bus pulled into the lot and we all hung around outside in the sun light while we waited for the go-ahead to walk into the testing site. One by one we lined up and made our way in for the third and final test. At this point I anticipated the discomfort of the test entering my nostril, but it still caused my eyes to water. 
 
