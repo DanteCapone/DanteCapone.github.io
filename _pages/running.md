@@ -20,7 +20,8 @@ redirect_from:
 I am a passionate, dedicated, semi-neurotic, competitive distance runner who enjoys using exercise to connect with new communities and places. Running provides me with a physical, mental, and social outlet and is an area of life which I can strive for objective goals. After running competitively since middle school, moving to Analy high school and fully embracing the sport as an NCAA athlete at UC Santa Cruz, I continue to train at a high level. I am currently pursuing PRs in the shorter events (1500m-5000m) before moving on to longer road races and eventually marathons.
 
 
-### Current PRs
+## Current PRs
+
 
 **800m**: 2:04 
 <br>
@@ -37,6 +38,10 @@ I am a passionate, dedicated, semi-neurotic, competitive distance runner who enj
 **15k**: 50:14
 
 
-### Stay up to Date with my Training!
+### Links:
+Collegiate Results: [TFRRS](https://www.tfrrs.org/athletes/5459053/UC_Santa_Cruz/Dante_Capone.html "TFRRS")
+
+
+## Stay up to Date with my Training!
 
 <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/18492350/latest-rides/3ed9fe72d7a84a9d2a4756ae3261d03783dbca23'></iframe>
