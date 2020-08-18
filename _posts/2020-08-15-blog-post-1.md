@@ -27,8 +27,8 @@ While we were staying at Humphrey's we are not to leave our rooms for any reason
 
 <br>
 <center>
-    <div style="width:600px; height:400px">
-        <img src="/images/quarantine_humphreys.jpg"; style="padding-bottom: 20px;"/>
+    <div style="width:600px; height:400px; padding-bottom: 20px;"/>">
+        <img src="/images/quarantine_humphreys.jpg">
     </div>
     <br>
     <i>Future cruisers enjoying socially distant conversation on the patio. </i>
