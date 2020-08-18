@@ -15,13 +15,25 @@ First, we were all initially tested for COVID on August 6th. I chose to get this
     <div style="width:600px; height:400px">
         <img src="/images/sr2007bp1_2.JPG"/>
     </div>
+    <br>
     <i>View From Humphrey's patio.</i>
 </center>
+<br>
 
 
 After this first test we all buckled down for shelter-in-place in our respective homes, only leaving for essential activities such as grocery shopping or exercise. On August 14th we returned to the testing facility to get another COVID test, after which we drove directly to Humphrey's Half Moon Inn on Shelter Island where we would remain until the cruise. This meant that we had to bring everything we would need to maintain sanity during isolation, as well as all of our cruise gear. This being my first cruise I felt that it was better to overpack, so I brought nearly my entire wardrobe, as well as various items to entertain myself in the hotel room: art supplies, a massage gun, and my ellitpical bicycle with an indoor trainer. At the recommendation of previous cruise participants I also brought my own coffee and filters and my favorite snacks-mostly nut butters.
 
 While we were staying at Humphrey's we are not to leave our rooms for any reason, else we risk exposure to the virus. This means that each day we fill out an order form for the three meals we would like delivered outside of our door for the day. The menu is decadent and the kitchen staff is accomodating to specific requests or substitutions (which is essential when you are a picky vegetarain like myself). 
+
+<br>
+<center>
+    <div style="width:600px; height:400px">
+        <img src="/images/quarantine_humphreys.jpg"/>
+    </div>
+    <br>
+    <i>View From Humphrey's patio.</i>
+</center>
+<br>
 
 Despite confinement, life in the hotel room is extremely comfortable and with a refreshing patio view we are able to take a step outside to converse across the fence to our neighbors. I have already enjoyed several hour long conversations with other Scripps quarantiners. My neighbors include two undergraduates-Rachel and Sierra, as well as three other graduate students-Tiffany, Shailja and Olivia. 
 
