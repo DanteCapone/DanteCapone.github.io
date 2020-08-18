@@ -12,8 +12,8 @@ The journey for this cruise begins with an extended period of isolation on land 
 First, we were all initially tested for COVID on August 6th. I chose to get this test in San Diego, moving down the day before to relocate before begining my PhD at Scripps in the Fall. This was my first time getting tested and it was more than mildly uncomfortable. Between getting a shot and having my nose swabbed I'm not sure which I would pick, however with a COVID test, the length of discomfort is within the hands of the test-administrator, so if they are in a bad mood you might be out of luck.
 <br>
 <center>
-    <div style="width:600px; height:400px">
-        <img src="/images/sr2007bp1_2.JPG"/>
+    <div>
+        <img src="/images/sr2007bp1_2.JPG" width="600" height="400"/>
     </div>
     <br>
     <i>View From Humphrey's patio.</i>
@@ -27,8 +27,8 @@ While we were staying at Humphrey's we are not to leave our rooms for any reason
 
 <br>
 <center>
-    <div style="width:600px; height:400px; padding-bottom: 20px;"/>">
-        <img src="/images/quarantine_humphreys.jpg">
+    <div>
+        <img src="/images/quarantine_humphreys.jpg" width="300" height="700"/>
     </div>
     <br>
     <i>Future cruisers enjoying socially distant conversation on the patio. </i>
