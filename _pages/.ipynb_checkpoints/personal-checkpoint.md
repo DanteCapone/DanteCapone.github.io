@@ -31,18 +31,18 @@ Following the cultural trend that occurred during the initiation of the COVID-19
 ### Art
 <br>
 <center>
-    <div style="width:600px; height:400px">
+    <div style="width:600px; height:400px; padding-bottom: 20px;">">
         <img src="/images/Dante_jurassic_ocean080.jpg"/>
     </div>
+
+</center>
     <i>Imaginary scene of a Mesozoic ocean, February 2019</i>
 
-</center>
 <br>
 <center>
-    <div style="width:600px; height:400px">
-        <img src="/images/Dante_deep_sea_gigantism.jpg"/>
+    <div style="width:600px; height:400px; padding-bottom: 20px;">">
+    <img src="/images/Dante_deep_sea_gigantism.jpg"/>
     
     </div>
-    <i>Deep-sea gigantism water color, March 2019.</i>
-
 </center>
+    <i>Deep-sea gigantism water color, March 2019.</i>
