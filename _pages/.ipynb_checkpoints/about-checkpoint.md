@@ -11,16 +11,10 @@ redirect_from:
 ### ** THIS WEBSITE IS STILL UNDER CONSTRUCTION **
 
 <center>
-    <div style="width:500px; height:400px; padding-bottom: 20px;">
-<img src="/images/giraween.JPG">
+    <div>
+<img src="/images/giraween.JPG" width="300" height="700"/>
     </div>
-        <i></i>
 </center>
-
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 

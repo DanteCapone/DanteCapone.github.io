@@ -38,8 +38,8 @@ I enjoy making art through a variety of media, from ceramics to acrylics. During
     <div>
         <img src="/images/Dante_jurassic_ocean080.jpg" width="600" height="400"/>
     </div>
+        <i>Imaginary scene of a Mesozoic ocean, February 2019.</i>
 </center>
-    <i>Imaginary scene of a Mesozoic ocean, February 2019</i>
 
 <br>
 
