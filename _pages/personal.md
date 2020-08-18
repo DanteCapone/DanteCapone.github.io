@@ -17,7 +17,7 @@ Alongside my more left-brained interests in science and my physical interests in
 <br>
 <center>
     <div>
-        <img src="/images/bread.jpg" width="200" height="200"/>
+        <img src="/images/bread.jpg" width="600" height="400"/>
     </div>
     <i>Sticky date and walnut load with cinnamon and cardamom topping.</i>
 
@@ -30,11 +30,13 @@ Following the cultural trend that occurred during the initiation of the COVID-19
 
 ### Art
 
+I enjoy making art through a variety of media, from ceramics to acrylics. During the Winter Quarter of 2019 I took a Natural History Illustration course at UC Santa Cruz which allowed me practice creating drawings and pieces of natural organisms and scenes. Below are a few of my favourite water color pieces I made.
+
 
 <br>
 <center>
-    <div style="width:600px; height:400px; padding-bottom: 20px;">">
-        <img src="/images/Dante_jurassic_ocean080.jpg"/>
+    <div>
+        <img src="/images/Dante_jurassic_ocean080.jpg" width="600" height="400"/>
     </div>
 </center>
     <i>Imaginary scene of a Mesozoic ocean, February 2019</i>
@@ -42,8 +44,8 @@ Following the cultural trend that occurred during the initiation of the COVID-19
 <br>
 
 <center>
-    <div style="width:600px; height:400px; padding-bottom: 20px;">">
-    <img src="/images/Dante_deep_sea_gigantism.jpg"/>
+    <div>
+    <img src="/images/Dante_deep_sea_gigantism.jpg" width="600" height="400"/>
     </div>
             <i>Deep-sea gigantism water color, March 2019.</i>
 

@@ -11,8 +11,8 @@ redirect_from:
 
 <br>
 <center>
-    <div style="width:600px; height:400px">
-        <img src="/images/surf_poster.JPG"/>
+    <div>
+        <img src="/images/surf_poster.JPG" width="300" height="700"/>
     </div>
 </center>
 <br>
