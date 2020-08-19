@@ -22,20 +22,19 @@ I am a passionate, dedicated, semi-neurotic, competitive distance runner who enj
 
 ## Current PRs
 
-
-**800m**: 2:04 
+**15k**: 50:14
 <br>
-**1500m**: 4:07
-<br> 
-**5000m**: 15:12 
+**6mi** (road): 30:32
+<br>
+**8k** (XC): 25:36
 <br> 
 **10000m**: 32:24
 <br> 
-**8k** (XC): 25:36
+**5000m**: 15:12 
 <br>
-**6mi** (road): 30:32
+**1500m**: 4:07
 <br> 
-**15k**: 50:14
+**800m**: 2:04 
 
 
 ### Links:
