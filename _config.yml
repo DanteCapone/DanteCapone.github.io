@@ -209,6 +209,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+   # _front
+  - scope:
+      path: ""
+      type: front
+    values:
+      layout: splash
+      author_profile: true
   # _teaching
   - scope:
       path: ""
