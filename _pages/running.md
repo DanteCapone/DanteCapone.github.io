@@ -38,7 +38,7 @@ I am a passionate, dedicated, semi-neurotic, competitive distance runner who enj
 
 
 ### Links:
-Collegiate Results: [TFRRS](https://www.tfrrs.org/athletes/5459053/UC_Santa_Cruz/Dante_Capone.html "TFRRS")
+Collegiate Results: <ins>**[TFRRS](https://www.tfrrs.org/athletes/5459053/UC_Santa_Cruz/Dante_Capone.html "TFRRS")**</ins>
 
 
 ## Stay up to Date with my Training!
