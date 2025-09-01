@@ -1,19 +1,11 @@
 ---
 layout: archive
 permalink: /research-interests/
-title: "Research Interests"
-excerpt: "research interests"
+title: "Research"
+excerpt: "research"
 author_profile: true
 redirect_from: 
   - "/nmp/"
   - "/nmp.html"
 ---
 
-<br>
-<center>
-    <div>
-    </div>
-    <i>Presenting my summer research at the SURF symposium, Summer 2018.</i>
-</center>
-
-I am broadly interested in studying physical-biological interactions in aquatic ecosystems. For my PhD I hope to examine benthic-pelagic coupling between the deep-sea and the surface ocean through not only carbon export pathways, but also mechansims that transport carbon from deep ocean environments vertically and laterally. 
