@@ -12,7 +12,6 @@ redirect_from:
 <br>
 <center>
     <div>
-        <img src="/images/surf_poster.JPG" width="600" height="400"/>
     </div>
     <i>Presenting my summer research at the SURF symposium, Summer 2018.</i>
 </center>
