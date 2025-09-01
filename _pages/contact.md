@@ -24,7 +24,7 @@ redirect_from:
 
 <center>
     <div style="width:800px; height:400px">
-<img src="/images/Jenner_RR_Mouth.jpg"/>
+<img src="/images/"/>
     </div>
         <i></i>
 </center>
