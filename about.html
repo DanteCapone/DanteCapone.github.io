@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Dante Capone – Oceanography Researcher" />
+  <title>About | Dante Capone</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main class="page-content">
+    <div class="container">
+
+      <h1>About</h1>
+      <hr class="divider" />
+
+      <!-- Bio & Photo -->
+      <section style="display:flex; gap:2.5rem; align-items:flex-start; flex-wrap:wrap; margin-bottom:2rem;">
+        <div class="hero-photo-placeholder" style="flex-shrink:0;" aria-hidden="true">DC</div>
+        <div>
+          <p>
+            I am a physical oceanographer based at [Your Institution]. My research focuses on
+            [brief description of your research focus, e.g., turbulent mixing in the deep ocean,
+            coastal upwelling dynamics, or biogeochemical cycling]. I use a combination of
+            observational data, ship-based field campaigns, and numerical models to address
+            fundamental questions about ocean dynamics and their role in Earth's climate system.
+          </p>
+          <p>
+            Before joining [Current Institution], I completed my [B.S./M.S.] in [Field] at
+            [Previous Institution]. Outside of research, I enjoy [hobby], [hobby], and spending
+            time [interest].
+          </p>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="cv-section">
+        <h2 class="section-title">Education</h2>
+        <div class="cv-row">
+          <span class="cv-year">20XX – present</span>
+          <div>
+            <strong>Ph.D., Oceanography</strong><br>
+            <span class="text-muted">[Your Institution], [City, State]</span><br>
+            <span class="text-sm text-muted">Advisor: Prof. [Name] · Thesis: "[Thesis Title]"</span>
+          </div>
+        </div>
+        <div class="cv-row">
+          <span class="cv-year">20XX</span>
+          <div>
+            <strong>M.S., [Field]</strong><br>
+            <span class="text-muted">[Institution], [City, State]</span>
+          </div>
+        </div>
+        <div class="cv-row">
+          <span class="cv-year">20XX</span>
+          <div>
+            <strong>B.S., [Field]</strong><br>
+            <span class="text-muted">[Institution], [City, State]</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Research Interests -->
+      <section class="cv-section">
+        <h2 class="section-title">Research Interests</h2>
+        <ul>
+          <li>Physical oceanography and ocean circulation</li>
+          <li>Turbulent mixing and internal waves</li>
+          <li>Air-sea interaction and climate variability</li>
+          <li>Ocean observing systems and autonomous platforms</li>
+          <li>Data analysis and scientific computing (R, MATLAB, Python)</li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section class="cv-section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="cv-row">
+          <span class="cv-year">Languages</span>
+          <span>R, MATLAB, Python, Bash</span>
+        </div>
+        <div class="cv-row">
+          <span class="cv-year">Tools</span>
+          <span>Git, LaTeX, QGIS, Jupyter, R Markdown</span>
+        </div>
+        <div class="cv-row">
+          <span class="cv-year">Instruments</span>
+          <span>CTD, ADCP, microstructure profilers, autonomous floats</span>
+        </div>
+        <div class="cv-row">
+          <span class="cv-year">Field Work</span>
+          <span>Ship-based oceanographic surveys, mooring deployments</span>
+        </div>
+      </section>
+
+      <!-- Links -->
+      <section>
+        <a href="cv.html" class="btn btn-primary">View Full CV</a>
+        &nbsp;
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="https://github.com/DanteCapone" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a></li>
+      <li><a href="mailto:your.email@institution.edu">Email</a></li>
+    </ul>
+    <p>&copy; <span id="year"></span> Dante Capone. Built with plain HTML &amp; CSS.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

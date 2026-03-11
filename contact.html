@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact – Dante Capone" />
+  <title>Contact | Dante Capone</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main class="page-content">
+    <div class="container">
+
+      <h1>Contact</h1>
+      <hr class="divider" />
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:3rem; align-items:start; flex-wrap:wrap;">
+
+        <!-- Contact info -->
+        <section>
+          <h2 class="section-title">Get in Touch</h2>
+          <p>
+            I welcome inquiries about my research, potential collaborations, data or code
+            sharing, and prospective students interested in physical oceanography.
+          </p>
+
+          <div class="cv-row" style="border:none; padding:0.4rem 0;">
+            <span class="cv-year">Email</span>
+            <a href="mailto:your.email@institution.edu">your.email@institution.edu</a>
+          </div>
+          <div class="cv-row" style="border:none; padding:0.4rem 0;">
+            <span class="cv-year">Office</span>
+            <span class="text-muted">Room [XXX], [Building]<br>[Institution]<br>[Address], [City, State ZIP]</span>
+          </div>
+          <div class="cv-row" style="border:none; padding:0.4rem 0;">
+            <span class="cv-year">Mail</span>
+            <span class="text-muted">
+              [Department]<br>
+              [Institution]<br>
+              [Mailing Address]<br>
+              [City, State ZIP]
+            </span>
+          </div>
+
+          <hr class="divider" />
+
+          <h3 style="margin-bottom:0.8rem;">Find me online</h3>
+          <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.45rem;">
+            <li>
+              <a href="https://github.com/DanteCapone" target="_blank" rel="noopener">
+                GitHub – github.com/DanteCapone
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com" target="_blank" rel="noopener">
+                Google Scholar
+              </a>
+            </li>
+            <li>
+              <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">
+                ORCID – 0000-0000-0000-0000
+              </a>
+            </li>
+            <li>
+              <a href="https://www.researchgate.net" target="_blank" rel="noopener">
+                ResearchGate
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Contact form -->
+        <section>
+          <h2 class="section-title">Send a Message</h2>
+          <p class="text-sm text-muted" style="margin-bottom:1rem;">
+            This form requires a backend to send email. Connect it to
+            <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a>
+            (free tier available) by replacing the <code>action</code> attribute below.
+          </p>
+
+          <!--
+            To activate this form with Formspree:
+            1. Sign up at https://formspree.io
+            2. Create a new form and copy your endpoint URL
+            3. Replace action="#" below with action="https://formspree.io/f/YOUR_FORM_ID"
+            4. Remove the onsubmit override in main.js (or keep for client-side validation)
+          -->
+          <form
+            class="contact-form"
+            action="#"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Brief subject" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+
+          <p
+            class="form-notice text-sm text-accent"
+            style="display:none; margin-top:0.8rem;"
+          ></p>
+        </section>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="https://github.com/DanteCapone" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a></li>
+      <li><a href="mailto:your.email@institution.edu">Email</a></li>
+    </ul>
+    <p>&copy; <span id="year"></span> Dante Capone. Built with plain HTML &amp; CSS.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

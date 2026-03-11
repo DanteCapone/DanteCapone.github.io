@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Research – Dante Capone" />
+  <title>Research | Dante Capone</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main class="page-content">
+    <div class="container">
+
+      <h1>Research</h1>
+      <p class="text-muted" style="margin-bottom:0.5rem;">
+        My work sits at the intersection of physical oceanography, climate science, and
+        observational data analysis. Below are my current and past research themes.
+      </p>
+      <hr class="divider" />
+
+      <!-- Theme 1 -->
+      <section style="margin-bottom:2.5rem;">
+        <h2 class="section-title">Ocean Mixing &amp; Turbulence</h2>
+        <p>
+          Small-scale turbulent mixing controls the transport of heat, salt, nutrients,
+          and carbon in the interior ocean. Despite its importance, mixing rates are
+          poorly constrained globally. My work focuses on [specific aspect, e.g., quantifying
+          diapycnal diffusivities from microstructure profiler data in the Southern Ocean].
+        </p>
+        <p>
+          Key questions I address:
+        </p>
+        <ul>
+          <li>What drives spatial and temporal variability in ocean mixing rates?</li>
+          <li>How do internal waves generated at topography dissipate their energy?</li>
+          <li>What are the consequences for large-scale overturning circulation?</li>
+        </ul>
+        <div class="card mt-2">
+          <p class="card-meta"><span class="tag">Methods</span></p>
+          <p class="card-body">
+            Microstructure profilers · Argo float data · Fine-scale parameterizations ·
+            MATLAB &amp; R data pipelines
+          </p>
+        </div>
+      </section>
+
+      <!-- Theme 2 -->
+      <section style="margin-bottom:2.5rem;">
+        <h2 class="section-title">Air-Sea Interaction</h2>
+        <p>
+          The ocean surface is the gateway through which the atmosphere and ocean exchange
+          heat, momentum, and gases. I study how [specific process, e.g., storm-driven mixing
+          events alter the seasonal thermocline and modulate air-sea CO₂ fluxes].
+        </p>
+        <p>
+          Key questions I address:
+        </p>
+        <ul>
+          <li>How do extreme weather events perturb the upper ocean heat budget?</li>
+          <li>What role does sea-surface temperature variability play in regional precipitation?</li>
+          <li>How can satellite observations constrain air-sea gas exchange estimates?</li>
+        </ul>
+        <div class="card mt-2">
+          <p class="card-meta"><span class="tag">Methods</span></p>
+          <p class="card-body">
+            Shipboard meteorological measurements · Satellite SST/SSS · Reanalysis products ·
+            ERA5 · MATLAB / R
+          </p>
+        </div>
+      </section>
+
+      <!-- Theme 3 (optional placeholder) -->
+      <section style="margin-bottom:2.5rem;">
+        <h2 class="section-title">[Third Research Theme]</h2>
+        <p>
+          [Describe your third research area here. Delete this section if not needed.]
+        </p>
+        <div class="card mt-2">
+          <p class="card-meta"><span class="tag">Methods</span></p>
+          <p class="card-body">[List methods, instruments, or datasets used.]</p>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <!-- Field Work -->
+      <section>
+        <h2 class="section-title">Field Experience</h2>
+        <div class="cv-row">
+          <span class="cv-year">20XX</span>
+          <div>
+            <strong>[Cruise name / expedition]</strong><br>
+            <span class="text-muted">[Vessel], [Region] · [Duration]</span><br>
+            <span class="text-sm text-muted">Role: [Chief Scientist / Graduate Student / Watch Officer]</span>
+          </div>
+        </div>
+        <div class="cv-row">
+          <span class="cv-year">20XX</span>
+          <div>
+            <strong>[Cruise name / expedition]</strong><br>
+            <span class="text-muted">[Vessel], [Region] · [Duration]</span><br>
+            <span class="text-sm text-muted">Role: [Role]</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="https://github.com/DanteCapone" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a></li>
+      <li><a href="mailto:your.email@institution.edu">Email</a></li>
+    </ul>
+    <p>&copy; <span id="year"></span> Dante Capone. Built with plain HTML &amp; CSS.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
