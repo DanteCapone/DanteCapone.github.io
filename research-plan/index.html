@@ -1,0 +1,2763 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.35">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dante Capone">
+<meta name="dcterms.date" content="2026-03-17">
+
+<title>Research Plan: Mesocosm Experiments on Wildfire Ash, Smoke Shading, and Optical Clarity in Lake Tahoe</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="research_plan_files/libs/clipboard/clipboard.min.js"></script>
+<script src="research_plan_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="research_plan_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="research_plan_files/libs/quarto-html/popper.min.js"></script>
+<script src="research_plan_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="research_plan_files/libs/quarto-html/anchor.min.js"></script>
+<link href="research_plan_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="research_plan_files/libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="research_plan_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="research_plan_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="research_plan_files/libs/bootstrap/bootstrap-67270d1595a62d14f123c043d4fb2f18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="research_plan_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="research_plan_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="research_plan_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview"><span class="header-section-number">1</span> Project Overview</a></li>
+  <li><a href="#motivation-and-significance" id="toc-motivation-and-significance" class="nav-link" data-scroll-target="#motivation-and-significance"><span class="header-section-number">2</span> Motivation and Significance</a></li>
+  <li><a href="#background-and-system-context" id="toc-background-and-system-context" class="nav-link" data-scroll-target="#background-and-system-context"><span class="header-section-number">3</span> Background and System Context</a>
+  <ul class="collapse">
+  <li><a href="#optical-clarity" id="toc-optical-clarity" class="nav-link" data-scroll-target="#optical-clarity"><span class="header-section-number">3.1</span> Optical Clarity</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary" id="toc-concept-summary" class="nav-link" data-scroll-target="#concept-summary"><span class="header-section-number">3.1.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms" id="toc-key-mechanisms" class="nav-link" data-scroll-target="#key-mechanisms"><span class="header-section-number">3.1.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence"><span class="header-section-number">3.1.3</span> Evidence</a></li>
+  <li><a href="#open-questions" id="toc-open-questions" class="nav-link" data-scroll-target="#open-questions"><span class="header-section-number">3.1.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model" id="toc-conceptual-model" class="nav-link" data-scroll-target="#conceptual-model"><span class="header-section-number">3.1.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas" id="toc-research-ideas" class="nav-link" data-scroll-target="#research-ideas"><span class="header-section-number">3.1.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots" id="toc-graphsplots" class="nav-link" data-scroll-target="#graphsplots"><span class="header-section-number">3.1.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers" id="toc-relevant-papers" class="nav-link" data-scroll-target="#relevant-papers"><span class="header-section-number">3.1.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#physical-limnology" id="toc-physical-limnology" class="nav-link" data-scroll-target="#physical-limnology"><span class="header-section-number">3.2</span> Physical Limnology</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-1" id="toc-concept-summary-1" class="nav-link" data-scroll-target="#concept-summary-1"><span class="header-section-number">3.2.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-1" id="toc-key-mechanisms-1" class="nav-link" data-scroll-target="#key-mechanisms-1"><span class="header-section-number">3.2.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-1" id="toc-evidence-1" class="nav-link" data-scroll-target="#evidence-1"><span class="header-section-number">3.2.3</span> Evidence</a></li>
+  <li><a href="#open-questions-1" id="toc-open-questions-1" class="nav-link" data-scroll-target="#open-questions-1"><span class="header-section-number">3.2.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-1" id="toc-conceptual-model-1" class="nav-link" data-scroll-target="#conceptual-model-1"><span class="header-section-number">3.2.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-1" id="toc-research-ideas-1" class="nav-link" data-scroll-target="#research-ideas-1"><span class="header-section-number">3.2.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-1" id="toc-graphsplots-1" class="nav-link" data-scroll-target="#graphsplots-1"><span class="header-section-number">3.2.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-1" id="toc-relevant-papers-1" class="nav-link" data-scroll-target="#relevant-papers-1"><span class="header-section-number">3.2.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#phytoplankton-dynamics" id="toc-phytoplankton-dynamics" class="nav-link" data-scroll-target="#phytoplankton-dynamics"><span class="header-section-number">3.3</span> Phytoplankton Dynamics</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-2" id="toc-concept-summary-2" class="nav-link" data-scroll-target="#concept-summary-2"><span class="header-section-number">3.3.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-2" id="toc-key-mechanisms-2" class="nav-link" data-scroll-target="#key-mechanisms-2"><span class="header-section-number">3.3.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-2" id="toc-evidence-2" class="nav-link" data-scroll-target="#evidence-2"><span class="header-section-number">3.3.3</span> Evidence</a></li>
+  <li><a href="#open-questions-2" id="toc-open-questions-2" class="nav-link" data-scroll-target="#open-questions-2"><span class="header-section-number">3.3.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-2" id="toc-conceptual-model-2" class="nav-link" data-scroll-target="#conceptual-model-2"><span class="header-section-number">3.3.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-2" id="toc-research-ideas-2" class="nav-link" data-scroll-target="#research-ideas-2"><span class="header-section-number">3.3.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-2" id="toc-graphsplots-2" class="nav-link" data-scroll-target="#graphsplots-2"><span class="header-section-number">3.3.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-2" id="toc-relevant-papers-2" class="nav-link" data-scroll-target="#relevant-papers-2"><span class="header-section-number">3.3.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#zooplankton" id="toc-zooplankton" class="nav-link" data-scroll-target="#zooplankton"><span class="header-section-number">3.4</span> Zooplankton</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-3" id="toc-concept-summary-3" class="nav-link" data-scroll-target="#concept-summary-3"><span class="header-section-number">3.4.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-3" id="toc-key-mechanisms-3" class="nav-link" data-scroll-target="#key-mechanisms-3"><span class="header-section-number">3.4.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-3" id="toc-evidence-3" class="nav-link" data-scroll-target="#evidence-3"><span class="header-section-number">3.4.3</span> Evidence</a></li>
+  <li><a href="#open-questions-3" id="toc-open-questions-3" class="nav-link" data-scroll-target="#open-questions-3"><span class="header-section-number">3.4.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-3" id="toc-conceptual-model-3" class="nav-link" data-scroll-target="#conceptual-model-3"><span class="header-section-number">3.4.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-3" id="toc-research-ideas-3" class="nav-link" data-scroll-target="#research-ideas-3"><span class="header-section-number">3.4.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-3" id="toc-graphsplots-3" class="nav-link" data-scroll-target="#graphsplots-3"><span class="header-section-number">3.4.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-3" id="toc-relevant-papers-3" class="nav-link" data-scroll-target="#relevant-papers-3"><span class="header-section-number">3.4.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#microbial-ecology" id="toc-microbial-ecology" class="nav-link" data-scroll-target="#microbial-ecology"><span class="header-section-number">3.5</span> Microbial Ecology</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-4" id="toc-concept-summary-4" class="nav-link" data-scroll-target="#concept-summary-4"><span class="header-section-number">3.5.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-4" id="toc-key-mechanisms-4" class="nav-link" data-scroll-target="#key-mechanisms-4"><span class="header-section-number">3.5.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-4" id="toc-evidence-4" class="nav-link" data-scroll-target="#evidence-4"><span class="header-section-number">3.5.3</span> Evidence</a></li>
+  <li><a href="#open-questions-4" id="toc-open-questions-4" class="nav-link" data-scroll-target="#open-questions-4"><span class="header-section-number">3.5.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-4" id="toc-conceptual-model-4" class="nav-link" data-scroll-target="#conceptual-model-4"><span class="header-section-number">3.5.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-4" id="toc-research-ideas-4" class="nav-link" data-scroll-target="#research-ideas-4"><span class="header-section-number">3.5.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-4" id="toc-graphsplots-4" class="nav-link" data-scroll-target="#graphsplots-4"><span class="header-section-number">3.5.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-4" id="toc-relevant-papers-4" class="nav-link" data-scroll-target="#relevant-papers-4"><span class="header-section-number">3.5.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#nutrient-cycling" id="toc-nutrient-cycling" class="nav-link" data-scroll-target="#nutrient-cycling"><span class="header-section-number">3.6</span> Nutrient Cycling</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-5" id="toc-concept-summary-5" class="nav-link" data-scroll-target="#concept-summary-5"><span class="header-section-number">3.6.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-5" id="toc-key-mechanisms-5" class="nav-link" data-scroll-target="#key-mechanisms-5"><span class="header-section-number">3.6.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-5" id="toc-evidence-5" class="nav-link" data-scroll-target="#evidence-5"><span class="header-section-number">3.6.3</span> Evidence</a></li>
+  <li><a href="#open-questions-5" id="toc-open-questions-5" class="nav-link" data-scroll-target="#open-questions-5"><span class="header-section-number">3.6.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-5" id="toc-conceptual-model-5" class="nav-link" data-scroll-target="#conceptual-model-5"><span class="header-section-number">3.6.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-5" id="toc-research-ideas-5" class="nav-link" data-scroll-target="#research-ideas-5"><span class="header-section-number">3.6.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-5" id="toc-graphsplots-5" class="nav-link" data-scroll-target="#graphsplots-5"><span class="header-section-number">3.6.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-5" id="toc-relevant-papers-5" class="nav-link" data-scroll-target="#relevant-papers-5"><span class="header-section-number">3.6.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#atmospheric-inputs" id="toc-atmospheric-inputs" class="nav-link" data-scroll-target="#atmospheric-inputs"><span class="header-section-number">3.7</span> Atmospheric Inputs</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-6" id="toc-concept-summary-6" class="nav-link" data-scroll-target="#concept-summary-6"><span class="header-section-number">3.7.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-6" id="toc-key-mechanisms-6" class="nav-link" data-scroll-target="#key-mechanisms-6"><span class="header-section-number">3.7.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-6" id="toc-evidence-6" class="nav-link" data-scroll-target="#evidence-6"><span class="header-section-number">3.7.3</span> Evidence</a></li>
+  <li><a href="#open-questions-6" id="toc-open-questions-6" class="nav-link" data-scroll-target="#open-questions-6"><span class="header-section-number">3.7.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-6" id="toc-conceptual-model-6" class="nav-link" data-scroll-target="#conceptual-model-6"><span class="header-section-number">3.7.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-6" id="toc-research-ideas-6" class="nav-link" data-scroll-target="#research-ideas-6"><span class="header-section-number">3.7.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-6" id="toc-graphsplots-6" class="nav-link" data-scroll-target="#graphsplots-6"><span class="header-section-number">3.7.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-6" id="toc-relevant-papers-6" class="nav-link" data-scroll-target="#relevant-papers-6"><span class="header-section-number">3.7.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#long-term-monitoring" id="toc-long-term-monitoring" class="nav-link" data-scroll-target="#long-term-monitoring"><span class="header-section-number">3.8</span> Long-term Monitoring</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-7" id="toc-concept-summary-7" class="nav-link" data-scroll-target="#concept-summary-7"><span class="header-section-number">3.8.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-7" id="toc-key-mechanisms-7" class="nav-link" data-scroll-target="#key-mechanisms-7"><span class="header-section-number">3.8.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-7" id="toc-evidence-7" class="nav-link" data-scroll-target="#evidence-7"><span class="header-section-number">3.8.3</span> Evidence</a></li>
+  <li><a href="#open-questions-7" id="toc-open-questions-7" class="nav-link" data-scroll-target="#open-questions-7"><span class="header-section-number">3.8.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-7" id="toc-conceptual-model-7" class="nav-link" data-scroll-target="#conceptual-model-7"><span class="header-section-number">3.8.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-7" id="toc-research-ideas-7" class="nav-link" data-scroll-target="#research-ideas-7"><span class="header-section-number">3.8.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-7" id="toc-graphsplots-7" class="nav-link" data-scroll-target="#graphsplots-7"><span class="header-section-number">3.8.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-7" id="toc-relevant-papers-7" class="nav-link" data-scroll-target="#relevant-papers-7"><span class="header-section-number">3.8.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#tahoe-resources" id="toc-tahoe-resources" class="nav-link" data-scroll-target="#tahoe-resources"><span class="header-section-number">3.9</span> Tahoe Resources</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-8" id="toc-concept-summary-8" class="nav-link" data-scroll-target="#concept-summary-8"><span class="header-section-number">3.9.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-8" id="toc-key-mechanisms-8" class="nav-link" data-scroll-target="#key-mechanisms-8"><span class="header-section-number">3.9.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-8" id="toc-evidence-8" class="nav-link" data-scroll-target="#evidence-8"><span class="header-section-number">3.9.3</span> Evidence</a></li>
+  <li><a href="#open-questions-8" id="toc-open-questions-8" class="nav-link" data-scroll-target="#open-questions-8"><span class="header-section-number">3.9.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-8" id="toc-conceptual-model-8" class="nav-link" data-scroll-target="#conceptual-model-8"><span class="header-section-number">3.9.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-8" id="toc-research-ideas-8" class="nav-link" data-scroll-target="#research-ideas-8"><span class="header-section-number">3.9.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-8" id="toc-graphsplots-8" class="nav-link" data-scroll-target="#graphsplots-8"><span class="header-section-number">3.9.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-8" id="toc-relevant-papers-8" class="nav-link" data-scroll-target="#relevant-papers-8"><span class="header-section-number">3.9.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#tahoe-conceptual-model" id="toc-tahoe-conceptual-model" class="nav-link" data-scroll-target="#tahoe-conceptual-model"><span class="header-section-number">3.10</span> Tahoe Conceptual Model</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-9" id="toc-concept-summary-9" class="nav-link" data-scroll-target="#concept-summary-9"><span class="header-section-number">3.10.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-9" id="toc-key-mechanisms-9" class="nav-link" data-scroll-target="#key-mechanisms-9"><span class="header-section-number">3.10.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-9" id="toc-evidence-9" class="nav-link" data-scroll-target="#evidence-9"><span class="header-section-number">3.10.3</span> Evidence</a></li>
+  <li><a href="#open-questions-9" id="toc-open-questions-9" class="nav-link" data-scroll-target="#open-questions-9"><span class="header-section-number">3.10.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-9" id="toc-conceptual-model-9" class="nav-link" data-scroll-target="#conceptual-model-9"><span class="header-section-number">3.10.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-9" id="toc-research-ideas-9" class="nav-link" data-scroll-target="#research-ideas-9"><span class="header-section-number">3.10.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-9" id="toc-graphsplots-9" class="nav-link" data-scroll-target="#graphsplots-9"><span class="header-section-number">3.10.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-9" id="toc-relevant-papers-9" class="nav-link" data-scroll-target="#relevant-papers-9"><span class="header-section-number">3.10.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#climate-change" id="toc-climate-change" class="nav-link" data-scroll-target="#climate-change"><span class="header-section-number">3.11</span> Climate Change</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-10" id="toc-concept-summary-10" class="nav-link" data-scroll-target="#concept-summary-10"><span class="header-section-number">3.11.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-10" id="toc-key-mechanisms-10" class="nav-link" data-scroll-target="#key-mechanisms-10"><span class="header-section-number">3.11.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-10" id="toc-evidence-10" class="nav-link" data-scroll-target="#evidence-10"><span class="header-section-number">3.11.3</span> Evidence</a></li>
+  <li><a href="#open-questions-10" id="toc-open-questions-10" class="nav-link" data-scroll-target="#open-questions-10"><span class="header-section-number">3.11.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-10" id="toc-conceptual-model-10" class="nav-link" data-scroll-target="#conceptual-model-10"><span class="header-section-number">3.11.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-10" id="toc-research-ideas-10" class="nav-link" data-scroll-target="#research-ideas-10"><span class="header-section-number">3.11.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-10" id="toc-graphsplots-10" class="nav-link" data-scroll-target="#graphsplots-10"><span class="header-section-number">3.11.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-10" id="toc-relevant-papers-10" class="nav-link" data-scroll-target="#relevant-papers-10"><span class="header-section-number">3.11.8</span> Relevant papers</a></li>
+  </ul></li>
+  <li><a href="#general-tahoe-facts-and-history" id="toc-general-tahoe-facts-and-history" class="nav-link" data-scroll-target="#general-tahoe-facts-and-history"><span class="header-section-number">3.12</span> General Tahoe Facts and History</a>
+  <ul class="collapse">
+  <li><a href="#concept-summary-11" id="toc-concept-summary-11" class="nav-link" data-scroll-target="#concept-summary-11"><span class="header-section-number">3.12.1</span> Concept summary</a></li>
+  <li><a href="#key-mechanisms-11" id="toc-key-mechanisms-11" class="nav-link" data-scroll-target="#key-mechanisms-11"><span class="header-section-number">3.12.2</span> Key mechanisms</a></li>
+  <li><a href="#evidence-11" id="toc-evidence-11" class="nav-link" data-scroll-target="#evidence-11"><span class="header-section-number">3.12.3</span> Evidence</a></li>
+  <li><a href="#open-questions-11" id="toc-open-questions-11" class="nav-link" data-scroll-target="#open-questions-11"><span class="header-section-number">3.12.4</span> Open questions</a></li>
+  <li><a href="#conceptual-model-11" id="toc-conceptual-model-11" class="nav-link" data-scroll-target="#conceptual-model-11"><span class="header-section-number">3.12.5</span> Conceptual model</a></li>
+  <li><a href="#research-ideas-11" id="toc-research-ideas-11" class="nav-link" data-scroll-target="#research-ideas-11"><span class="header-section-number">3.12.6</span> Research ideas</a></li>
+  <li><a href="#graphsplots-11" id="toc-graphsplots-11" class="nav-link" data-scroll-target="#graphsplots-11"><span class="header-section-number">3.12.7</span> Graphs/plots</a></li>
+  <li><a href="#relevant-papers-11" id="toc-relevant-papers-11" class="nav-link" data-scroll-target="#relevant-papers-11"><span class="header-section-number">3.12.8</span> Relevant papers</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#literature-synthesis" id="toc-literature-synthesis" class="nav-link" data-scroll-target="#literature-synthesis"><span class="header-section-number">4</span> Literature Synthesis</a></li>
+  <li><a href="#knowledge-gaps" id="toc-knowledge-gaps" class="nav-link" data-scroll-target="#knowledge-gaps"><span class="header-section-number">5</span> Knowledge Gaps</a></li>
+  <li><a href="#research-objectives" id="toc-research-objectives" class="nav-link" data-scroll-target="#research-objectives"><span class="header-section-number">6</span> Research Objectives</a>
+  <ul class="collapse">
+  <li><a href="#overarching-aim" id="toc-overarching-aim" class="nav-link" data-scroll-target="#overarching-aim"><span class="header-section-number">6.1</span> Overarching Aim</a></li>
+  <li><a href="#specific-aims" id="toc-specific-aims" class="nav-link" data-scroll-target="#specific-aims"><span class="header-section-number">6.2</span> Specific Aims</a>
+  <ul class="collapse">
+  <li><a href="#specific-aim-1" id="toc-specific-aim-1" class="nav-link" data-scroll-target="#specific-aim-1"><span class="header-section-number">6.2.1</span> Specific Aim 1</a></li>
+  <li><a href="#specific-aim-2" id="toc-specific-aim-2" class="nav-link" data-scroll-target="#specific-aim-2"><span class="header-section-number">6.2.2</span> Specific Aim 2</a></li>
+  <li><a href="#specific-aim-3" id="toc-specific-aim-3" class="nav-link" data-scroll-target="#specific-aim-3"><span class="header-section-number">6.2.3</span> Specific Aim 3</a></li>
+  <li><a href="#specific-aim-4-optional" id="toc-specific-aim-4-optional" class="nav-link" data-scroll-target="#specific-aim-4-optional"><span class="header-section-number">6.2.4</span> Specific Aim 4 (Optional)</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#central-questions-and-hypotheses" id="toc-central-questions-and-hypotheses" class="nav-link" data-scroll-target="#central-questions-and-hypotheses"><span class="header-section-number">7</span> Central Questions and Hypotheses</a>
+  <ul class="collapse">
+  <li><a href="#central-testable-questions" id="toc-central-testable-questions" class="nav-link" data-scroll-target="#central-testable-questions"><span class="header-section-number">7.1</span> Central Testable Questions</a></li>
+  <li><a href="#mechanistic-hypotheses" id="toc-mechanistic-hypotheses" class="nav-link" data-scroll-target="#mechanistic-hypotheses"><span class="header-section-number">7.2</span> Mechanistic Hypotheses</a>
+  <ul class="collapse">
+  <li><a href="#hypothesis-1-ash-effects" id="toc-hypothesis-1-ash-effects" class="nav-link" data-scroll-target="#hypothesis-1-ash-effects"><span class="header-section-number">7.2.1</span> Hypothesis 1: Ash Effects</a></li>
+  <li><a href="#hypothesis-2-shading-effects" id="toc-hypothesis-2-shading-effects" class="nav-link" data-scroll-target="#hypothesis-2-shading-effects"><span class="header-section-number">7.2.2</span> Hypothesis 2: Shading Effects</a></li>
+  <li><a href="#hypothesis-3-interactive-effects" id="toc-hypothesis-3-interactive-effects" class="nav-link" data-scroll-target="#hypothesis-3-interactive-effects"><span class="header-section-number">7.2.3</span> Hypothesis 3: Interactive Effects</a></li>
+  <li><a href="#hypothesis-4-microbial-mediation" id="toc-hypothesis-4-microbial-mediation" class="nav-link" data-scroll-target="#hypothesis-4-microbial-mediation"><span class="header-section-number">7.2.4</span> Hypothesis 4: Microbial Mediation</a></li>
+  </ul></li>
+  <li><a href="#predictions-by-response-variable" id="toc-predictions-by-response-variable" class="nav-link" data-scroll-target="#predictions-by-response-variable"><span class="header-section-number">7.3</span> Predictions by Response Variable</a></li>
+  </ul></li>
+  <li><a href="#experimental-design" id="toc-experimental-design" class="nav-link" data-scroll-target="#experimental-design"><span class="header-section-number">8</span> Experimental Design</a>
+  <ul class="collapse">
+  <li><a href="#study-system-and-rationale-for-lake-tahoe" id="toc-study-system-and-rationale-for-lake-tahoe" class="nav-link" data-scroll-target="#study-system-and-rationale-for-lake-tahoe"><span class="header-section-number">8.1</span> Study System and Rationale for Lake Tahoe</a></li>
+  <li><a href="#mesocosm-setup" id="toc-mesocosm-setup" class="nav-link" data-scroll-target="#mesocosm-setup"><span class="header-section-number">8.2</span> Mesocosm Setup</a></li>
+  <li><a href="#duration-and-phases" id="toc-duration-and-phases" class="nav-link" data-scroll-target="#duration-and-phases"><span class="header-section-number">8.3</span> Duration and Phases</a></li>
+  <li><a href="#shading-treatment-design" id="toc-shading-treatment-design" class="nav-link" data-scroll-target="#shading-treatment-design"><span class="header-section-number">8.4</span> Shading Treatment Design</a></li>
+  <li><a href="#ash-treatment-design" id="toc-ash-treatment-design" class="nav-link" data-scroll-target="#ash-treatment-design"><span class="header-section-number">8.5</span> Ash Treatment Design</a></li>
+  <li><a href="#controls" id="toc-controls" class="nav-link" data-scroll-target="#controls"><span class="header-section-number">8.6</span> Controls</a></li>
+  <li><a href="#replication-and-blocking" id="toc-replication-and-blocking" class="nav-link" data-scroll-target="#replication-and-blocking"><span class="header-section-number">8.7</span> Replication and Blocking</a></li>
+  <li><a href="#sampling-schedule" id="toc-sampling-schedule" class="nav-link" data-scroll-target="#sampling-schedule"><span class="header-section-number">8.8</span> Sampling Schedule</a></li>
+  <li><a href="#measured-response-variables" id="toc-measured-response-variables" class="nav-link" data-scroll-target="#measured-response-variables"><span class="header-section-number">8.9</span> Measured Response Variables</a></li>
+  </ul></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><span class="header-section-number">9</span> Methods</a>
+  <ul class="collapse">
+  <li><a href="#microbial-community-analyses" id="toc-microbial-community-analyses" class="nav-link" data-scroll-target="#microbial-community-analyses"><span class="header-section-number">9.1</span> Microbial Community Analyses</a>
+  <ul class="collapse">
+  <li><a href="#sample-collection-and-preservation" id="toc-sample-collection-and-preservation" class="nav-link" data-scroll-target="#sample-collection-and-preservation"><span class="header-section-number">9.1.1</span> Sample collection and preservation</a></li>
+  <li><a href="#dna-extraction" id="toc-dna-extraction" class="nav-link" data-scroll-target="#dna-extraction"><span class="header-section-number">9.1.2</span> DNA extraction</a></li>
+  <li><a href="#s18s-rrna-sequencing" id="toc-s18s-rrna-sequencing" class="nav-link" data-scroll-target="#s18s-rrna-sequencing"><span class="header-section-number">9.1.3</span> 16S/18S rRNA sequencing</a></li>
+  <li><a href="#bioinformatics-pipeline" id="toc-bioinformatics-pipeline" class="nav-link" data-scroll-target="#bioinformatics-pipeline"><span class="header-section-number">9.1.4</span> Bioinformatics pipeline</a></li>
+  <li><a href="#flow-cytometry" id="toc-flow-cytometry" class="nav-link" data-scroll-target="#flow-cytometry"><span class="header-section-number">9.1.5</span> Flow cytometry</a></li>
+  <li><a href="#metatranscriptomics-optional" id="toc-metatranscriptomics-optional" class="nav-link" data-scroll-target="#metatranscriptomics-optional"><span class="header-section-number">9.1.6</span> Metatranscriptomics (optional)</a></li>
+  </ul></li>
+  <li><a href="#optical-measurements" id="toc-optical-measurements" class="nav-link" data-scroll-target="#optical-measurements"><span class="header-section-number">9.2</span> Optical Measurements</a>
+  <ul class="collapse">
+  <li><a href="#secchi-depth" id="toc-secchi-depth" class="nav-link" data-scroll-target="#secchi-depth"><span class="header-section-number">9.2.1</span> Secchi depth</a></li>
+  <li><a href="#light-attenuation-profiles" id="toc-light-attenuation-profiles" class="nav-link" data-scroll-target="#light-attenuation-profiles"><span class="header-section-number">9.2.2</span> Light attenuation profiles</a></li>
+  <li><a href="#spectral-absorption-and-scattering" id="toc-spectral-absorption-and-scattering" class="nav-link" data-scroll-target="#spectral-absorption-and-scattering"><span class="header-section-number">9.2.3</span> Spectral absorption and scattering</a></li>
+  <li><a href="#fluorescence" id="toc-fluorescence" class="nav-link" data-scroll-target="#fluorescence"><span class="header-section-number">9.2.4</span> Fluorescence</a></li>
+  </ul></li>
+  <li><a href="#particle-size-distribution" id="toc-particle-size-distribution" class="nav-link" data-scroll-target="#particle-size-distribution"><span class="header-section-number">9.3</span> Particle Size Distribution</a></li>
+  <li><a href="#nutrient-chemistry" id="toc-nutrient-chemistry" class="nav-link" data-scroll-target="#nutrient-chemistry"><span class="header-section-number">9.4</span> Nutrient Chemistry</a>
+  <ul class="collapse">
+  <li><a href="#sample-collection-and-preservation-1" id="toc-sample-collection-and-preservation-1" class="nav-link" data-scroll-target="#sample-collection-and-preservation-1"><span class="header-section-number">9.4.1</span> Sample collection and preservation</a></li>
+  <li><a href="#analytical-methods" id="toc-analytical-methods" class="nav-link" data-scroll-target="#analytical-methods"><span class="header-section-number">9.4.2</span> Analytical methods</a></li>
+  <li><a href="#quality-control" id="toc-quality-control" class="nav-link" data-scroll-target="#quality-control"><span class="header-section-number">9.4.3</span> Quality control</a></li>
+  </ul></li>
+  <li><a href="#metabolism" id="toc-metabolism" class="nav-link" data-scroll-target="#metabolism"><span class="header-section-number">9.5</span> Metabolism</a>
+  <ul class="collapse">
+  <li><a href="#primary-production" id="toc-primary-production" class="nav-link" data-scroll-target="#primary-production"><span class="header-section-number">9.5.1</span> Primary production</a></li>
+  <li><a href="#respiration" id="toc-respiration" class="nav-link" data-scroll-target="#respiration"><span class="header-section-number">9.5.2</span> Respiration</a></li>
+  <li><a href="#net-ecosystem-production" id="toc-net-ecosystem-production" class="nav-link" data-scroll-target="#net-ecosystem-production"><span class="header-section-number">9.5.3</span> Net ecosystem production</a></li>
+  </ul></li>
+  <li><a href="#chlorophyll-and-plankton" id="toc-chlorophyll-and-plankton" class="nav-link" data-scroll-target="#chlorophyll-and-plankton"><span class="header-section-number">9.6</span> Chlorophyll and Plankton</a>
+  <ul class="collapse">
+  <li><a href="#chlorophyll-a" id="toc-chlorophyll-a" class="nav-link" data-scroll-target="#chlorophyll-a"><span class="header-section-number">9.6.1</span> Chlorophyll a</a></li>
+  <li><a href="#phytoplankton-community" id="toc-phytoplankton-community" class="nav-link" data-scroll-target="#phytoplankton-community"><span class="header-section-number">9.6.2</span> Phytoplankton community</a></li>
+  </ul></li>
+  <li><a href="#metadata-and-qaqc" id="toc-metadata-and-qaqc" class="nav-link" data-scroll-target="#metadata-and-qaqc"><span class="header-section-number">9.7</span> Metadata and QA/QC</a></li>
+  </ul></li>
+  <li><a href="#data-analysis-plan" id="toc-data-analysis-plan" class="nav-link" data-scroll-target="#data-analysis-plan"><span class="header-section-number">10</span> Data Analysis Plan</a>
+  <ul class="collapse">
+  <li><a href="#mixed-effects-models" id="toc-mixed-effects-models" class="nav-link" data-scroll-target="#mixed-effects-models"><span class="header-section-number">10.1</span> Mixed-Effects Models</a></li>
+  <li><a href="#multivariate-microbial-community-analyses" id="toc-multivariate-microbial-community-analyses" class="nav-link" data-scroll-target="#multivariate-microbial-community-analyses"><span class="header-section-number">10.2</span> Multivariate Microbial Community Analyses</a></li>
+  <li><a href="#optical-clarity-response-analyses" id="toc-optical-clarity-response-analyses" class="nav-link" data-scroll-target="#optical-clarity-response-analyses"><span class="header-section-number">10.3</span> Optical Clarity Response Analyses</a></li>
+  <li><a href="#interaction-testing" id="toc-interaction-testing" class="nav-link" data-scroll-target="#interaction-testing"><span class="header-section-number">10.4</span> Interaction Testing</a></li>
+  <li><a href="#mediation-and-pathway-analyses" id="toc-mediation-and-pathway-analyses" class="nav-link" data-scroll-target="#mediation-and-pathway-analyses"><span class="header-section-number">10.5</span> Mediation and Pathway Analyses</a></li>
+  <li><a href="#power-and-replication-notes" id="toc-power-and-replication-notes" class="nav-link" data-scroll-target="#power-and-replication-notes"><span class="header-section-number">10.6</span> Power and Replication Notes</a></li>
+  </ul></li>
+  <li><a href="#expected-outcomes-and-interpretation" id="toc-expected-outcomes-and-interpretation" class="nav-link" data-scroll-target="#expected-outcomes-and-interpretation"><span class="header-section-number">11</span> Expected Outcomes and Interpretation</a>
+  <ul class="collapse">
+  <li><a href="#expected-outcomes-by-treatment" id="toc-expected-outcomes-by-treatment" class="nav-link" data-scroll-target="#expected-outcomes-by-treatment"><span class="header-section-number">11.1</span> Expected Outcomes by Treatment</a></li>
+  <li><a href="#interpretation-framework" id="toc-interpretation-framework" class="nav-link" data-scroll-target="#interpretation-framework"><span class="header-section-number">11.2</span> Interpretation Framework</a></li>
+  <li><a href="#alternative-outcomes-and-contingencies" id="toc-alternative-outcomes-and-contingencies" class="nav-link" data-scroll-target="#alternative-outcomes-and-contingencies"><span class="header-section-number">11.3</span> Alternative Outcomes and Contingencies</a></li>
+  </ul></li>
+  <li><a href="#potential-pitfalls-and-alternative-strategies" id="toc-potential-pitfalls-and-alternative-strategies" class="nav-link" data-scroll-target="#potential-pitfalls-and-alternative-strategies"><span class="header-section-number">12</span> Potential Pitfalls and Alternative Strategies</a>
+  <ul class="collapse">
+  <li><a href="#pitfall-1-mesocosm-artifacts" id="toc-pitfall-1-mesocosm-artifacts" class="nav-link" data-scroll-target="#pitfall-1-mesocosm-artifacts"><span class="header-section-number">12.1</span> Pitfall 1: Mesocosm Artifacts</a></li>
+  <li><a href="#pitfall-2-ash-variability" id="toc-pitfall-2-ash-variability" class="nav-link" data-scroll-target="#pitfall-2-ash-variability"><span class="header-section-number">12.2</span> Pitfall 2: Ash Variability</a></li>
+  <li><a href="#pitfall-3-low-replication-for-microbial-endpoints" id="toc-pitfall-3-low-replication-for-microbial-endpoints" class="nav-link" data-scroll-target="#pitfall-3-low-replication-for-microbial-endpoints"><span class="header-section-number">12.3</span> Pitfall 3: Low Replication for Microbial Endpoints</a></li>
+  <li><a href="#pitfall-4-short-duration" id="toc-pitfall-4-short-duration" class="nav-link" data-scroll-target="#pitfall-4-short-duration"><span class="header-section-number">12.4</span> Pitfall 4: Short Duration</a></li>
+  <li><a href="#pitfall-5-scaling-to-whole-lake" id="toc-pitfall-5-scaling-to-whole-lake" class="nav-link" data-scroll-target="#pitfall-5-scaling-to-whole-lake"><span class="header-section-number">12.5</span> Pitfall 5: Scaling to Whole-Lake</a></li>
+  </ul></li>
+  <li><a href="#collaboration-opportunities" id="toc-collaboration-opportunities" class="nav-link" data-scroll-target="#collaboration-opportunities"><span class="header-section-number">13</span> Collaboration Opportunities</a></li>
+  <li><a href="#timeline-and-milestones" id="toc-timeline-and-milestones" class="nav-link" data-scroll-target="#timeline-and-milestones"><span class="header-section-number">14</span> Timeline and Milestones</a>
+  <ul class="collapse">
+  <li><a href="#year-1" id="toc-year-1" class="nav-link" data-scroll-target="#year-1"><span class="header-section-number">14.1</span> Year 1</a></li>
+  <li><a href="#year-2" id="toc-year-2" class="nav-link" data-scroll-target="#year-2"><span class="header-section-number">14.2</span> Year 2</a></li>
+  <li><a href="#key-milestones" id="toc-key-milestones" class="nav-link" data-scroll-target="#key-milestones"><span class="header-section-number">14.3</span> Key Milestones</a></li>
+  </ul></li>
+  <li><a href="#broader-impacts-and-management-relevance" id="toc-broader-impacts-and-management-relevance" class="nav-link" data-scroll-target="#broader-impacts-and-management-relevance"><span class="header-section-number">15</span> Broader Impacts and Management Relevance</a></li>
+  <li><a href="#figure-and-table-planning" id="toc-figure-and-table-planning" class="nav-link" data-scroll-target="#figure-and-table-planning"><span class="header-section-number">16</span> Figure and Table Planning</a>
+  <ul class="collapse">
+  <li><a href="#conceptual-figure" id="toc-conceptual-figure" class="nav-link" data-scroll-target="#conceptual-figure"><span class="header-section-number">16.1</span> Conceptual Figure</a></li>
+  <li><a href="#experimental-design-schematic" id="toc-experimental-design-schematic" class="nav-link" data-scroll-target="#experimental-design-schematic"><span class="header-section-number">16.2</span> Experimental Design Schematic</a></li>
+  <li><a href="#sampling-timeline-figure" id="toc-sampling-timeline-figure" class="nav-link" data-scroll-target="#sampling-timeline-figure"><span class="header-section-number">16.3</span> Sampling Timeline Figure</a></li>
+  <li><a href="#anticipated-result-figures" id="toc-anticipated-result-figures" class="nav-link" data-scroll-target="#anticipated-result-figures"><span class="header-section-number">16.4</span> Anticipated Result Figures</a></li>
+  <li><a href="#summary-table-of-treatments" id="toc-summary-table-of-treatments" class="nav-link" data-scroll-target="#summary-table-of-treatments"><span class="header-section-number">16.5</span> Summary Table of Treatments</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">17</span> References</a>
+  <ul class="collapse">
+  <li><a href="#notes-for-completion" id="toc-notes-for-completion" class="nav-link" data-scroll-target="#notes-for-completion"><span class="header-section-number">17.1</span> Notes for Completion</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="research_plan.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research Plan: Mesocosm Experiments on Wildfire Ash, Smoke Shading, and Optical Clarity in Lake Tahoe</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dante Capone </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 17, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="project-overview" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Project Overview</h1>
+<p>This research investigates how wildfire smoke and ash affect optical clarity in Lake Tahoe through both direct optical effects and indirect ecological pathways mediated by microbial communities. Using a 28-day replicated mesocosm experiment, we will separately manipulate (1) UV-biased smoke shading that selectively reduces UV-B relative to PAR, and (2) ash additions spanning field-realistic deposition to upper-bound hotspot pulses. The core experimental design explicitly separates and recombines these two wildfire-linked drivers to identify dominant mechanisms and test whether microbial community responses mediate clarity changes.</p>
+<p>Lake Tahoe clarity is governed by fine particles in the 1–6 µm range, with picoplankton (&lt;2 µm) representing a potentially undermonitored contributor. This project focuses on microbially mediated pathways linking wildfire disturbance to particle formation, aggregation, and optical attenuation. By combining intensive early sampling (hours to days) with longer-term monitoring (weeks), we will resolve rapid optical responses, community reorganization, and recovery dynamics. Results will directly inform Tahoe clarity management by quantifying wildfire impacts and identifying whether direct particle scattering or indirect biological responses dominate clarity loss.</p>
+<p><strong>Central Research Question:</strong> How do wildfire ash deposition and smoke-induced UV-biased shading affect Lake Tahoe optical clarity through direct optical effects versus indirect microbially mediated pathways?</p>
+<p><strong>Experimental Approach:</strong> Factorial mesocosm experiment (4 shading × 4 ash levels, n=5–8 replicates, 28 days)</p>
+<p><strong>Primary Response Variables:</strong> Optical clarity (beam attenuation, Secchi proxy), microbial community composition (16S/18S rRNA), particle size distribution (0.5–20 µm), metabolism (GPP/ER), nutrients</p>
+<p><strong>Management Relevance:</strong> Quantifies wildfire impacts on Tahoe’s primary management indicator (clarity) and identifies mechanistic pathways for TMDL modeling and forecasting</p>
+<p><strong>Timeline:</strong> 28-day core experiment with 3 phases: pulse response (days 0–3), community reorganization (days 4–14), recovery (days 15–28)</p>
+</section>
+<section id="motivation-and-significance" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Motivation and Significance</h1>
+<p>[State why this research matters now, for Lake Tahoe specifically, and for limnology/ecology more broadly]</p>
+<p><strong>Prompts:</strong></p>
+<ul>
+<li>Why wildfire impacts on alpine lakes are timely and important</li>
+<li>Why Lake Tahoe is an ideal and urgent system for this work</li>
+<li>[State why this matters for management]</li>
+<li>How this work fills critical gaps in understanding ecosystem responses to wildfire</li>
+<li>Broader implications for other oligotrophic systems</li>
+</ul>
+</section>
+<section id="background-and-system-context" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Background and System Context</h1>
+<section id="optical-clarity" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="optical-clarity"><span class="header-section-number">3.1</span> Optical Clarity</h2>
+<section id="concept-summary" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="concept-summary"><span class="header-section-number">3.1.1</span> Concept summary</h3>
+<p>[Define optical clarity, Secchi depth, light attenuation, and related metrics. Explain why optical clarity is a key indicator for Lake Tahoe]</p>
+</section>
+<section id="key-mechanisms" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="key-mechanisms"><span class="header-section-number">3.1.2</span> Key mechanisms</h3>
+<p>[Describe the physical and biological processes that control optical clarity: particle scattering, absorption by CDOM, phytoplankton, etc.]</p>
+</section>
+<section id="evidence" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="evidence"><span class="header-section-number">3.1.3</span> Evidence</h3>
+<p>[Summarize 3-5 key papers or datasets showing historical trends, drivers, or experimental manipulations of clarity]</p>
+</section>
+<section id="open-questions" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="open-questions"><span class="header-section-number">3.1.4</span> Open questions</h3>
+<p>[List 2-4 unresolved questions about optical clarity dynamics, especially related to disturbance or novel stressors]</p>
+</section>
+<section id="conceptual-model" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="conceptual-model"><span class="header-section-number">3.1.5</span> Conceptual model</h3>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A[Wildfire Episode] --&gt; B[Ash Deposition&lt;br/&gt;Particles + Nutrients]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Smoke Shading&lt;br/&gt;UV-Biased]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    B --&gt; D[Direct Scattering&lt;br/&gt;1-6 µm Particles]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    B --&gt; E[Nutrient Pulse&lt;br/&gt;N, P, Metals]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    C --&gt; F[UV-B Reduction&lt;br/&gt;Photoinhibition Relief]</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    E --&gt; G[Microbial Response&lt;br/&gt;Picoplankton &lt;2 µm]</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    F --&gt; G</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    G --&gt; H[DOM/EPS Production&lt;br/&gt;Particle Aggregation]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    H --&gt; I[PSD Shift&lt;br/&gt;Optically Active Sizes]</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    D --&gt; J[Optical Attenuation ↑&lt;br/&gt;Clarity ↓]</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    I --&gt; J</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    H --&gt; K[Settling/Export]</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    K --&gt; L[Partial Recovery]</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    style A fill:#ff6b6b,color:#fff</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    style J fill:#4ecdc4,color:#fff</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    style G fill:#ffe66d,color:#000</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-clarity-pathways" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-clarity-pathways-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-clarity-pathways">flowchart TD
+    A[Wildfire Episode] --&gt; B[Ash Deposition&lt;br/&gt;Particles + Nutrients]
+    A --&gt; C[Smoke Shading&lt;br/&gt;UV-Biased]
+    
+    B --&gt; D[Direct Scattering&lt;br/&gt;1-6 µm Particles]
+    B --&gt; E[Nutrient Pulse&lt;br/&gt;N, P, Metals]
+    
+    C --&gt; F[UV-B Reduction&lt;br/&gt;Photoinhibition Relief]
+    
+    E --&gt; G[Microbial Response&lt;br/&gt;Picoplankton &lt;2 µm]
+    F --&gt; G
+    
+    G --&gt; H[DOM/EPS Production&lt;br/&gt;Particle Aggregation]
+    H --&gt; I[PSD Shift&lt;br/&gt;Optically Active Sizes]
+    
+    D --&gt; J[Optical Attenuation ↑&lt;br/&gt;Clarity ↓]
+    I --&gt; J
+    
+    H --&gt; K[Settling/Export]
+    K --&gt; L[Partial Recovery]
+    
+    style A fill:#ff6b6b,color:#fff
+    style J fill:#4ecdc4,color:#fff
+    style G fill:#ffe66d,color:#000
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-clarity-pathways-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Pathways linking wildfire drivers to optical clarity in Lake Tahoe
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="research-ideas" class="level3" data-number="3.1.6">
+<h3 data-number="3.1.6" class="anchored" data-anchor-id="research-ideas"><span class="header-section-number">3.1.6</span> Research ideas</h3>
+<p>[Brainstorm 2-3 testable ideas related to clarity that could emerge from this project]</p>
+</section>
+<section id="graphsplots" class="level3" data-number="3.1.7">
+<h3 data-number="3.1.7" class="anchored" data-anchor-id="graphsplots"><span class="header-section-number">3.1.7</span> Graphs/plots</h3>
+<p>[Note potential figures: time series of Secchi depth, spectral attenuation profiles, etc.]</p>
+</section>
+<section id="relevant-papers" class="level3" data-number="3.1.8">
+<h3 data-number="3.1.8" class="anchored" data-anchor-id="relevant-papers"><span class="header-section-number">3.1.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key1">(<a href="#ref-key1" role="doc-biblioref"><strong>key1?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key2">(<a href="#ref-key2" role="doc-biblioref"><strong>key2?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key3">(<a href="#ref-key3" role="doc-biblioref"><strong>key3?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="physical-limnology" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="physical-limnology"><span class="header-section-number">3.2</span> Physical Limnology</h2>
+<section id="concept-summary-1" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="concept-summary-1"><span class="header-section-number">3.2.1</span> Concept summary</h3>
+<p>[Describe Lake Tahoe’s physical structure: stratification, mixing regime, thermal dynamics]</p>
+</section>
+<section id="key-mechanisms-1" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="key-mechanisms-1"><span class="header-section-number">3.2.2</span> Key mechanisms</h3>
+<p>[Explain how physical processes (mixing, stratification, light penetration) interact with biological and chemical processes]</p>
+</section>
+<section id="evidence-1" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="evidence-1"><span class="header-section-number">3.2.3</span> Evidence</h3>
+<p>[Summarize key studies on Tahoe’s physical limnology]</p>
+</section>
+<section id="open-questions-1" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="open-questions-1"><span class="header-section-number">3.2.4</span> Open questions</h3>
+<p>[Identify gaps in understanding physical responses to atmospheric inputs or shading]</p>
+</section>
+<section id="conceptual-model-1" class="level3" data-number="3.2.5">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="conceptual-model-1"><span class="header-section-number">3.2.5</span> Conceptual model</h3>
+<p>[Describe linkages between physical structure and ecosystem function]</p>
+</section>
+<section id="research-ideas-1" class="level3" data-number="3.2.6">
+<h3 data-number="3.2.6" class="anchored" data-anchor-id="research-ideas-1"><span class="header-section-number">3.2.6</span> Research ideas</h3>
+<p>[Note how mesocosm experiments could isolate or test physical mechanisms]</p>
+</section>
+<section id="graphsplots-1" class="level3" data-number="3.2.7">
+<h3 data-number="3.2.7" class="anchored" data-anchor-id="graphsplots-1"><span class="header-section-number">3.2.7</span> Graphs/plots</h3>
+<p>[Temperature profiles, mixing depth time series, etc.]</p>
+</section>
+<section id="relevant-papers-1" class="level3" data-number="3.2.8">
+<h3 data-number="3.2.8" class="anchored" data-anchor-id="relevant-papers-1"><span class="header-section-number">3.2.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key4">(<a href="#ref-key4" role="doc-biblioref"><strong>key4?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key5">(<a href="#ref-key5" role="doc-biblioref"><strong>key5?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="phytoplankton-dynamics" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="phytoplankton-dynamics"><span class="header-section-number">3.3</span> Phytoplankton Dynamics</h2>
+<section id="concept-summary-2" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="concept-summary-2"><span class="header-section-number">3.3.1</span> Concept summary</h3>
+<p>[Describe phytoplankton community structure, seasonality, and role in Tahoe’s ecosystem]</p>
+</section>
+<section id="key-mechanisms-2" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="key-mechanisms-2"><span class="header-section-number">3.3.2</span> Key mechanisms</h3>
+<p>[Explain bottom-up (nutrients, light) and top-down (grazing) controls on phytoplankton]</p>
+</section>
+<section id="evidence-2" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="evidence-2"><span class="header-section-number">3.3.3</span> Evidence</h3>
+<p>[Summarize key findings on phytoplankton responses to nutrient enrichment, light changes, etc.]</p>
+</section>
+<section id="open-questions-2" class="level3" data-number="3.3.4">
+<h3 data-number="3.3.4" class="anchored" data-anchor-id="open-questions-2"><span class="header-section-number">3.3.4</span> Open questions</h3>
+<p>[What is unknown about phytoplankton responses to ash or shading?]</p>
+</section>
+<section id="conceptual-model-2" class="level3" data-number="3.3.5">
+<h3 data-number="3.3.5" class="anchored" data-anchor-id="conceptual-model-2"><span class="header-section-number">3.3.5</span> Conceptual model</h3>
+<p>[Diagram showing nutrient → phytoplankton → clarity pathways]</p>
+</section>
+<section id="research-ideas-2" class="level3" data-number="3.3.6">
+<h3 data-number="3.3.6" class="anchored" data-anchor-id="research-ideas-2"><span class="header-section-number">3.3.6</span> Research ideas</h3>
+<p>[Testable hypotheses about phytoplankton community shifts under ash/shading treatments]</p>
+</section>
+<section id="graphsplots-2" class="level3" data-number="3.3.7">
+<h3 data-number="3.3.7" class="anchored" data-anchor-id="graphsplots-2"><span class="header-section-number">3.3.7</span> Graphs/plots</h3>
+<p>[Chlorophyll time series, community composition plots, etc.]</p>
+</section>
+<section id="relevant-papers-2" class="level3" data-number="3.3.8">
+<h3 data-number="3.3.8" class="anchored" data-anchor-id="relevant-papers-2"><span class="header-section-number">3.3.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key6">(<a href="#ref-key6" role="doc-biblioref"><strong>key6?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key7">(<a href="#ref-key7" role="doc-biblioref"><strong>key7?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="zooplankton" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="zooplankton"><span class="header-section-number">3.4</span> Zooplankton</h2>
+<section id="concept-summary-3" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="concept-summary-3"><span class="header-section-number">3.4.1</span> Concept summary</h3>
+<p>[Describe zooplankton community and their role in Tahoe’s food web]</p>
+</section>
+<section id="key-mechanisms-3" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="key-mechanisms-3"><span class="header-section-number">3.4.2</span> Key mechanisms</h3>
+<p>[Explain grazing pressure, diel vertical migration, and trophic cascades]</p>
+</section>
+<section id="evidence-3" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="evidence-3"><span class="header-section-number">3.4.3</span> Evidence</h3>
+<p>[Summarize studies on zooplankton dynamics in Tahoe]</p>
+</section>
+<section id="open-questions-3" class="level3" data-number="3.4.4">
+<h3 data-number="3.4.4" class="anchored" data-anchor-id="open-questions-3"><span class="header-section-number">3.4.4</span> Open questions</h3>
+<p>[How might zooplankton respond to ash-induced changes or altered light regimes?]</p>
+</section>
+<section id="conceptual-model-3" class="level3" data-number="3.4.5">
+<h3 data-number="3.4.5" class="anchored" data-anchor-id="conceptual-model-3"><span class="header-section-number">3.4.5</span> Conceptual model</h3>
+<p>[Trophic linkages: phytoplankton → zooplankton → fish]</p>
+</section>
+<section id="research-ideas-3" class="level3" data-number="3.4.6">
+<h3 data-number="3.4.6" class="anchored" data-anchor-id="research-ideas-3"><span class="header-section-number">3.4.6</span> Research ideas</h3>
+<p>[Potential zooplankton-mediated effects on clarity]</p>
+</section>
+<section id="graphsplots-3" class="level3" data-number="3.4.7">
+<h3 data-number="3.4.7" class="anchored" data-anchor-id="graphsplots-3"><span class="header-section-number">3.4.7</span> Graphs/plots</h3>
+<p>[Zooplankton biomass, community composition]</p>
+</section>
+<section id="relevant-papers-3" class="level3" data-number="3.4.8">
+<h3 data-number="3.4.8" class="anchored" data-anchor-id="relevant-papers-3"><span class="header-section-number">3.4.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key8">(<a href="#ref-key8" role="doc-biblioref"><strong>key8?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="microbial-ecology" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="microbial-ecology"><span class="header-section-number">3.5</span> Microbial Ecology</h2>
+<section id="concept-summary-4" class="level3" data-number="3.5.1">
+<h3 data-number="3.5.1" class="anchored" data-anchor-id="concept-summary-4"><span class="header-section-number">3.5.1</span> Concept summary</h3>
+<p>[Define the microbial community: bacteria, archaea, protists, viruses. Explain their role in nutrient cycling and organic matter processing]</p>
+</section>
+<section id="key-mechanisms-4" class="level3" data-number="3.5.2">
+<h3 data-number="3.5.2" class="anchored" data-anchor-id="key-mechanisms-4"><span class="header-section-number">3.5.2</span> Key mechanisms</h3>
+<p>[Describe microbial processes: remineralization, DOM production, particle aggregation, microbial loop dynamics]</p>
+</section>
+<section id="evidence-4" class="level3" data-number="3.5.3">
+<h3 data-number="3.5.3" class="anchored" data-anchor-id="evidence-4"><span class="header-section-number">3.5.3</span> Evidence</h3>
+<p>[Summarize key papers on microbial ecology in oligotrophic lakes, especially Tahoe if available]</p>
+</section>
+<section id="open-questions-4" class="level3" data-number="3.5.4">
+<h3 data-number="3.5.4" class="anchored" data-anchor-id="open-questions-4"><span class="header-section-number">3.5.4</span> Open questions</h3>
+<p>[What is unknown about microbial responses to ash inputs or light regime changes? How do microbes mediate optical clarity?]</p>
+</section>
+<section id="conceptual-model-4" class="level3" data-number="3.5.5">
+<h3 data-number="3.5.5" class="anchored" data-anchor-id="conceptual-model-4"><span class="header-section-number">3.5.5</span> Conceptual model</h3>
+<p>[Diagram: ash/shading → microbial community → DOM/particles → optical clarity]</p>
+</section>
+<section id="research-ideas-4" class="level3" data-number="3.5.6">
+<h3 data-number="3.5.6" class="anchored" data-anchor-id="research-ideas-4"><span class="header-section-number">3.5.6</span> Research ideas</h3>
+<p>[Hypotheses about microbial community shifts, functional changes, and clarity feedbacks]</p>
+</section>
+<section id="graphsplots-4" class="level3" data-number="3.5.7">
+<h3 data-number="3.5.7" class="anchored" data-anchor-id="graphsplots-4"><span class="header-section-number">3.5.7</span> Graphs/plots</h3>
+<p>[Microbial abundance, community composition (16S/18S), functional gene expression]</p>
+</section>
+<section id="relevant-papers-4" class="level3" data-number="3.5.8">
+<h3 data-number="3.5.8" class="anchored" data-anchor-id="relevant-papers-4"><span class="header-section-number">3.5.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key9">(<a href="#ref-key9" role="doc-biblioref"><strong>key9?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key10">(<a href="#ref-key10" role="doc-biblioref"><strong>key10?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key11">(<a href="#ref-key11" role="doc-biblioref"><strong>key11?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="nutrient-cycling" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="nutrient-cycling"><span class="header-section-number">3.6</span> Nutrient Cycling</h2>
+<section id="concept-summary-5" class="level3" data-number="3.6.1">
+<h3 data-number="3.6.1" class="anchored" data-anchor-id="concept-summary-5"><span class="header-section-number">3.6.1</span> Concept summary</h3>
+<p>[Describe nutrient limitation (P, N) in Tahoe and the role of external inputs]</p>
+</section>
+<section id="key-mechanisms-5" class="level3" data-number="3.6.2">
+<h3 data-number="3.6.2" class="anchored" data-anchor-id="key-mechanisms-5"><span class="header-section-number">3.6.2</span> Key mechanisms</h3>
+<p>[Explain nutrient uptake, regeneration, and stoichiometry]</p>
+</section>
+<section id="evidence-5" class="level3" data-number="3.6.3">
+<h3 data-number="3.6.3" class="anchored" data-anchor-id="evidence-5"><span class="header-section-number">3.6.3</span> Evidence</h3>
+<p>[Summarize nutrient budget studies, experimental enrichments]</p>
+</section>
+<section id="open-questions-5" class="level3" data-number="3.6.4">
+<h3 data-number="3.6.4" class="anchored" data-anchor-id="open-questions-5"><span class="header-section-number">3.6.4</span> Open questions</h3>
+<p>[How does ash alter nutrient availability? What are the microbial vs.&nbsp;phytoplankton responses?]</p>
+</section>
+<section id="conceptual-model-5" class="level3" data-number="3.6.5">
+<h3 data-number="3.6.5" class="anchored" data-anchor-id="conceptual-model-5"><span class="header-section-number">3.6.5</span> Conceptual model</h3>
+<p>[Nutrient sources → uptake → cycling → export]</p>
+</section>
+<section id="research-ideas-5" class="level3" data-number="3.6.6">
+<h3 data-number="3.6.6" class="anchored" data-anchor-id="research-ideas-5"><span class="header-section-number">3.6.6</span> Research ideas</h3>
+<p>[Testable ideas about ash-derived nutrients and ecosystem responses]</p>
+</section>
+<section id="graphsplots-5" class="level3" data-number="3.6.7">
+<h3 data-number="3.6.7" class="anchored" data-anchor-id="graphsplots-5"><span class="header-section-number">3.6.7</span> Graphs/plots</h3>
+<p>[Nutrient concentrations, uptake rates, N:P ratios]</p>
+</section>
+<section id="relevant-papers-5" class="level3" data-number="3.6.8">
+<h3 data-number="3.6.8" class="anchored" data-anchor-id="relevant-papers-5"><span class="header-section-number">3.6.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key12">(<a href="#ref-key12" role="doc-biblioref"><strong>key12?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key13">(<a href="#ref-key13" role="doc-biblioref"><strong>key13?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="atmospheric-inputs" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="atmospheric-inputs"><span class="header-section-number">3.7</span> Atmospheric Inputs</h2>
+<section id="concept-summary-6" class="level3" data-number="3.7.1">
+<h3 data-number="3.7.1" class="anchored" data-anchor-id="concept-summary-6"><span class="header-section-number">3.7.1</span> Concept summary</h3>
+<p>[Describe atmospheric deposition to Tahoe: dust, pollutants, ash]</p>
+</section>
+<section id="key-mechanisms-6" class="level3" data-number="3.7.2">
+<h3 data-number="3.7.2" class="anchored" data-anchor-id="key-mechanisms-6"><span class="header-section-number">3.7.2</span> Key mechanisms</h3>
+<p>[Explain deposition processes, solubility, and bioavailability of atmospheric inputs]</p>
+</section>
+<section id="evidence-6" class="level3" data-number="3.7.3">
+<h3 data-number="3.7.3" class="anchored" data-anchor-id="evidence-6"><span class="header-section-number">3.7.3</span> Evidence</h3>
+<p>[Summarize studies on atmospheric inputs to Tahoe and their ecological effects]</p>
+</section>
+<section id="open-questions-6" class="level3" data-number="3.7.4">
+<h3 data-number="3.7.4" class="anchored" data-anchor-id="open-questions-6"><span class="header-section-number">3.7.4</span> Open questions</h3>
+<p>[What is the magnitude and composition of wildfire ash deposition? How does it compare to other atmospheric inputs?]</p>
+</section>
+<section id="conceptual-model-6" class="level3" data-number="3.7.5">
+<h3 data-number="3.7.5" class="anchored" data-anchor-id="conceptual-model-6"><span class="header-section-number">3.7.5</span> Conceptual model</h3>
+<p>[Atmospheric source → deposition → water column → biological uptake]</p>
+</section>
+<section id="research-ideas-6" class="level3" data-number="3.7.6">
+<h3 data-number="3.7.6" class="anchored" data-anchor-id="research-ideas-6"><span class="header-section-number">3.7.6</span> Research ideas</h3>
+<p>[Dose-response experiments, comparison of ash types]</p>
+</section>
+<section id="graphsplots-6" class="level3" data-number="3.7.7">
+<h3 data-number="3.7.7" class="anchored" data-anchor-id="graphsplots-6"><span class="header-section-number">3.7.7</span> Graphs/plots</h3>
+<p>[Deposition time series, ash composition]</p>
+</section>
+<section id="relevant-papers-6" class="level3" data-number="3.7.8">
+<h3 data-number="3.7.8" class="anchored" data-anchor-id="relevant-papers-6"><span class="header-section-number">3.7.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key14">(<a href="#ref-key14" role="doc-biblioref"><strong>key14?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key15">(<a href="#ref-key15" role="doc-biblioref"><strong>key15?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="long-term-monitoring" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="long-term-monitoring"><span class="header-section-number">3.8</span> Long-term Monitoring</h2>
+<section id="concept-summary-7" class="level3" data-number="3.8.1">
+<h3 data-number="3.8.1" class="anchored" data-anchor-id="concept-summary-7"><span class="header-section-number">3.8.1</span> Concept summary</h3>
+<p>[Describe Tahoe’s long-term monitoring programs: Secchi depth, primary productivity, nutrients, etc.]</p>
+</section>
+<section id="key-mechanisms-7" class="level3" data-number="3.8.2">
+<h3 data-number="3.8.2" class="anchored" data-anchor-id="key-mechanisms-7"><span class="header-section-number">3.8.2</span> Key mechanisms</h3>
+<p>[Explain how long-term data reveal trends, drivers, and ecosystem state changes]</p>
+</section>
+<section id="evidence-7" class="level3" data-number="3.8.3">
+<h3 data-number="3.8.3" class="anchored" data-anchor-id="evidence-7"><span class="header-section-number">3.8.3</span> Evidence</h3>
+<p>[Highlight key findings from decades of monitoring]</p>
+</section>
+<section id="open-questions-7" class="level3" data-number="3.8.4">
+<h3 data-number="3.8.4" class="anchored" data-anchor-id="open-questions-7"><span class="header-section-number">3.8.4</span> Open questions</h3>
+<p>[What trends are unexplained? How can experimental work complement monitoring?]</p>
+</section>
+<section id="conceptual-model-7" class="level3" data-number="3.8.5">
+<h3 data-number="3.8.5" class="anchored" data-anchor-id="conceptual-model-7"><span class="header-section-number">3.8.5</span> Conceptual model</h3>
+<p>[Monitoring → trend detection → driver attribution → management action]</p>
+</section>
+<section id="research-ideas-7" class="level3" data-number="3.8.6">
+<h3 data-number="3.8.6" class="anchored" data-anchor-id="research-ideas-7"><span class="header-section-number">3.8.6</span> Research ideas</h3>
+<p>[How mesocosm experiments can test hypotheses generated from monitoring data]</p>
+</section>
+<section id="graphsplots-7" class="level3" data-number="3.8.7">
+<h3 data-number="3.8.7" class="anchored" data-anchor-id="graphsplots-7"><span class="header-section-number">3.8.7</span> Graphs/plots</h3>
+<p>[Long-term Secchi depth, chlorophyll, nutrient trends]</p>
+</section>
+<section id="relevant-papers-7" class="level3" data-number="3.8.8">
+<h3 data-number="3.8.8" class="anchored" data-anchor-id="relevant-papers-7"><span class="header-section-number">3.8.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key16">(<a href="#ref-key16" role="doc-biblioref"><strong>key16?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key17">(<a href="#ref-key17" role="doc-biblioref"><strong>key17?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="tahoe-resources" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="tahoe-resources"><span class="header-section-number">3.9</span> Tahoe Resources</h2>
+<section id="concept-summary-8" class="level3" data-number="3.9.1">
+<h3 data-number="3.9.1" class="anchored" data-anchor-id="concept-summary-8"><span class="header-section-number">3.9.1</span> Concept summary</h3>
+<p>[List key institutions, datasets, and resources: UC Davis Tahoe Environmental Research Center, LTIMP, etc.]</p>
+</section>
+<section id="key-mechanisms-8" class="level3" data-number="3.9.2">
+<h3 data-number="3.9.2" class="anchored" data-anchor-id="key-mechanisms-8"><span class="header-section-number">3.9.2</span> Key mechanisms</h3>
+<p>[N/A - this is a resource section]</p>
+</section>
+<section id="evidence-8" class="level3" data-number="3.9.3">
+<h3 data-number="3.9.3" class="anchored" data-anchor-id="evidence-8"><span class="header-section-number">3.9.3</span> Evidence</h3>
+<p>[Describe available data, infrastructure, and collaborative opportunities]</p>
+</section>
+<section id="open-questions-8" class="level3" data-number="3.9.4">
+<h3 data-number="3.9.4" class="anchored" data-anchor-id="open-questions-8"><span class="header-section-number">3.9.4</span> Open questions</h3>
+<p>[What data gaps exist? What new tools or approaches are needed?]</p>
+</section>
+<section id="conceptual-model-8" class="level3" data-number="3.9.5">
+<h3 data-number="3.9.5" class="anchored" data-anchor-id="conceptual-model-8"><span class="header-section-number">3.9.5</span> Conceptual model</h3>
+<p>[N/A]</p>
+</section>
+<section id="research-ideas-8" class="level3" data-number="3.9.6">
+<h3 data-number="3.9.6" class="anchored" data-anchor-id="research-ideas-8"><span class="header-section-number">3.9.6</span> Research ideas</h3>
+<p>[How to leverage existing resources for this project]</p>
+</section>
+<section id="graphsplots-8" class="level3" data-number="3.9.7">
+<h3 data-number="3.9.7" class="anchored" data-anchor-id="graphsplots-8"><span class="header-section-number">3.9.7</span> Graphs/plots</h3>
+<p>[N/A]</p>
+</section>
+<section id="relevant-papers-8" class="level3" data-number="3.9.8">
+<h3 data-number="3.9.8" class="anchored" data-anchor-id="relevant-papers-8"><span class="header-section-number">3.9.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key18">(<a href="#ref-key18" role="doc-biblioref"><strong>key18?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="tahoe-conceptual-model" class="level2" data-number="3.10">
+<h2 data-number="3.10" class="anchored" data-anchor-id="tahoe-conceptual-model"><span class="header-section-number">3.10</span> Tahoe Conceptual Model</h2>
+<section id="concept-summary-9" class="level3" data-number="3.10.1">
+<h3 data-number="3.10.1" class="anchored" data-anchor-id="concept-summary-9"><span class="header-section-number">3.10.1</span> Concept summary</h3>
+<p>[Describe the integrated conceptual model of Lake Tahoe’s ecosystem: drivers, processes, responses]</p>
+</section>
+<section id="key-mechanisms-9" class="level3" data-number="3.10.2">
+<h3 data-number="3.10.2" class="anchored" data-anchor-id="key-mechanisms-9"><span class="header-section-number">3.10.2</span> Key mechanisms</h3>
+<p>[Explain how physical, chemical, and biological processes interact to determine ecosystem state]</p>
+</section>
+<section id="evidence-9" class="level3" data-number="3.10.3">
+<h3 data-number="3.10.3" class="anchored" data-anchor-id="evidence-9"><span class="header-section-number">3.10.3</span> Evidence</h3>
+<p>[Summarize the evidence base for the conceptual model]</p>
+</section>
+<section id="open-questions-9" class="level3" data-number="3.10.4">
+<h3 data-number="3.10.4" class="anchored" data-anchor-id="open-questions-9"><span class="header-section-number">3.10.4</span> Open questions</h3>
+<p>[Where are the uncertainties or missing linkages in the conceptual model?]</p>
+</section>
+<section id="conceptual-model-9" class="level3" data-number="3.10.5">
+<h3 data-number="3.10.5" class="anchored" data-anchor-id="conceptual-model-9"><span class="header-section-number">3.10.5</span> Conceptual model</h3>
+<p>[Insert or describe the full Tahoe conceptual model diagram]</p>
+</section>
+<section id="research-ideas-9" class="level3" data-number="3.10.6">
+<h3 data-number="3.10.6" class="anchored" data-anchor-id="research-ideas-9"><span class="header-section-number">3.10.6</span> Research ideas</h3>
+<p>[How this project tests or refines specific pathways in the conceptual model]</p>
+</section>
+<section id="graphsplots-9" class="level3" data-number="3.10.7">
+<h3 data-number="3.10.7" class="anchored" data-anchor-id="graphsplots-9"><span class="header-section-number">3.10.7</span> Graphs/plots</h3>
+<p>[Conceptual model figure]</p>
+</section>
+<section id="relevant-papers-9" class="level3" data-number="3.10.8">
+<h3 data-number="3.10.8" class="anchored" data-anchor-id="relevant-papers-9"><span class="header-section-number">3.10.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key19">(<a href="#ref-key19" role="doc-biblioref"><strong>key19?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key20">(<a href="#ref-key20" role="doc-biblioref"><strong>key20?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="climate-change" class="level2" data-number="3.11">
+<h2 data-number="3.11" class="anchored" data-anchor-id="climate-change"><span class="header-section-number">3.11</span> Climate Change</h2>
+<section id="concept-summary-10" class="level3" data-number="3.11.1">
+<h3 data-number="3.11.1" class="anchored" data-anchor-id="concept-summary-10"><span class="header-section-number">3.11.1</span> Concept summary</h3>
+<p>[Describe climate change impacts on Tahoe: warming, altered precipitation, increased wildfire frequency]</p>
+</section>
+<section id="key-mechanisms-10" class="level3" data-number="3.11.2">
+<h3 data-number="3.11.2" class="anchored" data-anchor-id="key-mechanisms-10"><span class="header-section-number">3.11.2</span> Key mechanisms</h3>
+<p>[Explain how climate change alters physical, chemical, and biological processes]</p>
+</section>
+<section id="evidence-10" class="level3" data-number="3.11.3">
+<h3 data-number="3.11.3" class="anchored" data-anchor-id="evidence-10"><span class="header-section-number">3.11.3</span> Evidence</h3>
+<p>[Summarize observed and projected climate impacts on Tahoe]</p>
+</section>
+<section id="open-questions-10" class="level3" data-number="3.11.4">
+<h3 data-number="3.11.4" class="anchored" data-anchor-id="open-questions-10"><span class="header-section-number">3.11.4</span> Open questions</h3>
+<p>[How will increased wildfire activity interact with other climate stressors?]</p>
+</section>
+<section id="conceptual-model-10" class="level3" data-number="3.11.5">
+<h3 data-number="3.11.5" class="anchored" data-anchor-id="conceptual-model-10"><span class="header-section-number">3.11.5</span> Conceptual model</h3>
+<p>[Climate drivers → wildfire → ash/smoke → lake ecosystem]</p>
+</section>
+<section id="research-ideas-10" class="level3" data-number="3.11.6">
+<h3 data-number="3.11.6" class="anchored" data-anchor-id="research-ideas-10"><span class="header-section-number">3.11.6</span> Research ideas</h3>
+<p>[How mesocosm experiments can simulate future scenarios]</p>
+</section>
+<section id="graphsplots-10" class="level3" data-number="3.11.7">
+<h3 data-number="3.11.7" class="anchored" data-anchor-id="graphsplots-10"><span class="header-section-number">3.11.7</span> Graphs/plots</h3>
+<p>[Temperature trends, wildfire frequency, projected changes]</p>
+</section>
+<section id="relevant-papers-10" class="level3" data-number="3.11.8">
+<h3 data-number="3.11.8" class="anchored" data-anchor-id="relevant-papers-10"><span class="header-section-number">3.11.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key21">(<a href="#ref-key21" role="doc-biblioref"><strong>key21?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key22">(<a href="#ref-key22" role="doc-biblioref"><strong>key22?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="general-tahoe-facts-and-history" class="level2" data-number="3.12">
+<h2 data-number="3.12" class="anchored" data-anchor-id="general-tahoe-facts-and-history"><span class="header-section-number">3.12</span> General Tahoe Facts and History</h2>
+<section id="concept-summary-11" class="level3" data-number="3.12.1">
+<h3 data-number="3.12.1" class="anchored" data-anchor-id="concept-summary-11"><span class="header-section-number">3.12.1</span> Concept summary</h3>
+<p>[Provide key facts: depth, volume, elevation, watershed characteristics, history of human impacts]</p>
+</section>
+<section id="key-mechanisms-11" class="level3" data-number="3.12.2">
+<h3 data-number="3.12.2" class="anchored" data-anchor-id="key-mechanisms-11"><span class="header-section-number">3.12.2</span> Key mechanisms</h3>
+<p>[Explain how Tahoe’s unique characteristics (depth, clarity, oligotrophy) shape its ecology]</p>
+</section>
+<section id="evidence-11" class="level3" data-number="3.12.3">
+<h3 data-number="3.12.3" class="anchored" data-anchor-id="evidence-11"><span class="header-section-number">3.12.3</span> Evidence</h3>
+<p>[Historical data on clarity decline, nutrient inputs, invasive species]</p>
+</section>
+<section id="open-questions-11" class="level3" data-number="3.12.4">
+<h3 data-number="3.12.4" class="anchored" data-anchor-id="open-questions-11"><span class="header-section-number">3.12.4</span> Open questions</h3>
+<p>[What are the emerging threats? How resilient is Tahoe to novel stressors?]</p>
+</section>
+<section id="conceptual-model-11" class="level3" data-number="3.12.5">
+<h3 data-number="3.12.5" class="anchored" data-anchor-id="conceptual-model-11"><span class="header-section-number">3.12.5</span> Conceptual model</h3>
+<p>[Historical trajectory: pristine → impacted → management → current state]</p>
+</section>
+<section id="research-ideas-11" class="level3" data-number="3.12.6">
+<h3 data-number="3.12.6" class="anchored" data-anchor-id="research-ideas-11"><span class="header-section-number">3.12.6</span> Research ideas</h3>
+<p>[How this project addresses current management priorities]</p>
+</section>
+<section id="graphsplots-11" class="level3" data-number="3.12.7">
+<h3 data-number="3.12.7" class="anchored" data-anchor-id="graphsplots-11"><span class="header-section-number">3.12.7</span> Graphs/plots</h3>
+<p>[Historical Secchi depth, land use changes]</p>
+</section>
+<section id="relevant-papers-11" class="level3" data-number="3.12.8">
+<h3 data-number="3.12.8" class="anchored" data-anchor-id="relevant-papers-11"><span class="header-section-number">3.12.8</span> Relevant papers</h3>
+<ul>
+<li><span class="citation" data-cites="key23">(<a href="#ref-key23" role="doc-biblioref"><strong>key23?</strong></a>)</span></li>
+<li><span class="citation" data-cites="key24">(<a href="#ref-key24" role="doc-biblioref"><strong>key24?</strong></a>)</span></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="literature-synthesis" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Literature Synthesis</h1>
+<p>[Provide a 2-3 paragraph synthesis of the most relevant literature, organized thematically]</p>
+<p><strong>Key themes to address:</strong></p>
+<ul>
+<li>Wildfire impacts on aquatic ecosystems</li>
+<li>Ash chemistry and bioavailability</li>
+<li>Smoke shading and UV effects on aquatic communities</li>
+<li>Microbial responses to disturbance and resource pulses</li>
+<li>Optical clarity drivers in oligotrophic lakes</li>
+<li>Mesocosm approaches to studying complex interactions</li>
+</ul>
+<p>[Summarize 3-5 key papers that directly inform your experimental design]</p>
+</section>
+<section id="knowledge-gaps" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Knowledge Gaps</h1>
+<p>[List 4-6 specific knowledge gaps that this project will address]</p>
+<ol type="1">
+<li>[Gap 1: e.g., “The relative importance of direct optical effects vs.&nbsp;indirect ecological effects of wildfire ash on lake clarity”]</li>
+<li>[Gap 2: e.g., “Microbial community responses to ash inputs and their role in mediating clarity changes”]</li>
+<li>[Gap 3: e.g., “Interactive effects of ash deposition and smoke-induced shading on ecosystem processes”]</li>
+<li>[Gap 4: e.g., “Dose-response relationships for ash effects on oligotrophic lake ecosystems”]</li>
+<li>[Gap 5]</li>
+<li>[Gap 6]</li>
+</ol>
+</section>
+<section id="research-objectives" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Research Objectives</h1>
+<section id="overarching-aim" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="overarching-aim"><span class="header-section-number">6.1</span> Overarching Aim</h2>
+<p>[State the single overarching aim of the project in 1-2 sentences]</p>
+<p><strong>Example structure:</strong> “To quantify the direct and indirect effects of wildfire ash deposition and smoke-induced shading on optical clarity in Lake Tahoe, with a focus on microbially mediated pathways.”</p>
+</section>
+<section id="specific-aims" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="specific-aims"><span class="header-section-number">6.2</span> Specific Aims</h2>
+<section id="specific-aim-1" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="specific-aim-1"><span class="header-section-number">6.2.1</span> Specific Aim 1</h3>
+<p>[State first specific aim - likely focused on ash effects]</p>
+<p><strong>Rationale:</strong> [Why this aim is important]</p>
+<p><strong>Approach:</strong> [Brief description of experimental approach]</p>
+</section>
+<section id="specific-aim-2" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="specific-aim-2"><span class="header-section-number">6.2.2</span> Specific Aim 2</h3>
+<p>[State second specific aim - likely focused on shading effects]</p>
+<p><strong>Rationale:</strong> [Why this aim is important]</p>
+<p><strong>Approach:</strong> [Brief description of experimental approach]</p>
+</section>
+<section id="specific-aim-3" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="specific-aim-3"><span class="header-section-number">6.2.3</span> Specific Aim 3</h3>
+<p>[State third specific aim - likely focused on interactive effects or mechanistic pathways]</p>
+<p><strong>Rationale:</strong> [Why this aim is important]</p>
+<p><strong>Approach:</strong> [Brief description of experimental approach]</p>
+</section>
+<section id="specific-aim-4-optional" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="specific-aim-4-optional"><span class="header-section-number">6.2.4</span> Specific Aim 4 (Optional)</h3>
+<p>[State fourth specific aim if needed - could focus on management applications or scaling]</p>
+<p><strong>Rationale:</strong> [Why this aim is important]</p>
+<p><strong>Approach:</strong> [Brief description of experimental approach]</p>
+</section>
+</section>
+</section>
+<section id="central-questions-and-hypotheses" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Central Questions and Hypotheses</h1>
+<section id="central-testable-questions" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="central-testable-questions"><span class="header-section-number">7.1</span> Central Testable Questions</h2>
+<ol type="1">
+<li>[Question 1: e.g., “How does wildfire ash deposition affect optical clarity in oligotrophic lakes?”]</li>
+<li>[Question 2: e.g., “What is the role of microbial communities in mediating ash effects on clarity?”]</li>
+<li>[Question 3: e.g., “How does smoke-induced shading (UV-biased) interact with ash effects?”]</li>
+<li>[Question 4: e.g., “What are the relative magnitudes of direct optical vs.&nbsp;indirect ecological effects?”]</li>
+<li>[Question 5]</li>
+</ol>
+</section>
+<section id="mechanistic-hypotheses" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="mechanistic-hypotheses"><span class="header-section-number">7.2</span> Mechanistic Hypotheses</h2>
+<section id="hypothesis-1-ash-effects" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="hypothesis-1-ash-effects"><span class="header-section-number">7.2.1</span> Hypothesis 1: Ash Effects</h3>
+<p><strong>H1a (Direct optical effect):</strong> [State hypothesis about direct ash effects on light attenuation]</p>
+<p><strong>H1b (Indirect ecological effect):</strong> [State hypothesis about ash effects mediated through microbial or phytoplankton responses]</p>
+<p><strong>Prediction:</strong> [Specific, measurable prediction]</p>
+<p><strong>Alternative hypothesis:</strong> [State alternative mechanism or outcome]</p>
+</section>
+<section id="hypothesis-2-shading-effects" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="hypothesis-2-shading-effects"><span class="header-section-number">7.2.2</span> Hypothesis 2: Shading Effects</h3>
+<p><strong>H2a (UV-specific effects):</strong> [State hypothesis about UV-biased shading effects on microbial communities or photochemistry]</p>
+<p><strong>H2b (PAR effects):</strong> [State hypothesis about PAR reduction effects on primary production]</p>
+<p><strong>Prediction:</strong> [Specific, measurable prediction]</p>
+<p><strong>Alternative hypothesis:</strong> [State alternative mechanism or outcome]</p>
+</section>
+<section id="hypothesis-3-interactive-effects" class="level3" data-number="7.2.3">
+<h3 data-number="7.2.3" class="anchored" data-anchor-id="hypothesis-3-interactive-effects"><span class="header-section-number">7.2.3</span> Hypothesis 3: Interactive Effects</h3>
+<p><strong>H3:</strong> [State hypothesis about synergistic or antagonistic interactions between ash and shading]</p>
+<p><strong>Prediction:</strong> [Specific, measurable prediction]</p>
+<p><strong>Alternative hypothesis:</strong> [State alternative mechanism or outcome]</p>
+</section>
+<section id="hypothesis-4-microbial-mediation" class="level3" data-number="7.2.4">
+<h3 data-number="7.2.4" class="anchored" data-anchor-id="hypothesis-4-microbial-mediation"><span class="header-section-number">7.2.4</span> Hypothesis 4: Microbial Mediation</h3>
+<p><strong>H4:</strong> [State hypothesis about microbial community shifts and their functional consequences for clarity]</p>
+<p><strong>Prediction:</strong> [Specific, measurable prediction by response variable]</p>
+<ul>
+<li>Microbial abundance: [prediction]</li>
+<li>Microbial community composition: [prediction]</li>
+<li>DOM production/quality: [prediction]</li>
+<li>Particle aggregation: [prediction]</li>
+<li>Optical clarity: [prediction]</li>
+</ul>
+<p><strong>Alternative hypothesis:</strong> [State alternative mechanism or outcome]</p>
+</section>
+</section>
+<section id="predictions-by-response-variable" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="predictions-by-response-variable"><span class="header-section-number">7.3</span> Predictions by Response Variable</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 14%">
+<col style="width: 20%">
+<col style="width: 22%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Response Variable</th>
+<th>Ash Only</th>
+<th>Shading Only</th>
+<th>Ash + Shading</th>
+<th>Control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Secchi depth</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+<tr class="even">
+<td>Light attenuation (Kd)</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+<tr class="odd">
+<td>Microbial abundance</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+<tr class="even">
+<td>Microbial diversity</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+<tr class="odd">
+<td>Chlorophyll a</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+<tr class="even">
+<td>DOM concentration</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+<tr class="odd">
+<td>Particle concentration</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[prediction]</td>
+<td>[baseline]</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="experimental-design" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Experimental Design</h1>
+<section id="study-system-and-rationale-for-lake-tahoe" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="study-system-and-rationale-for-lake-tahoe"><span class="header-section-number">8.1</span> Study System and Rationale for Lake Tahoe</h2>
+<p>[Explain why Lake Tahoe is the ideal system for this work]</p>
+<p><strong>Key points:</strong></p>
+<ul>
+<li>Oligotrophic, ultra-clear baseline</li>
+<li>Long-term monitoring data</li>
+<li>Management priority on clarity</li>
+<li>Increasing wildfire exposure</li>
+<li>Availability of infrastructure and expertise</li>
+</ul>
+</section>
+<section id="mesocosm-setup" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="mesocosm-setup"><span class="header-section-number">8.2</span> Mesocosm Setup</h2>
+<p>We will deploy cylindrical limnocorral mesocosms in Lake Tahoe using in-lake flexible “bag” enclosures open to the atmosphere. This approach preserves oligotrophic lake temperature, light regime, and microbial inoculum while allowing controlled manipulations and adequate replication.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    A[Floating Frame] --&gt; B[UV-Blocking Film +&lt;br/&gt;Shade Cloth]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Limnocorral Bag&lt;br/&gt;1500-2500 L]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    B --&gt; D[PAR/UV Radiometer&lt;br/&gt;Surface]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    C --&gt; E[Open to Atmosphere]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Subsurface Sensor&lt;br/&gt;0.5 m]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    C --&gt; G[DO + Temp Logger&lt;br/&gt;1 m]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    C --&gt; H[Disc Plunger Mixer&lt;br/&gt;2-3× Daily]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    C --&gt; I[Sampling Port&lt;br/&gt;0-2 m Integrated]</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    C --&gt; J[Sealed Bottom]</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    style A fill:#95e1d3,color:#000</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    style C fill:#4ecdc4,color:#fff</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    style G fill:#ffe66d,color:#000</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-mesocosm-design" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mesocosm-design-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-mesocosm-design">flowchart TD
+    A[Floating Frame] --&gt; B[UV-Blocking Film +&lt;br/&gt;Shade Cloth]
+    A --&gt; C[Limnocorral Bag&lt;br/&gt;1500-2500 L]
+    
+    B --&gt; D[PAR/UV Radiometer&lt;br/&gt;Surface]
+    C --&gt; E[Open to Atmosphere]
+    E --&gt; F[Subsurface Sensor&lt;br/&gt;0.5 m]
+    C --&gt; G[DO + Temp Logger&lt;br/&gt;1 m]
+    C --&gt; H[Disc Plunger Mixer&lt;br/&gt;2-3× Daily]
+    C --&gt; I[Sampling Port&lt;br/&gt;0-2 m Integrated]
+    C --&gt; J[Sealed Bottom]
+    
+    style A fill:#95e1d3,color:#000
+    style C fill:#4ecdc4,color:#fff
+    style G fill:#ffe66d,color:#000
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mesocosm-design-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Physical mesocosm setup showing shading, sensors, and sampling configuration
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Physical specifications:</strong></p>
+<ul>
+<li><strong>Volume:</strong> 1,500–2,500 L per mesocosm</li>
+<li><strong>Geometry:</strong> ~1 m diameter, 2–3 m depth</li>
+<li><strong>Material:</strong> UV-transparent flexible enclosure (limnocorral bag)</li>
+<li><strong>Location:</strong> In-lake deployment on floating frames in Lake Tahoe</li>
+<li><strong>Water source:</strong> Depth-integrated epilimnetic water (0–10 m) from Lake Tahoe</li>
+<li><strong>Mixing:</strong> Gentle mechanical mixing using disc plunger 2–3× daily to prevent stratification artifacts and unrealistic particle settling</li>
+<li><strong>Temperature:</strong> In-lake deployment provides shared thermal forcing; shading will alter heat inputs as part of smoke mechanism (measured, not eliminated)</li>
+</ul>
+</section>
+<section id="duration-and-phases" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="duration-and-phases"><span class="header-section-number">8.3</span> Duration and Phases</h2>
+<p><strong>Total duration:</strong> 28 days (defensible core experiment duration based on Tahoe wildfire response monitoring showing ~2-week recovery lags)</p>
+<p><strong>Phases:</strong></p>
+<ol type="1">
+<li><strong>Equilibration (Days -2 to 0):</strong> 48-hour acclimation after filling mesocosms; baseline temperature, DO, and light profiles recorded</li>
+<li><strong>Pulse response (Days 0–3):</strong> Ash addition on Day 0; shading onset; intensive sampling at +6h, +24h, +48h, +96h to capture rapid optical and chemical responses</li>
+<li><strong>Community reorganization (Days 4–14):</strong> Episodic shading events (3–8 day episodes with clear intervals); sampling on days 7, 10, 14 to resolve microbial succession and particle dynamics</li>
+<li><strong>Recovery and persistence (Days 15–28):</strong> Continued monitoring with reduced shading frequency; sampling on days 21, 28 to test recovery trajectories and legacy effects</li>
+</ol>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gantt</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    title Experimental Timeline</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    dateFormat YYYY-MM-DD</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    axisFormat %b %d</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    section Setup</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    Deploy &amp; fill           :a1, 2026-08-01, 1d</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    Equilibrate             :a2, 2026-08-02, 2d</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    section Treatments</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    Ash addition (Day 0)    :milestone, m1, 2026-08-04, 0d</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    Shading event 1         :crit, b1, 2026-08-04, 7d</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    Clear interval          :b2, 2026-08-11, 3d</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    Shading event 2         :crit, b3, 2026-08-14, 7d</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    Recovery phase          :b4, 2026-08-21, 11d</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    section Sampling</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    Baseline                :c1, 2026-08-02, 1d</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    Pulse (6h-96h)          :c2, 2026-08-04, 4d</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    Weekly                  :c3, 2026-08-08, 24d</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    Final                   :milestone, c4, 2026-09-01, 0d</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-experimental-timeline" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-experimental-timeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-experimental-timeline">gantt
+    title Experimental Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+    
+    section Setup
+    Deploy &amp; fill           :a1, 2026-08-01, 1d
+    Equilibrate             :a2, 2026-08-02, 2d
+    
+    section Treatments
+    Ash addition (Day 0)    :milestone, m1, 2026-08-04, 0d
+    Shading event 1         :crit, b1, 2026-08-04, 7d
+    Clear interval          :b2, 2026-08-11, 3d
+    Shading event 2         :crit, b3, 2026-08-14, 7d
+    Recovery phase          :b4, 2026-08-21, 11d
+    
+    section Sampling
+    Baseline                :c1, 2026-08-02, 1d
+    Pulse (6h-96h)          :c2, 2026-08-04, 4d
+    Weekly                  :c3, 2026-08-08, 24d
+    Final                   :milestone, c4, 2026-09-01, 0d
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-experimental-timeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: 28-day experimental timeline with episodic shading and sampling schedule
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Rationale:</strong> Tahoe wildfire-response monitoring showed particulate light attenuation remained elevated for ~2 weeks, supporting a minimum 14-day duration to capture recovery. Extending to 28 days allows observation of microbial succession and particle aggregation/settling while minimizing mesocosm wall effects.</p>
+</section>
+<section id="shading-treatment-design" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="shading-treatment-design"><span class="header-section-number">8.4</span> Shading Treatment Design</h2>
+<p><strong>Rationale:</strong> Smoke shading should be treated as UV-biased and episodic rather than only neutral-density constant shade.</p>
+<p><strong>Treatment levels:</strong></p>
+<ul>
+<li><strong>Control (no shading):</strong> Full ambient light (100% PAR, 100% UV-B)</li>
+<li><strong>Low shading:</strong> ~10–15% PAR reduction, ~30% UV-B reduction (simulates light smoke)</li>
+<li><strong>Medium shading:</strong> ~25–35% PAR reduction, ~50% UV-B reduction (simulates moderate smoke)</li>
+<li><strong>High shading:</strong> ~50% PAR reduction, ~65–80% UV-B reduction (simulates heavy/dense smoke)</li>
+</ul>
+<p><strong>Implementation:</strong></p>
+<ul>
+<li><strong>Shading material:</strong> Combination of UV-blocking film (for selective UV-B suppression) and neutral-density shade cloth (for PAR reduction)</li>
+<li><strong>Episodic regime (primary):</strong> 3–8 day shading events with clear intervals, matching observed California smoke event structure</li>
+<li><strong>Continuous variant (optional):</strong> Single treatment with sustained shading to test extreme sustained smoke hypothesis</li>
+<li><strong>Light verification:</strong> Radiometer measurements of incident PAR and UV-B at surface plus standardized subsurface depth (e.g., 0.5 m) to verify treatment targets</li>
+</ul>
+<p><strong>Evidence basis:</strong> Castle Lake smoke studies reported incident UV-B and PAR reductions of 31% and 11% (light smoke) to 53% and 28% (moderate smoke), with underwater reductions exceeding surface values. Tahoe smoke monitoring indicates ~50% PAR reduction in extreme events, supporting the high-shading tier.</p>
+</section>
+<section id="ash-treatment-design" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="ash-treatment-design"><span class="header-section-number">8.5</span> Ash Treatment Design</h2>
+<p><strong>Rationale:</strong> Ash dosing should include both field-realistic deposition-equivalent treatments and upper-bound mechanistic hotspot pulses.</p>
+<p><strong>Treatment levels:</strong></p>
+<ul>
+<li><strong>Control (no ash):</strong> No ash addition (0 mg/L)</li>
+<li><strong>Deposition-equivalent (low):</strong> ~0.1–1 mg/L - field-realistic deposition based on Tahoe 2021 monitoring (~240 mg/m²/day)</li>
+<li><strong>Moderate hotspot (medium):</strong> ~10 mg/L - mechanistic pulse representing near-surface accumulation</li>
+<li><strong>High hotspot (upper-bound):</strong> ~25–50 mg/L - upper-bound mechanistic treatment matching Tahoe/Castle incubation experiments</li>
+</ul>
+<p><strong>Dose conversion:</strong> Areal load (g/m²) to water-column concentration (mg/L) = (g/m² × 1000) / (depth in m × 1000). Example: 2 g/m² over 2 m depth ≈ 1 mg/L mesocosm-average.</p>
+<p><strong>Ash source and preparation:</strong></p>
+<ul>
+<li><strong>Source:</strong> Wildfire ash collected from recent California fires, or laboratory-generated standardized material if field collection is infeasible</li>
+<li><strong>Pyrolysis fractionation:</strong> Separate less-pyrolyzed (“brown”) and more-pyrolyzed (“gray”) fractions where feasible, as Tahoe rapid-response work shows systematic differences in nutrient leachability</li>
+<li><strong>Particle size:</strong> Prioritize fine fractions (&lt;10 µm) as Tahoe clarity is dominated by small particles</li>
+<li><strong>Leachate preparation:</strong>
+<ul>
+<li><strong>Water-extractable (WE):</strong> DI water shake ~16 h, centrifuge, decant (immediate bioavailable nutrients)</li>
+<li><strong>Easily oxidizable (EO, optional):</strong> H₂O₂ oxidation at 70–80°C for 5 days, stop with sodium sulfite (medium-term release)</li>
+</ul></li>
+<li><strong>Characterization:</strong> Elemental composition (C, N, P, metals), particle size distribution, leachate chemistry (DIN, SRP, TP, DOC)</li>
+</ul>
+<p><strong>Application method:</strong></p>
+<ul>
+<li><strong>Whole ash:</strong> Dry deposition to mesocosm surface as areal load (g/m²), then gentle mixing</li>
+<li><strong>Leachate-only control:</strong> Filtered WE leachate added without particles to isolate chemical fertilization from particle optics</li>
+<li><strong>Inert particle control (optional):</strong> Combusted and rinsed mineral surrogate to isolate scattering from nutrient effects</li>
+</ul>
+</section>
+<section id="controls" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="controls"><span class="header-section-number">8.6</span> Controls</h2>
+<p><strong>Experimental controls:</strong></p>
+<ul>
+<li><strong>True control:</strong> No ash, no shading (ambient conditions)</li>
+<li><strong>Leachate-only control:</strong> WE leachate without particles (isolates chemical fertilization from particle optics)</li>
+<li><strong>Inert particle control (optional):</strong> Combusted mineral surrogate (isolates scattering from nutrient effects)</li>
+<li><strong>Procedural controls:</strong> Handling controls for all sampling and addition procedures</li>
+<li><strong>Positive control (optional):</strong> Small N+P enrichment to validate microbial responsiveness in oligotrophic conditions</li>
+</ul>
+</section>
+<section id="replication-and-blocking" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="replication-and-blocking"><span class="header-section-number">8.7</span> Replication and Blocking</h2>
+<p><strong>Replication:</strong> Minimum n=5 mesocosms per treatment, with n=6–8 preferred for microbial community endpoints due to high beta diversity variability.</p>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>flowchart TB</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    A[28-Day Experiment] --&gt; B[Factor A: UV-Biased Shading]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Factor B: Ash Addition]</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    B --&gt; B1[Control&lt;br/&gt;100% PAR, 100% UV-B]</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    B --&gt; B2[Low&lt;br/&gt;85-90% PAR, 70% UV-B]</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    B --&gt; B3[Medium&lt;br/&gt;65-75% PAR, 50% UV-B]</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    B --&gt; B4[High&lt;br/&gt;50% PAR, 20-35% UV-B]</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    C --&gt; C1[Control&lt;br/&gt;0 mg/L]</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    C --&gt; C2[Deposition-Equiv&lt;br/&gt;0.1-1 mg/L]</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    C --&gt; C3[Moderate Hotspot&lt;br/&gt;10 mg/L]</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    C --&gt; C4[High Hotspot&lt;br/&gt;25-50 mg/L]</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    B1 -.-&gt; D[4 × 4 = 16&lt;br/&gt;Treatment Combinations]</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    B2 -.-&gt; D</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    B3 -.-&gt; D</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    B4 -.-&gt; D</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    C1 -.-&gt; D</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    C2 -.-&gt; D</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    C3 -.-&gt; D</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    C4 -.-&gt; D</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    D --&gt; E[n = 5-8 Replicates]</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    E --&gt; F[Total: 80-128 Mesocosms]</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    style A fill:#95e1d3,color:#000</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    style D fill:#f38181,color:#fff</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    style F fill:#ffd43b,color:#000</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-factorial-design" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-factorial-design-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-factorial-design">flowchart TB
+    A[28-Day Experiment] --&gt; B[Factor A: UV-Biased Shading]
+    A --&gt; C[Factor B: Ash Addition]
+    
+    B --&gt; B1[Control&lt;br/&gt;100% PAR, 100% UV-B]
+    B --&gt; B2[Low&lt;br/&gt;85-90% PAR, 70% UV-B]
+    B --&gt; B3[Medium&lt;br/&gt;65-75% PAR, 50% UV-B]
+    B --&gt; B4[High&lt;br/&gt;50% PAR, 20-35% UV-B]
+    
+    C --&gt; C1[Control&lt;br/&gt;0 mg/L]
+    C --&gt; C2[Deposition-Equiv&lt;br/&gt;0.1-1 mg/L]
+    C --&gt; C3[Moderate Hotspot&lt;br/&gt;10 mg/L]
+    C --&gt; C4[High Hotspot&lt;br/&gt;25-50 mg/L]
+    
+    B1 -.-&gt; D[4 × 4 = 16&lt;br/&gt;Treatment Combinations]
+    B2 -.-&gt; D
+    B3 -.-&gt; D
+    B4 -.-&gt; D
+    C1 -.-&gt; D
+    C2 -.-&gt; D
+    C3 -.-&gt; D
+    C4 -.-&gt; D
+    
+    D --&gt; E[n = 5-8 Replicates]
+    E --&gt; F[Total: 80-128 Mesocosms]
+    
+    style A fill:#95e1d3,color:#000
+    style D fill:#f38181,color:#fff
+    style F fill:#ffd43b,color:#000
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-factorial-design-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Factorial experimental design showing treatment structure and replication
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Total number of mesocosms:</strong></p>
+<ul>
+<li><strong>Ash levels:</strong> 4 (control, deposition-equivalent, moderate hotspot, high hotspot)</li>
+<li><strong>Shading levels:</strong> 4 (control, low, medium, high)</li>
+<li><strong>Full factorial:</strong> 4 × 4 = 16 treatment combinations</li>
+<li><strong>Replicates per treatment:</strong> 5–8</li>
+<li><strong>Total:</strong> 80–128 mesocosms</li>
+</ul>
+<p><strong>Blocking:</strong></p>
+<ul>
+<li><strong>Spatial blocking:</strong> Mesocosms arranged in randomized blocks on floating frames to account for spatial gradients in light, temperature, or water chemistry</li>
+<li><strong>Randomization:</strong> Treatment assignment randomized within blocks to minimize confounding</li>
+<li><strong>Temporal blocking:</strong> All mesocosms filled within same day using same source water; treatments applied simultaneously on Day 0</li>
+</ul>
+<p><strong>Rationale:</strong> Tahoe wildfire-response incubations used n=5 replicates successfully. Microbial community composition shows high variability, so n=6–8 is preferred for PERMANOVA power. Published low-productivity mesocosm studies used n=5 as conventional minimum.</p>
+</section>
+<section id="sampling-schedule" class="level2" data-number="8.8">
+<h2 data-number="8.8" class="anchored" data-anchor-id="sampling-schedule"><span class="header-section-number">8.8</span> Sampling Schedule</h2>
+<p><strong>Continuous sensors (10–15 min logging):</strong></p>
+<ul>
+<li>Temperature, dissolved oxygen (DO)</li>
+<li>PAR and UV-B (surface and subsurface)</li>
+</ul>
+<p><strong>High-frequency sampling (every 1–2 days):</strong></p>
+<ul>
+<li>Beam attenuation (670 nm) and PAR/UV profiles</li>
+<li>Particle counts and size distribution (0.5–20 µm)</li>
+<li>Chlorophyll a (fluorometric)</li>
+<li>Nutrients (DIN, SRP)</li>
+<li>pH, conductivity</li>
+</ul>
+<p><strong>Medium-frequency sampling (weekly, days 0, 7, 14, 21, 28):</strong></p>
+<ul>
+<li>Microbial abundance (flow cytometry, picoplankton counts)</li>
+<li>DOC, CDOM absorption</li>
+<li>POC, PN</li>
+<li>DOM quality (fluorescence)</li>
+</ul>
+<p><strong>Low-frequency sampling (3–4 timepoints: days 0, 2, 14, 28):</strong></p>
+<ul>
+<li>16S/18S rRNA sequencing (microbial community composition)</li>
+<li>Metabolism (GPP, ER from DO time series analysis)</li>
+<li>Spectral absorption/scattering (detailed optical characterization)</li>
+<li>EPS/TEP (aggregation proxies)</li>
+</ul>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    A[Sampling Strategy] --&gt; B[Continuous&lt;br/&gt;10-15 min]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[High-Frequency&lt;br/&gt;Every 1-2 Days]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    A --&gt; D[Medium-Frequency&lt;br/&gt;Weekly]</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    A --&gt; E[Low-Frequency&lt;br/&gt;3-4 Timepoints]</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    B --&gt; B1[Temperature&lt;br/&gt;Dissolved Oxygen&lt;br/&gt;PAR/UV]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    C --&gt; C1[Beam Attenuation 670nm&lt;br/&gt;Particle Counts/PSD&lt;br/&gt;Chlorophyll a&lt;br/&gt;Nutrients DIN/SRP&lt;br/&gt;pH/Conductivity]</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    D --&gt; D1[Microbial Abundance&lt;br/&gt;Flow Cytometry&lt;br/&gt;DOM/DOC/CDOM&lt;br/&gt;POC/PN]</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    E --&gt; E1[16S/18S Sequencing&lt;br/&gt;Metabolism GPP/ER&lt;br/&gt;Spectral Optics&lt;br/&gt;EPS/TEP]</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    style A fill:#95e1d3,color:#000</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    style B fill:#ff6b6b,color:#fff</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    style C fill:#ffa94d,color:#fff</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    style D fill:#ffe66d,color:#000</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    style E fill:#a9e34b,color:#000</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-sampling-schedule" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sampling-schedule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-sampling-schedule">flowchart TD
+    A[Sampling Strategy] --&gt; B[Continuous&lt;br/&gt;10-15 min]
+    A --&gt; C[High-Frequency&lt;br/&gt;Every 1-2 Days]
+    A --&gt; D[Medium-Frequency&lt;br/&gt;Weekly]
+    A --&gt; E[Low-Frequency&lt;br/&gt;3-4 Timepoints]
+    
+    B --&gt; B1[Temperature&lt;br/&gt;Dissolved Oxygen&lt;br/&gt;PAR/UV]
+    C --&gt; C1[Beam Attenuation 670nm&lt;br/&gt;Particle Counts/PSD&lt;br/&gt;Chlorophyll a&lt;br/&gt;Nutrients DIN/SRP&lt;br/&gt;pH/Conductivity]
+    D --&gt; D1[Microbial Abundance&lt;br/&gt;Flow Cytometry&lt;br/&gt;DOM/DOC/CDOM&lt;br/&gt;POC/PN]
+    E --&gt; E1[16S/18S Sequencing&lt;br/&gt;Metabolism GPP/ER&lt;br/&gt;Spectral Optics&lt;br/&gt;EPS/TEP]
+    
+    style A fill:#95e1d3,color:#000
+    style B fill:#ff6b6b,color:#fff
+    style C fill:#ffa94d,color:#fff
+    style D fill:#ffe66d,color:#000
+    style E fill:#a9e34b,color:#000
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sampling-schedule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Sampling frequency organized by response variable and measurement cadence
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Detailed sampling timeline:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 12%">
+<col style="width: 9%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>Optical</th>
+<th>Chl a</th>
+<th>Nutrients</th>
+<th>Microbes</th>
+<th>Community</th>
+<th>Metabolism</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>-2</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>Baseline 1</td>
+</tr>
+<tr class="even">
+<td>0</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Pre-treatment</td>
+</tr>
+<tr class="odd">
+<td>+6h</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Pulse response</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>End shading event 1</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Mid-point</td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>Recovery</td>
+</tr>
+<tr class="odd">
+<td>28</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Final endpoint</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rationale:</strong> Intensive early sampling (hours to days) captures rapid optical and chemical responses. Weekly sampling through Day 28 resolves microbial succession and particle dynamics. Low-frequency sequencing (3-4 timepoints) balances cost with temporal resolution for community composition.</p>
+</section>
+<section id="measured-response-variables" class="level2" data-number="8.9">
+<h2 data-number="8.9" class="anchored" data-anchor-id="measured-response-variables"><span class="header-section-number">8.9</span> Measured Response Variables</h2>
+<p><strong>Primary response variables (Tahoe-relevant):</strong></p>
+<ol type="1">
+<li><strong>Optical clarity</strong>
+<ul>
+<li><strong>Beam attenuation (670 nm):</strong> Primary optical metric matching Tahoe wildfire-response monitoring</li>
+<li><strong>PAR and UV attenuation (Kd):</strong> Depth-integrated light profiles</li>
+<li><strong>Secchi depth proxy:</strong> Where feasible in mesocosm geometry</li>
+<li><strong>Spectral absorption/scattering:</strong> Separate CDOM vs particulate contributions</li>
+</ul></li>
+<li><strong>Microbial community (focus on picoplankton &lt;2 µm)</strong>
+<ul>
+<li><strong>Bacterial/archaeal abundance:</strong> Flow cytometry targeting undermonitored picoplankton fraction</li>
+<li><strong>Community composition:</strong> 16S rRNA amplicon sequencing (≥20,000 reads/sample)</li>
+<li><strong>Protist community:</strong> 18S rRNA sequencing (optional, microeukaryotes)</li>
+<li><strong>Functional genes:</strong> Metatranscriptomics if budget allows (nutrient cycling, DOM production)</li>
+</ul></li>
+<li><strong>Phytoplankton</strong>
+<ul>
+<li><strong>Chlorophyll a:</strong> Fluorometric quantification</li>
+<li><strong>Community composition:</strong> Flow cytometry or microscopy</li>
+<li><strong>Primary production:</strong> ¹⁴C uptake or O₂ evolution</li>
+</ul></li>
+</ol>
+<p><strong>Secondary response variables:</strong></p>
+<ol start="4" type="1">
+<li><strong>Particle dynamics (optically important size classes)</strong>
+<ul>
+<li><strong>Particle size distribution:</strong> 0.5–20 µm (LiQuilaz 16 size classes, Tahoe-compatible)</li>
+<li><strong>Particle concentration:</strong> Focus on 1–6 µm range (Tahoe clarity-relevant)</li>
+<li><strong>POC/PN:</strong> Particulate organic matter stoichiometry</li>
+<li><strong>EPS/TEP:</strong> Aggregation indicators (transparent exopolymer particles)</li>
+</ul></li>
+<li><strong>Dissolved organic matter</strong>
+<ul>
+<li><strong>DOC concentration:</strong> Total dissolved organic carbon</li>
+<li><strong>CDOM absorption:</strong> Colored DOM spectral properties</li>
+<li><strong>DOM quality:</strong> Fluorescence EEMs if feasible</li>
+</ul></li>
+<li><strong>Nutrients and chemistry</strong>
+<ul>
+<li><strong>DIN:</strong> NH₄⁺ + NO₃⁻ (dissolved inorganic nitrogen)</li>
+<li><strong>SRP:</strong> Soluble reactive phosphorus</li>
+<li><strong>TP/TN:</strong> Total phosphorus and nitrogen</li>
+<li><strong>pH, alkalinity, conductivity:</strong> Basic water chemistry</li>
+</ul></li>
+<li><strong>Metabolism (oxygen-based)</strong>
+<ul>
+<li><strong>GPP:</strong> Gross primary production from DO time series</li>
+<li><strong>ER:</strong> Ecosystem respiration</li>
+<li><strong>NEP:</strong> Net ecosystem production (GPP - ER)</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="methods" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Methods</h1>
+<section id="microbial-community-analyses" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="microbial-community-analyses"><span class="header-section-number">9.1</span> Microbial Community Analyses</h2>
+<section id="sample-collection-and-preservation" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="sample-collection-and-preservation"><span class="header-section-number">9.1.1</span> Sample collection and preservation</h3>
+<p>[Describe filtration volumes, filter types, preservation method (e.g., flash-frozen, preservative)]</p>
+</section>
+<section id="dna-extraction" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="dna-extraction"><span class="header-section-number">9.1.2</span> DNA extraction</h3>
+<p>[Describe extraction kit, protocol modifications]</p>
+</section>
+<section id="s18s-rrna-sequencing" class="level3" data-number="9.1.3">
+<h3 data-number="9.1.3" class="anchored" data-anchor-id="s18s-rrna-sequencing"><span class="header-section-number">9.1.3</span> 16S/18S rRNA sequencing</h3>
+<p>[Describe primer sets, sequencing platform (e.g., Illumina MiSeq), read length, target depth]</p>
+</section>
+<section id="bioinformatics-pipeline" class="level3" data-number="9.1.4">
+<h3 data-number="9.1.4" class="anchored" data-anchor-id="bioinformatics-pipeline"><span class="header-section-number">9.1.4</span> Bioinformatics pipeline</h3>
+<p>[Describe quality filtering, ASV/OTU picking, taxonomic assignment, diversity metrics]</p>
+</section>
+<section id="flow-cytometry" class="level3" data-number="9.1.5">
+<h3 data-number="9.1.5" class="anchored" data-anchor-id="flow-cytometry"><span class="header-section-number">9.1.5</span> Flow cytometry</h3>
+<p>[Describe staining protocol, instrument, gating strategy]</p>
+</section>
+<section id="metatranscriptomics-optional" class="level3" data-number="9.1.6">
+<h3 data-number="9.1.6" class="anchored" data-anchor-id="metatranscriptomics-optional"><span class="header-section-number">9.1.6</span> Metatranscriptomics (optional)</h3>
+<p>[Describe RNA extraction, library prep, sequencing, functional annotation]</p>
+</section>
+</section>
+<section id="optical-measurements" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="optical-measurements"><span class="header-section-number">9.2</span> Optical Measurements</h2>
+<section id="secchi-depth" class="level3" data-number="9.2.1">
+<h3 data-number="9.2.1" class="anchored" data-anchor-id="secchi-depth"><span class="header-section-number">9.2.1</span> Secchi depth</h3>
+<p>[Describe standard protocol, time of day, replication]</p>
+</section>
+<section id="light-attenuation-profiles" class="level3" data-number="9.2.2">
+<h3 data-number="9.2.2" class="anchored" data-anchor-id="light-attenuation-profiles"><span class="header-section-number">9.2.2</span> Light attenuation profiles</h3>
+<p>[Describe instrument (e.g., submersible PAR sensor, UV radiometer), measurement depths, calculation of Kd]</p>
+</section>
+<section id="spectral-absorption-and-scattering" class="level3" data-number="9.2.3">
+<h3 data-number="9.2.3" class="anchored" data-anchor-id="spectral-absorption-and-scattering"><span class="header-section-number">9.2.3</span> Spectral absorption and scattering</h3>
+<p>[Describe spectrophotometer measurements, integrating sphere if applicable, CDOM vs.&nbsp;particulate separation]</p>
+</section>
+<section id="fluorescence" class="level3" data-number="9.2.4">
+<h3 data-number="9.2.4" class="anchored" data-anchor-id="fluorescence"><span class="header-section-number">9.2.4</span> Fluorescence</h3>
+<p>[Describe fluorometer settings, EEM scans if applicable]</p>
+</section>
+</section>
+<section id="particle-size-distribution" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="particle-size-distribution"><span class="header-section-number">9.3</span> Particle Size Distribution</h2>
+<p>[Describe instrument (e.g., Coulter counter, laser diffraction), sample preparation, size range]</p>
+</section>
+<section id="nutrient-chemistry" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="nutrient-chemistry"><span class="header-section-number">9.4</span> Nutrient Chemistry</h2>
+<section id="sample-collection-and-preservation-1" class="level3" data-number="9.4.1">
+<h3 data-number="9.4.1" class="anchored" data-anchor-id="sample-collection-and-preservation-1"><span class="header-section-number">9.4.1</span> Sample collection and preservation</h3>
+<p>[Describe filtration, acidification, freezing]</p>
+</section>
+<section id="analytical-methods" class="level3" data-number="9.4.2">
+<h3 data-number="9.4.2" class="anchored" data-anchor-id="analytical-methods"><span class="header-section-number">9.4.2</span> Analytical methods</h3>
+<p>[Describe colorimetric assays, ion chromatography, or other methods for N and P species]</p>
+</section>
+<section id="quality-control" class="level3" data-number="9.4.3">
+<h3 data-number="9.4.3" class="anchored" data-anchor-id="quality-control"><span class="header-section-number">9.4.3</span> Quality control</h3>
+<p>[Describe standards, blanks, replicates, detection limits]</p>
+</section>
+</section>
+<section id="metabolism" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="metabolism"><span class="header-section-number">9.5</span> Metabolism</h2>
+<section id="primary-production" class="level3" data-number="9.5.1">
+<h3 data-number="9.5.1" class="anchored" data-anchor-id="primary-production"><span class="header-section-number">9.5.1</span> Primary production</h3>
+<p>[Describe ¹⁴C uptake, O₂ evolution, or other method; incubation conditions]</p>
+</section>
+<section id="respiration" class="level3" data-number="9.5.2">
+<h3 data-number="9.5.2" class="anchored" data-anchor-id="respiration"><span class="header-section-number">9.5.2</span> Respiration</h3>
+<p>[Describe O₂ consumption in dark bottles, incubation duration]</p>
+</section>
+<section id="net-ecosystem-production" class="level3" data-number="9.5.3">
+<h3 data-number="9.5.3" class="anchored" data-anchor-id="net-ecosystem-production"><span class="header-section-number">9.5.3</span> Net ecosystem production</h3>
+<p>[Describe open-water O₂ change or other approach]</p>
+</section>
+</section>
+<section id="chlorophyll-and-plankton" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="chlorophyll-and-plankton"><span class="header-section-number">9.6</span> Chlorophyll and Plankton</h2>
+<section id="chlorophyll-a" class="level3" data-number="9.6.1">
+<h3 data-number="9.6.1" class="anchored" data-anchor-id="chlorophyll-a"><span class="header-section-number">9.6.1</span> Chlorophyll a</h3>
+<p>[Describe extraction method (e.g., ethanol, acetone), fluorometry or spectrophotometry]</p>
+</section>
+<section id="phytoplankton-community" class="level3" data-number="9.6.2">
+<h3 data-number="9.6.2" class="anchored" data-anchor-id="phytoplankton-community"><span class="header-section-number">9.6.2</span> Phytoplankton community</h3>
+<p>[Describe microscopy (Utermöhl, flow cytometry, or other method)]</p>
+</section>
+</section>
+<section id="metadata-and-qaqc" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="metadata-and-qaqc"><span class="header-section-number">9.7</span> Metadata and QA/QC</h2>
+<p>[Describe how environmental metadata (temperature, light, weather) will be recorded]</p>
+<p>[Describe QA/QC procedures: blanks, standards, replicates, chain of custody]</p>
+<p>[Describe data management: file formats, database, version control]</p>
+</section>
+</section>
+<section id="data-analysis-plan" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Data Analysis Plan</h1>
+<section id="mixed-effects-models" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="mixed-effects-models"><span class="header-section-number">10.1</span> Mixed-Effects Models</h2>
+<p><strong>Approach:</strong> Use linear mixed-effects models (LMMs) to test treatment effects on continuous response variables.</p>
+<p><strong>Model structure:</strong></p>
+<pre><code>Response ~ Ash * Shading + (1|Block) + (1|Time)</code></pre>
+<p><strong>Fixed effects:</strong></p>
+<ul>
+<li>Ash treatment (categorical or continuous dose)</li>
+<li>Shading treatment (categorical or continuous)</li>
+<li>Interaction term (Ash × Shading)</li>
+</ul>
+<p><strong>Random effects:</strong></p>
+<ul>
+<li>Block (if applicable)</li>
+<li>Time (repeated measures)</li>
+<li>Mesocosm ID (nested within treatment)</li>
+</ul>
+<p><strong>Software:</strong> [e.g., R packages <code>lme4</code>, <code>nlme</code>, <code>glmmTMB</code>]</p>
+<p><strong>Post-hoc tests:</strong> [e.g., Tukey HSD, Dunnett’s test for comparison to control]</p>
+</section>
+<section id="multivariate-microbial-community-analyses" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="multivariate-microbial-community-analyses"><span class="header-section-number">10.2</span> Multivariate Microbial Community Analyses</h2>
+<p><strong>Approach:</strong> Use ordination and permutational tests to assess treatment effects on community composition.</p>
+<p><strong>Methods:</strong></p>
+<ul>
+<li><strong>Ordination:</strong> NMDS or PCoA based on Bray-Curtis or weighted UniFrac distances</li>
+<li><strong>Permutational MANOVA:</strong> PERMANOVA to test treatment effects</li>
+<li><strong>Indicator species analysis:</strong> Identify taxa associated with specific treatments</li>
+<li><strong>Diversity metrics:</strong> Alpha diversity (richness, Shannon, Simpson), beta diversity</li>
+</ul>
+<p><strong>Software:</strong> [e.g., R packages <code>vegan</code>, <code>phyloseq</code>, <code>DESeq2</code> for differential abundance]</p>
+</section>
+<section id="optical-clarity-response-analyses" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="optical-clarity-response-analyses"><span class="header-section-number">10.3</span> Optical Clarity Response Analyses</h2>
+<p><strong>Approach:</strong> Separate direct optical effects from indirect ecological effects.</p>
+<p><strong>Direct effects:</strong></p>
+<ul>
+<li>Immediate changes in light attenuation due to ash particles</li>
+<li>Measured within hours to days of ash addition</li>
+<li>Compare to particle size distribution and concentration</li>
+</ul>
+<p><strong>Indirect effects:</strong></p>
+<ul>
+<li>Changes in light attenuation due to biological responses (phytoplankton, DOM, microbial activity)</li>
+<li>Measured over days to weeks</li>
+<li>Linked to microbial and phytoplankton dynamics</li>
+</ul>
+<p><strong>Statistical tests:</strong></p>
+<ul>
+<li>Time-series analysis to identify lag times</li>
+<li>Path analysis or structural equation modeling (SEM) to link treatments → microbes → clarity</li>
+</ul>
+</section>
+<section id="interaction-testing" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="interaction-testing"><span class="header-section-number">10.4</span> Interaction Testing</h2>
+<p><strong>Approach:</strong> Test for synergistic or antagonistic interactions between ash and shading.</p>
+<p><strong>Methods:</strong></p>
+<ul>
+<li>Interaction terms in mixed-effects models</li>
+<li>Factorial ANOVA</li>
+<li>Visualization of interaction plots</li>
+<li>Calculate interaction coefficients (e.g., deviation from additive expectation)</li>
+</ul>
+</section>
+<section id="mediation-and-pathway-analyses" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="mediation-and-pathway-analyses"><span class="header-section-number">10.5</span> Mediation and Pathway Analyses</h2>
+<p><strong>Approach:</strong> Test whether microbial community changes mediate the effect of treatments on optical clarity.</p>
+<p><strong>Methods:</strong></p>
+<ul>
+<li>Structural equation modeling (SEM)</li>
+<li>Mediation analysis (e.g., Baron &amp; Kenny approach, bootstrapping)</li>
+<li>Path diagrams: Treatment → Microbes → DOM/Particles → Clarity</li>
+</ul>
+<p><strong>Software:</strong> [e.g., R packages <code>lavaan</code>, <code>piecewiseSEM</code>, <code>mediation</code>]</p>
+</section>
+<section id="power-and-replication-notes" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="power-and-replication-notes"><span class="header-section-number">10.6</span> Power and Replication Notes</h2>
+<p>[Describe power analysis to justify sample sizes]</p>
+<p>[Note that higher replication is preferred for microbial community endpoints due to high variability]</p>
+<p>[Describe sensitivity analyses or pilot data that informed replication decisions]</p>
+</section>
+</section>
+<section id="expected-outcomes-and-interpretation" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Expected Outcomes and Interpretation</h1>
+<section id="expected-outcomes-by-treatment" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="expected-outcomes-by-treatment"><span class="header-section-number">11.1</span> Expected Outcomes by Treatment</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 17%">
+<col style="width: 21%">
+<col style="width: 15%">
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Treatment</th>
+<th>Optical Clarity</th>
+<th>Microbial Community</th>
+<th>Phytoplankton</th>
+<th>DOM</th>
+<th>Particles</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Control</strong></td>
+<td>[baseline]</td>
+<td>[baseline]</td>
+<td>[baseline]</td>
+<td>[baseline]</td>
+<td>[baseline]</td>
+<td>Reference condition</td>
+</tr>
+<tr class="even">
+<td><strong>Ash only</strong></td>
+<td>[e.g., decreased Secchi, increased Kd]</td>
+<td>[e.g., increased abundance, shift in composition]</td>
+<td>[e.g., increased Chl a]</td>
+<td>[e.g., increased DOC]</td>
+<td>[e.g., increased particles]</td>
+<td>[Interpret direct + indirect effects]</td>
+</tr>
+<tr class="odd">
+<td><strong>Shading only</strong></td>
+<td>[e.g., minimal direct effect, possible indirect effects]</td>
+<td>[e.g., shift in composition due to UV relief]</td>
+<td>[e.g., decreased production]</td>
+<td>[e.g., decreased photodegradation]</td>
+<td>[e.g., minimal change]</td>
+<td>[Interpret UV-specific and PAR effects]</td>
+</tr>
+<tr class="even">
+<td><strong>Ash + Shading</strong></td>
+<td>[e.g., synergistic or antagonistic effects]</td>
+<td>[e.g., complex community shifts]</td>
+<td>[e.g., depends on interaction]</td>
+<td>[e.g., depends on interaction]</td>
+<td>[e.g., depends on interaction]</td>
+<td>[Interpret interactive effects]</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="interpretation-framework" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="interpretation-framework"><span class="header-section-number">11.2</span> Interpretation Framework</h2>
+<p><strong>If ash decreases clarity primarily through direct optical effects:</strong></p>
+<ul>
+<li>[Implications for management: focus on reducing ash inputs]</li>
+<li>[Ecological interpretation: physical vs.&nbsp;biological drivers]</li>
+</ul>
+<p><strong>If ash decreases clarity primarily through indirect ecological effects:</strong></p>
+<ul>
+<li>[Implications: microbial or phytoplankton responses are key]</li>
+<li>[Management: consider ecosystem-based approaches]</li>
+</ul>
+<p><strong>If shading has minimal effect:</strong></p>
+<ul>
+<li>[Interpretation: UV-biased shading may not be a major driver in this system]</li>
+</ul>
+<p><strong>If shading interacts with ash:</strong></p>
+<ul>
+<li>[Interpretation: smoke and ash together may have non-additive effects]</li>
+<li>[Management: consider combined wildfire impacts]</li>
+</ul>
+</section>
+<section id="alternative-outcomes-and-contingencies" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="alternative-outcomes-and-contingencies"><span class="header-section-number">11.3</span> Alternative Outcomes and Contingencies</h2>
+<p>[Describe what you will do if results differ from predictions]</p>
+<p>[Consider alternative mechanisms or explanations]</p>
+<p>[Describe how you will adapt analyses or interpretations]</p>
+</section>
+</section>
+<section id="potential-pitfalls-and-alternative-strategies" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> Potential Pitfalls and Alternative Strategies</h1>
+<section id="pitfall-1-mesocosm-artifacts" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="pitfall-1-mesocosm-artifacts"><span class="header-section-number">12.1</span> Pitfall 1: Mesocosm Artifacts</h2>
+<p><strong>Risk:</strong> Mesocosms may not accurately represent lake conditions (e.g., wall effects, lack of grazing, altered mixing).</p>
+<p><strong>Mitigation:</strong></p>
+<ul>
+<li>Use large mesocosms with high surface area to volume ratio</li>
+<li>Include gentle mixing to prevent stratification</li>
+<li>Compare mesocosm baseline to lake conditions</li>
+<li>Acknowledge limitations in interpretation</li>
+</ul>
+<p><strong>Alternative strategy:</strong> Complement mesocosm experiments with in situ enclosures or whole-lake observations.</p>
+</section>
+<section id="pitfall-2-ash-variability" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="pitfall-2-ash-variability"><span class="header-section-number">12.2</span> Pitfall 2: Ash Variability</h2>
+<p><strong>Risk:</strong> Ash composition varies by fire type, fuel, and combustion conditions.</p>
+<p><strong>Mitigation:</strong></p>
+<ul>
+<li>Characterize ash thoroughly (elemental composition, leachate chemistry)</li>
+<li>Use standardized ash or multiple ash sources</li>
+<li>Test dose-response to capture variability</li>
+</ul>
+<p><strong>Alternative strategy:</strong> Focus on mechanistic responses to ash components (e.g., nutrients, particles) rather than specific ash types.</p>
+</section>
+<section id="pitfall-3-low-replication-for-microbial-endpoints" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="pitfall-3-low-replication-for-microbial-endpoints"><span class="header-section-number">12.3</span> Pitfall 3: Low Replication for Microbial Endpoints</h2>
+<p><strong>Risk:</strong> High variability in microbial community data may reduce statistical power.</p>
+<p><strong>Mitigation:</strong></p>
+<ul>
+<li>Prioritize higher replication (≥5 per treatment)</li>
+<li>Use robust statistical methods (e.g., permutational tests)</li>
+<li>Focus on strong, consistent patterns rather than subtle differences</li>
+</ul>
+<p><strong>Alternative strategy:</strong> Pool samples or use hierarchical models to account for variability.</p>
+</section>
+<section id="pitfall-4-short-duration" class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="pitfall-4-short-duration"><span class="header-section-number">12.4</span> Pitfall 4: Short Duration</h2>
+<p><strong>Risk:</strong> 28 days may not capture long-term or legacy effects.</p>
+<p><strong>Mitigation:</strong></p>
+<ul>
+<li>Focus on acute responses and initial trajectories</li>
+<li>Extend monitoring if resources allow</li>
+<li>Acknowledge temporal limitations</li>
+</ul>
+<p><strong>Alternative strategy:</strong> Conduct follow-up experiments or link to long-term monitoring data.</p>
+</section>
+<section id="pitfall-5-scaling-to-whole-lake" class="level2" data-number="12.5">
+<h2 data-number="12.5" class="anchored" data-anchor-id="pitfall-5-scaling-to-whole-lake"><span class="header-section-number">12.5</span> Pitfall 5: Scaling to Whole-Lake</h2>
+<p><strong>Risk:</strong> Mesocosm results may not scale to whole-lake dynamics.</p>
+<p><strong>Mitigation:</strong></p>
+<ul>
+<li>Use mesocosm results to parameterize models</li>
+<li>Compare to historical lake responses to disturbances</li>
+<li>Collaborate with modelers to scale findings</li>
+</ul>
+<p><strong>Alternative strategy:</strong> Use mesocosm data to generate hypotheses for whole-lake studies.</p>
+</section>
+</section>
+<section id="collaboration-opportunities" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Collaboration Opportunities</h1>
+<p>[Identify potential collaborators and their expertise]</p>
+<p><strong>Key collaborators:</strong></p>
+<ul>
+<li><strong>[Name/Institution]:</strong> Expertise in [e.g., microbial ecology, sequencing]</li>
+<li><strong>[Name/Institution]:</strong> Expertise in [e.g., optical measurements, remote sensing]</li>
+<li><strong>[Name/Institution]:</strong> Expertise in [e.g., Tahoe limnology, long-term monitoring]</li>
+<li><strong>[Name/Institution]:</strong> Expertise in [e.g., wildfire ecology, ash chemistry]</li>
+<li><strong>[Name/Institution]:</strong> Expertise in [e.g., statistical modeling, data synthesis]</li>
+</ul>
+<p><strong>Collaborative activities:</strong></p>
+<ul>
+<li>Shared mesocosm infrastructure</li>
+<li>Joint sampling campaigns</li>
+<li>Data sharing and synthesis</li>
+<li>Co-authorship on publications</li>
+</ul>
+</section>
+<section id="timeline-and-milestones" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> Timeline and Milestones</h1>
+<section id="year-1" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="year-1"><span class="header-section-number">14.1</span> Year 1</h2>
+<p><strong>Months 1-3: Planning and setup</strong></p>
+<ul>
+<li>Finalize experimental design</li>
+<li>Secure permits and approvals</li>
+<li>Order equipment and supplies</li>
+<li>Collect and characterize ash</li>
+<li>Pilot test mesocosm setup</li>
+</ul>
+<p><strong>Months 4-6: Experiment 1</strong></p>
+<ul>
+<li>Fill and acclimate mesocosms</li>
+<li>Apply treatments</li>
+<li>Conduct sampling (28-day experiment)</li>
+<li>Process samples</li>
+</ul>
+<p><strong>Months 7-9: Data analysis and interpretation</strong></p>
+<ul>
+<li>Analyze samples (nutrients, chlorophyll, etc.)</li>
+<li>Sequence microbial communities</li>
+<li>Preliminary data analysis</li>
+<li>Refine hypotheses for Experiment 2</li>
+</ul>
+<p><strong>Months 10-12: Experiment 2 (optional)</strong></p>
+<ul>
+<li>Repeat experiment with refined design</li>
+<li>Test alternative hypotheses or conditions</li>
+</ul>
+</section>
+<section id="year-2" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="year-2"><span class="header-section-number">14.2</span> Year 2</h2>
+<p><strong>Months 1-6: Data analysis and synthesis</strong></p>
+<ul>
+<li>Complete all sample analyses</li>
+<li>Statistical modeling</li>
+<li>Integrate datasets</li>
+<li>Develop conceptual model</li>
+</ul>
+<p><strong>Months 7-12: Dissemination</strong></p>
+<ul>
+<li>Write manuscripts</li>
+<li>Present at conferences</li>
+<li>Engage with managers and stakeholders</li>
+<li>Plan follow-up studies</li>
+</ul>
+</section>
+<section id="key-milestones" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="key-milestones"><span class="header-section-number">14.3</span> Key Milestones</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Experimental design finalized</label></li>
+<li><label><input type="checkbox">Permits and approvals secured</label></li>
+<li><label><input type="checkbox">Ash collected and characterized</label></li>
+<li><label><input type="checkbox">Mesocosm infrastructure established</label></li>
+<li><label><input type="checkbox">Experiment 1 completed</label></li>
+<li><label><input type="checkbox">Preliminary data analyzed</label></li>
+<li><label><input type="checkbox">Experiment 2 completed (if applicable)</label></li>
+<li><label><input type="checkbox">All samples analyzed</label></li>
+<li><label><input type="checkbox">Manuscript 1 submitted (experimental results)</label></li>
+<li><label><input type="checkbox">Manuscript 2 submitted (synthesis or modeling)</label></li>
+<li><label><input type="checkbox">Stakeholder report delivered</label></li>
+</ul>
+</section>
+</section>
+<section id="broader-impacts-and-management-relevance" class="level1" data-number="15">
+<h1 data-number="15"><span class="header-section-number">15</span> Broader Impacts and Management Relevance</h1>
+<p>[Describe how this work will inform Lake Tahoe management]</p>
+<p><strong>Management applications:</strong></p>
+<ul>
+<li>Quantify wildfire impacts on clarity to inform TMDL models</li>
+<li>Provide data for forecasting clarity under future wildfire scenarios</li>
+<li>Identify management actions to mitigate wildfire effects (e.g., reducing other stressors)</li>
+</ul>
+<p><strong>Broader impacts:</strong></p>
+<ul>
+<li>Advance understanding of disturbance ecology in oligotrophic lakes</li>
+<li>Inform management of other alpine lakes facing wildfire threats</li>
+<li>Train postdoctoral researcher in experimental design, microbial ecology, and science communication</li>
+<li>Engage with public and stakeholders through outreach and education</li>
+</ul>
+<p>[State why this matters for management]</p>
+</section>
+<section id="figure-and-table-planning" class="level1" data-number="16">
+<h1 data-number="16"><span class="header-section-number">16</span> Figure and Table Planning</h1>
+<section id="conceptual-figure" class="level2" data-number="16.1">
+<h2 data-number="16.1" class="anchored" data-anchor-id="conceptual-figure"><span class="header-section-number">16.1</span> Conceptual Figure</h2>
+<p><strong>Figure 1: Conceptual model of wildfire impacts on Lake Tahoe optical clarity</strong></p>
+<p>[Describe figure showing: wildfire → ash deposition + smoke shading → direct optical effects + indirect ecological effects (microbial, phytoplankton) → optical clarity]</p>
+<p>[Add figure concept here]</p>
+</section>
+<section id="experimental-design-schematic" class="level2" data-number="16.2">
+<h2 data-number="16.2" class="anchored" data-anchor-id="experimental-design-schematic"><span class="header-section-number">16.2</span> Experimental Design Schematic</h2>
+<p><strong>Figure 2: Mesocosm experimental design</strong></p>
+<p>[Describe figure showing: mesocosm setup, treatment levels (ash × shading factorial), replication]</p>
+<p>[Add figure concept here]</p>
+</section>
+<section id="sampling-timeline-figure" class="level2" data-number="16.3">
+<h2 data-number="16.3" class="anchored" data-anchor-id="sampling-timeline-figure"><span class="header-section-number">16.3</span> Sampling Timeline Figure</h2>
+<p><strong>Figure 3: Sampling schedule and key time points</strong></p>
+<p>[Describe Gantt chart or timeline showing: acclimation, treatment application, sampling frequency for each variable]</p>
+<p>[Add figure concept here]</p>
+</section>
+<section id="anticipated-result-figures" class="level2" data-number="16.4">
+<h2 data-number="16.4" class="anchored" data-anchor-id="anticipated-result-figures"><span class="header-section-number">16.4</span> Anticipated Result Figures</h2>
+<p><strong>Figure 4: Optical clarity responses to ash and shading treatments</strong></p>
+<p>[Describe time series plots of Secchi depth or Kd by treatment]</p>
+<p><strong>Figure 5: Microbial community composition by treatment</strong></p>
+<p>[Describe ordination plot (NMDS or PCoA) showing community shifts]</p>
+<p><strong>Figure 6: Interaction plots for ash × shading effects</strong></p>
+<p>[Describe interaction plots for key response variables]</p>
+<p><strong>Figure 7: Path analysis linking treatments → microbes → clarity</strong></p>
+<p>[Describe SEM or path diagram showing mediation pathways]</p>
+<p><strong>Figure 8: Dose-response curves for ash effects</strong></p>
+<p>[Describe plots showing response variables vs.&nbsp;ash dose]</p>
+</section>
+<section id="summary-table-of-treatments" class="level2" data-number="16.5">
+<h2 data-number="16.5" class="anchored" data-anchor-id="summary-table-of-treatments"><span class="header-section-number">16.5</span> Summary Table of Treatments</h2>
+<p><strong>Table 1: Experimental treatments and replication</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 20%">
+<col style="width: 21%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Treatment ID</th>
+<th>Ash Level</th>
+<th>Shading Level</th>
+<th>PAR Reduction (%)</th>
+<th>UV-B Reduction (%)</th>
+<th>Replicates</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C</td>
+<td>Control</td>
+<td>Control</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>A1</td>
+<td>Low</td>
+<td>Control</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>A2</td>
+<td>Medium</td>
+<td>Control</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>A3</td>
+<td>High</td>
+<td>Control</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>S1</td>
+<td>Control</td>
+<td>Low</td>
+<td>[X]</td>
+<td>[Y]</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>S2</td>
+<td>Control</td>
+<td>Medium</td>
+<td>[X]</td>
+<td>[Y]</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>S3</td>
+<td>Control</td>
+<td>High</td>
+<td>[X]</td>
+<td>[Y]</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>A1S1</td>
+<td>Low</td>
+<td>Low</td>
+<td>[X]</td>
+<td>[Y]</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 2: Response variables and measurement methods</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Response Variable</th>
+<th>Method</th>
+<th>Frequency</th>
+<th>Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Secchi depth</td>
+<td>Standard disk</td>
+<td>Every 2-3 days</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td>Light attenuation (Kd)</td>
+<td>Submersible sensor</td>
+<td>Every 2-3 days</td>
+<td>m⁻¹</td>
+</tr>
+<tr class="odd">
+<td>Chlorophyll a</td>
+<td>Fluorometry</td>
+<td>Every 2-3 days</td>
+<td>μg/L</td>
+</tr>
+<tr class="even">
+<td>Bacterial abundance</td>
+<td>Flow cytometry</td>
+<td>Weekly</td>
+<td>cells/mL</td>
+</tr>
+<tr class="odd">
+<td>Community composition</td>
+<td>16S rRNA sequencing</td>
+<td>3 time points</td>
+<td>ASVs</td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 3: Expected outcomes by treatment</strong> (see section above)</p>
+</section>
+</section>
+<section id="references" class="level1" data-number="17">
+<h1 data-number="17"><span class="header-section-number">17</span> References</h1>
+<div id="refs" role="list">
+
+</div>
+<hr>
+<section id="notes-for-completion" class="level2" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="notes-for-completion"><span class="header-section-number">17.1</span> Notes for Completion</h2>
+<p>[Use this section for personal notes, reminders, or ideas that don’t fit elsewhere]</p>
+<ul>
+<li>[Insert preliminary data if available]</li>
+<li>[Note any constraints or logistical considerations]</li>
+<li>[List questions to discuss with collaborators]</li>
+<li>[Track progress on each section]</li>
+</ul>
+<hr>
+<p><strong>Document status:</strong> [Draft / In progress / Complete]</p>
+<p><strong>Last updated:</strong> [Date]</p>
+<p><strong>Next steps:</strong> [List immediate next actions]</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
