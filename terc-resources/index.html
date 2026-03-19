@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TERC Resources | Dante Capone</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../research.html">Research</a></li>
+        <li><a href="../cv.html">CV</a></li>
+        <li><a href="../art.html">Art</a></li>
+        <li class="nav-dropdown open" id="nav-current-research">
+          <button class="nav-dropdown-toggle" aria-expanded="true" aria-haspopup="true">
+            Current Research <span class="nav-lock">🔒</span><span class="nav-caret">&#9660;</span>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="../research-plan/" class="protected-link">📄&nbsp; Research Plan</a>
+            <a href="../methods/biological/" class="protected-link">🔬&nbsp; Biological Methods</a>
+            <a href="../methods/molecular/" class="protected-link">🧬&nbsp; Molecular Methods</a>
+            <div class="dropdown-divider"></div>
+            <a href="../terc-resources/" class="active">🗂&nbsp; TERC Resources</a>
+          </div>
+        </li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <div class="container">
+
+      <h1>TERC Resources</h1>
+      <p class="page-lede">
+        A curated index of links to facilities, monitoring data, local agencies, and tools
+        relevant to postdoctoral work at the Tahoe Environmental Research Center.
+      </p>
+
+      <hr class="divider" />
+
+      <!-- ===== Facilities ===== -->
+      <section class="resource-section">
+        <p class="section-title">Facilities &amp; Logistics</p>
+
+        <div class="resource-group">
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🏠</span>
+              <h3>Research Housing Reservations</h3>
+            </div>
+            <p>UC Davis TERC housing at Tahoe City — request forms and availability calendar.</p>
+            <a href="https://tahoe.ucdavis.edu/housing" class="btn btn-outline resource-link" target="_blank" rel="noopener">TERC Housing Portal →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🔬</span>
+              <h3>TERC Laboratory Facilities</h3>
+            </div>
+            <p>Lab space, equipment inventory, and booking at the Tahoe City facility.</p>
+            <a href="https://tahoe.ucdavis.edu/research-facilities" class="btn btn-outline resource-link" target="_blank" rel="noopener">TERC Facilities →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">⛵</span>
+              <h3>Research Vessel Scheduling</h3>
+            </div>
+            <p>Schedule research vessel time for field sampling on Lake Tahoe.</p>
+            <a href="https://tahoe.ucdavis.edu/research-vessels" class="btn btn-outline resource-link" target="_blank" rel="noopener">Vessel Scheduling →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <!-- ===== Monitoring Data ===== -->
+      <section class="resource-section">
+        <p class="section-title">Monitoring Data</p>
+
+        <div class="resource-group">
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">📊</span>
+              <h3>TERC Lake Tahoe Data Portal</h3>
+            </div>
+            <p>Long-term monitoring data including Secchi depth, nutrients, temperature profiles, and clarity metrics.</p>
+            <a href="https://tahoe.ucdavis.edu/data" class="btn btn-outline resource-link" target="_blank" rel="noopener">TERC Data Portal →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🌤️</span>
+              <h3>Atmospheric Deposition Monitoring</h3>
+            </div>
+            <p>Mid-lake buoy atmospheric deposition data — N, P, particle inputs. Operated by TERC.</p>
+            <a href="https://tahoe.ucdavis.edu/atmospheric-deposition" class="btn btn-outline resource-link" target="_blank" rel="noopener">Atmospheric Deposition →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🔥</span>
+              <h3>USFS Fire & Fuels Data</h3>
+            </div>
+            <p>Prescribed fire data, smoke monitoring, and fuels treatment records in the Lake Tahoe Basin.</p>
+            <a href="https://www.fs.usda.gov/ltbmu/" class="btn btn-outline resource-link" target="_blank" rel="noopener">LTBMU Fire Data →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🌫️</span>
+              <h3>AirNow / Purple Air – Basin Air Quality</h3>
+            </div>
+            <p>Real-time PM<sub>2.5</sub> and smoke monitoring for the Lake Tahoe Basin.</p>
+            <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.4rem;">
+              <a href="https://www.airnow.gov/" class="btn btn-outline resource-link" target="_blank" rel="noopener">AirNow →</a>
+              <a href="https://map.purpleair.com/" class="btn btn-outline resource-link" target="_blank" rel="noopener">PurpleAir →</a>
+            </div>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🛰️</span>
+              <h3>USGS National Water Information System</h3>
+            </div>
+            <p>Streamflow, water quality, and tributary data for Tahoe Basin streams.</p>
+            <a href="https://waterdata.usgs.gov/nwis" class="btn btn-outline resource-link" target="_blank" rel="noopener">USGS NWIS →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">📈</span>
+              <h3>TRPA Environmental Thresholds Dashboard</h3>
+            </div>
+            <p>Tahoe Regional Planning Agency tracking of clarity, air quality, and environmental thresholds.</p>
+            <a href="https://www.trpa.gov/environmental-thresholds/" class="btn btn-outline resource-link" target="_blank" rel="noopener">TRPA Thresholds →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <!-- ===== Local Agencies ===== -->
+      <section class="resource-section">
+        <p class="section-title">Local Agencies &amp; Partners</p>
+
+        <div class="resource-group">
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🏛️</span>
+              <h3>Tahoe Regional Planning Agency (TRPA)</h3>
+            </div>
+            <p>Bi-state agency governing land use and environmental standards in the Lake Tahoe Basin.</p>
+            <a href="https://www.trpa.gov/" class="btn btn-outline resource-link" target="_blank" rel="noopener">TRPA →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🌲</span>
+              <h3>USDA Forest Service – Lake Tahoe Basin Management Unit</h3>
+            </div>
+            <p>Federal land management, prescribed fire, and fuels reduction programs in the basin.</p>
+            <a href="https://www.fs.usda.gov/ltbmu/" class="btn btn-outline resource-link" target="_blank" rel="noopener">LTBMU →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🔥</span>
+              <h3>Tahoe Fire &amp; Fuels Team</h3>
+            </div>
+            <p>Multi-agency collaborative for fuels treatment coordination in the Tahoe Basin.</p>
+            <a href="https://tahoefireinfo.com/" class="btn btn-outline resource-link" target="_blank" rel="noopener">Tahoe Fire &amp; Fuels Team →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🌿</span>
+              <h3>California Tahoe Conservancy</h3>
+            </div>
+            <p>State agency for land conservation and restoration in the California portion of the basin.</p>
+            <a href="https://tahoe.ca.gov/" class="btn btn-outline resource-link" target="_blank" rel="noopener">CA Tahoe Conservancy →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">💧</span>
+              <h3>Lahontan Regional Water Quality Control Board</h3>
+            </div>
+            <p>California water quality regulation and TMDL oversight for Lake Tahoe.</p>
+            <a href="https://www.waterboards.ca.gov/lahontan/" class="btn btn-outline resource-link" target="_blank" rel="noopener">Lahontan RWQCB →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🏔️</span>
+              <h3>Nevada Division of Forestry</h3>
+            </div>
+            <p>Nevada state forestry and fire management for the Nevada side of the Tahoe Basin.</p>
+            <a href="https://forestry.nv.gov/" class="btn btn-outline resource-link" target="_blank" rel="noopener">Nevada Forestry →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <!-- ===== Tools & Analysis ===== -->
+      <section class="resource-section">
+        <p class="section-title">Tools &amp; Analysis</p>
+
+        <div class="resource-group">
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">📖</span>
+              <h3>Zotero Library</h3>
+            </div>
+            <p>Shared reference library for Tahoe Ash Experiment literature. Sync via Better BibTeX plugin.</p>
+            <a href="https://www.zotero.org/" class="btn btn-outline resource-link" target="_blank" rel="noopener">Zotero →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">💻</span>
+              <h3>GitHub Repository</h3>
+            </div>
+            <p>Source code, analysis scripts, and QMD documents for the Tahoe Ash Experiment.</p>
+            <a href="https://github.com/DanteCapone/Tahoe_Ash_Experiment" class="btn btn-outline resource-link" target="_blank" rel="noopener">GitHub Repo →</a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-header">
+              <span class="resource-icon">🗃️</span>
+              <h3>NCBI SRA – Sequence Data</h3>
+            </div>
+            <p>Search and deposit amplicon and metagenomic sequencing data.</p>
+            <a href="https://www.ncbi.nlm.nih.gov/sra" class="btn btn-outline resource-link" target="_blank" rel="noopener">NCBI SRA →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+      <p class="text-sm text-muted">
+        Last updated: <span id="update-date"></span> ·
+        <a href="../contact.html">Suggest a link →</a>
+      </p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="https://github.com/DanteCapone" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="mailto:dcapone@ucsd.edu">Email</a></li>
+    </ul>
+    <p>&copy; <span id="year"></span> Dante Capone.</p>
+  </footer>
+
+  <script src="../assets/js/auth.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('update-date').textContent = new Date().toLocaleDateString('en-US', {year:'numeric',month:'long',day:'numeric'});
+  </script>
+</body>
+</html>

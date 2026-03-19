@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
+<script src="../assets/js/auth.js"></script><script>if(typeof requireAuth==="function"){requireAuth();}</script><meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.35">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dante Capone">
-<meta name="dcterms.date" content="2026-03-18">
+<meta name="dcterms.date" content="2026-03-19">
 
 <title>Wildfire Ash, Smoke Shading, and Microbial Mediation of Water Clarity in Lake Tahoe</title>
 <style>
@@ -57,7 +57,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+
+div.csl-bib-body { }
+div.csl-entry {
+clear: both;
+}
+.hanging-indent div.csl-entry {
+margin-left:2em;
+text-indent:-2em;
+}
+div.csl-left-margin {
+min-width:2em;
+float:left;
+}
+div.csl-right-inline {
+margin-left:2em;
+padding-left:1em;
+}
+div.csl-indent {
+margin-left: 2em;
+}</style>
 
 
 <script>/*!
@@ -5346,6 +5365,7 @@ z-index: 1000;
   <li><a href="#management-applications" id="toc-management-applications" class="nav-link" data-scroll-target="#management-applications"><span class="header-section-number">5.2</span> Management Applications</a></li>
   <li><a href="#broader-scientific-impacts" id="toc-broader-scientific-impacts" class="nav-link" data-scroll-target="#broader-scientific-impacts"><span class="header-section-number">5.3</span> Broader Scientific Impacts</a></li>
   <li><a href="#publishable-products" id="toc-publishable-products" class="nav-link" data-scroll-target="#publishable-products"><span class="header-section-number">5.4</span> Publishable Products</a></li>
+  <li><a href="#partnerships-and-collaborative-framework" id="toc-partnerships-and-collaborative-framework" class="nav-link" data-scroll-target="#partnerships-and-collaborative-framework"><span class="header-section-number">5.5</span> Partnerships and Collaborative Framework</a></li>
   </ul></li>
   <li><a href="#timeline-and-feasibility" id="toc-timeline-and-feasibility" class="nav-link" data-scroll-target="#timeline-and-feasibility"><span class="header-section-number">6</span> Timeline and Feasibility</a>
   <ul class="collapse">
@@ -5354,7 +5374,7 @@ z-index: 1000;
   <li><a href="#year-3" id="toc-year-3" class="nav-link" data-scroll-target="#year-3"><span class="header-section-number">6.3</span> Year 3</a></li>
   <li><a href="#budget-considerations" id="toc-budget-considerations" class="nav-link" data-scroll-target="#budget-considerations"><span class="header-section-number">6.4</span> Budget Considerations</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7</span> References</a></li>
+  <li><a href="#can-nces" id="toc-can-nces" class="nav-link" data-scroll-target="#can-nces"><span class="header-section-number">7</span> Can nces</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="research_plan.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -5379,7 +5399,7 @@ z-index: 1000;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 18, 2026</p>
+      <p class="date">March 19, 2026</p>
     </div>
   </div>
   
@@ -5393,11 +5413,11 @@ z-index: 1000;
 
 <section id="overview-and-significance" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Overview and Significance</h1>
-<p>Lake Tahoe’s iconic transparency—quantified by Secchi depth measurements exceeding 60 feet—is sustained by ultra-oligotrophic conditions and is highly sensitive to fine suspended particles in the 1–6 µm range. Recent monitoring indicates that annual-average Secchi depth has plateaued since the early 2000s at ~62 feet, far below the restoration target of 97 feet, with persistent summer clarity declines and strong interannual variability. Wildfire introduces an increasingly important event-scale perturbation: smoke and ash can alter incident radiation (including UV), deposit optically active particles and nutrients directly onto the lake surface, and shift microbial processing pathways that control particle aggregation and persistence.</p>
-<p>This research addresses a critical mechanistic gap: <strong>how do wildfire-derived materials and altered light regimes affect Tahoe clarity through direct optical effects versus indirect microbially mediated pathways?</strong> We propose two complementary 28-day mesocosm experiments that separately test (1) ash deposition effects across burn-intensity gradients and loading levels, and (2) smoke-driven spectral shading effects (UV-biased vs. neutral PAR reduction). This design explicitly decomposes wildfire forcing into testable components while maintaining statistical power for microbial community composition endpoints—the key biological mechanism linking disturbance to clarity outcomes.</p>
+<p>Lake Tahoe’s iconic transparency is sustained by oligotrophic conditions and is highly sensitive to fine suspended particles in the 1–6 µm range <span class="citation" data-cites="hampton20242024LakeTahoea">Hampton et al. (<a href="#ref-hampton20242024LakeTahoea" role="doc-biblioref">2024</a>)</span>. Recent monitoring indicates that annual-average Secchi depth has plateaued since the early 2000s at ~62 feet, far below the restoration target of 97 feet, with persistent summer clarity declines and strong interannual variability. Wildfire introduces an increasingly important event-scale perturbation: smoke and ash can alter incident radiation (including UV), deposit optically active particles and nutrients directly onto the lake surface, and potetnially shift microbial processing pathways that control particle aggregation and persistence.</p>
+<p>This research addresses a critical mechanistic gap: <strong>how do wildfire-derived materials and altered light regimes affect Tahoe clarity through direct optical effects versus indirect microbially mediated pathways?</strong> We propose two complementary 28-day mesocosm experiments that separately test (1) ash deposition effects across different burn-intensities (associated with different ash quality) and loading levels, and (2) smoke-driven spectral shading effects (UV-biased vs. neutral PAR reduction). This design explicitly decomposes wildfire forcing into testable components while maintaining statistical power for microbial community composition endpoints—the key biological mechanism linking disturbance to clarity outcomes.</p>
 <section id="management-relevance" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="management-relevance"><span class="header-section-number">1.1</span> Management Relevance</h2>
-<p>Tahoe’s TMDL framework identifies fine particles as the primary clarity driver (~58% of light attenuation from inorganic particles, ~25% from organic) and atmospheric deposition as the dominant nitrogen source (~57% of total N loading). Urban stormwater delivers &gt;70% of fine sediment, but wildfire introduces episodic atmospheric pulses that can be spatially heterogeneous and temporally decoupled from precipitation-driven watershed inputs. During 2021 wildfire periods, Tahoe experienced unprecedented atmospheric nutrient loading (DIN: 12.2 g ha⁻¹ d⁻¹; TP: 0.91 g ha⁻¹ d⁻¹), with strong qualitative links to smoke and elevated PM₂.₅.</p>
+<p>Tahoe’s Total Maximum Daily Load (TMDL) framework identifies fine particles as the primary clarity driver (~58% of light attenuation from inorganic particles, ~25% from organic) and atmospheric deposition as the dominant nitrogen source (~57% of total N loading). Urban stormwater delivers &gt;70% of fine sediment, but wildfire introduces episodic atmospheric pulses that can be spatially heterogeneous and temporally decoupled from precipitation-driven watershed inputs <span class="citation" data-cites="datta1998EvidenceAtmosphericTransport">(<a href="#ref-datta1998EvidenceAtmosphericTransport" role="doc-biblioref">Datta et al. 1998</a>)</span>. During 2021 wildfire periods, Tahoe experienced unprecedented atmospheric nutrient loading (DIN: 12.2 g ha⁻¹ d⁻¹; TP: 0.91 g ha⁻¹ d⁻¹), with strong qualitative links to smoke and elevated PM₂.₅ <span class="citation" data-cites="e.olson2023WildfiresWesternUnited">(<a href="#ref-e.olson2023WildfiresWesternUnited" role="doc-biblioref">E. Olson et al. 2023</a>)</span>.</p>
 <p>Wildfire smoke covered ~99% of North American lakes during 2019–2021, with nearly 90% experiencing &gt;30 smoke-days per year. For Tahoe, quantifying wildfire impacts on the primary management indicator (Secchi depth) and identifying mechanistic pathways for TMDL modeling is both timely and actionable.</p>
 </section>
 <section id="scientific-gaps" class="level2" data-number="1.2">
@@ -5413,14 +5433,14 @@ z-index: 1000;
 </section>
 <section id="broader-implications" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="broader-implications"><span class="header-section-number">1.3</span> Broader Implications</h2>
-<p>This work addresses fundamental questions about disturbance ecology in oligotrophic lakes, microbial mediation of particle dynamics, and ecological consequences of altered UV:PAR ratios—processes relevant to lake ecosystems globally as wildfire frequency and smoke transport intensify under climate change. By explicitly testing pyrogenic organic matter as a microbial substrate and modifier, this research contributes to emerging understanding that wildfire-derived materials are not uniformly inert but can be biotically transformed, altering DOM composition and biogeochemical processing.</p>
+<p>This work addresses fundamental questions about disturbance ecology in oligotrophic lakes, microbial dynamics and particle interactions in Lake Tahoe, and ecological consequences of altered fire regimes in aquatic systems. By explicitly testing pyrogenic material as a microbial substrate and modifier, this research contributes to emerging understanding that wildfire-derived materials are not uniformly inert but can be biotically transformed, altering DOM composition and biogeochemical processing.</p>
 </section>
 </section>
 <section id="background-and-conceptual-framework" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Background and Conceptual Framework</h1>
 <section id="tahoe-clarity-particle-optics-and-aggregation-as-the-bottleneck" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="tahoe-clarity-particle-optics-and-aggregation-as-the-bottleneck"><span class="header-section-number">2.1</span> Tahoe Clarity: Particle Optics and Aggregation as the Bottleneck</h2>
-<p>Tahoe clarity is typically quantified with Secchi depth, integrating physical and biological conditions in the upper water column. Modeling and monitoring syntheses consistently conclude that <strong>fine suspended particles—especially in the 1–4.6 µm range—are the dominant driver of light attenuation</strong>, with phytoplankton and dissolved constituents contributing seasonally varying absorption and scattering.</p>
+<p>Tahoe clarity is typically quantified with Secchi depth, integrating physical and biological conditions in the upper water column. Modeling and monitoring syntheses consistently conclude that <strong>fine suspended particles—especially in the 1–6 µm range—are the dominant driver of light attenuation</strong>, with phytoplankton and dissolved constituents contributing seasonally varying absorption and scattering.</p>
 <p>A critical mechanistic feature is that particles in this size window settle slowly; residence time is controlled not only by inputs but by <strong>aggregation into larger particles that sink faster</strong> (settling velocity scales with particle diameter squared). This provides a direct conceptual bridge from clarity physics to microbial and biogeochemical processes that change particle stickiness, aggregation, and disaggregation.</p>
 <p>Tahoe’s TMDL technical synthesis reports particulate matter concentrations of 0.05–0.35 mg L⁻¹ in the water column and notes long residence/settling times for fine particles. Source apportionment indicates that urban stormwater is the dominant fine sediment source, while atmospheric deposition dominates nitrogen loading—exactly the stoichiometric background in which ash- and smoke-derived pulses could shift microbial and phytoplankton dynamics.</p>
 </section>
@@ -5470,98 +5490,238 @@ z-index: 1000;
 <div class="cell" data-layout-align="default">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A[Wildfire Episode] --&gt; B[Smoke Cover]</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Ash Deposition]</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    B --&gt; D[Reduced PAR&lt;br/&gt;~15-50%]</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    B --&gt; E[Reduced UV-B&lt;br/&gt;~30-80%]</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    C --&gt; F[Particle Input&lt;br/&gt;1-6 µm]</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    C --&gt; G[Nutrient Pulse&lt;br/&gt;N, P, Metals]</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    C --&gt; H[Pyrogenic OM&lt;br/&gt;pyDOM, PyC]</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    D --&gt; I[Light Limitation&lt;br/&gt;Deep Production ↓]</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    E --&gt; J[Photoinhibition Relief&lt;br/&gt;Surface Production ↑]</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    E --&gt; K[UV Photochemistry ↓&lt;br/&gt;DOM Transformation ↓]</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    F --&gt; L[Direct Scattering&lt;br/&gt;Clarity ↓]</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    G --&gt; M[Microbial Response]</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    H --&gt; M</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    J --&gt; M</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    K --&gt; M</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    M --&gt; N[Community Shift&lt;br/&gt;Particle-Associated ↑]</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    M --&gt; O[EPS/TEP Production]</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    M --&gt; P[Nutrient Regeneration]</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    O --&gt; Q[Particle Aggregation&lt;br/&gt;PSD Shift to &gt;6 µm]</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    Q --&gt; R[Sinking/Export ↑&lt;br/&gt;Clarity Recovery]</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    P --&gt; S[Phytoplankton Growth]</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    S --&gt; T[Organic Particles ↑&lt;br/&gt;Clarity ↓]</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    H --&gt; U[CDOM Absorption ↑&lt;br/&gt;Clarity ↓]</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    L --&gt; V[Net Clarity Change]</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    R --&gt; V</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    T --&gt; V</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    U --&gt; V</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    style A fill:#ff6b6b,color:#fff</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    style V fill:#4ecdc4,color:#fff</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    style M fill:#ffe66d,color:#000</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    style O fill:#a9e34b,color:#000</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>%%{init: {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  &quot;theme&quot;: &quot;base&quot;,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  &quot;themeVariables&quot;: {</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    &quot;fontSize&quot;: &quot;30px&quot;,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    &quot;fontFamily&quot;: &quot;Arial&quot;,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    &quot;primaryTextColor&quot;: &quot;#000000&quot;,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    &quot;edgeLabelBackground&quot;: &quot;#ffffff&quot;,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    &quot;lineColor&quot;: &quot;#333333&quot;</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}}%%</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    %% WILDFIRE FORCING</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    A[Wildfire] --&gt; B[Smoke]</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    A --&gt; C[Ash Deposition]</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    %% LIGHT + MATERIAL INPUTS</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    B --&gt; D[Light Reduction&lt;br/&gt;PAR and UV ↓]</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    C --&gt; E[Particles + pyDOM]</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    C --&gt; F[Nutrient Inputs&lt;br/&gt;N, P, Fe]</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    %% MICROBIAL CORE</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    D --&gt; M</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    E --&gt; M</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    F --&gt; M</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    M[Microbial Response&lt;br/&gt;Activity + Community Shift] --&gt; O[EPS / TEP Production]</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    M --&gt; P[Nutrient Recycling]</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    M --&gt; N[Particle-Associated Microbes ↑]</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    %% PHYTOPLANKTON</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    F --&gt; S[Phytoplankton Response]</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    P --&gt; S</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    D --&gt; S</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    S --&gt; S1[Biomass / Community Shift]</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    S --&gt; T[Small Organic Particles ↑]</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    %% ZOOPLANKTON</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    S --&gt; Z[Zooplankton Grazing]</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    Z --&gt; Z1[Fecal Pellets / Packaging]</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    Z --&gt; Z2[DOM Release]</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    Z2 --&gt; M</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>    %% PARTICLE DYNAMICS</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    O --&gt; Q[Aggregation ↑&lt;br/&gt;Larger Particles]</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>    T --&gt; Q</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>    Z1 --&gt; Q</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>    E --&gt; L[Direct Scattering ↑]</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>    %% CLARITY OUTCOME</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    Q --&gt; R[Sinking / Export ↑]</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>    E --&gt; U[CDOM / Color Effects]</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>    L --&gt; V[Net Clarity Change]</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>    U --&gt; V</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>    T --&gt; V</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>    R --&gt; V</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    %% =======================</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    %% COLOR STYLING</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>    =======================</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>    %% Fire forcing</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>    style A fill:#d62828,color:#ffffff,stroke:#000000,stroke-width:2px</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>    style B fill:#f77f00,color:#000000</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>    style C fill:#f77f00,color:#000000</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>    %% Inputs</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>    style D fill:#4cc9f0,color:#000000</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>    style E fill:#cdb4db,color:#000000</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>    style F fill:#b5838d,color:#ffffff</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>    %% Microbial core</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    style M fill:#ffd166,color:#000000,stroke:#000000,stroke-width:3px</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>    style N fill:#d9ed92,color:#000000</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>    style O fill:#95d5b2,color:#000000</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>    style P fill:#b7e4c7,color:#000000</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>    %% Phytoplankton</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>    style S fill:#2dc653,color:#ffffff</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>    style S1 fill:#52b788,color:#000000</span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>    style T fill:#74c69d,color:#000000</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>    %% Zooplankton</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>    style Z fill:#1b9aaa,color:#ffffff</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>    style Z1 fill:#76c893,color:#000000</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>    style Z2 fill:#99d98c,color:#000000</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>    %% Particle dynamics and optics</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>    style Q fill:#40916c,color:#ffffff</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>    style R fill:#1b4332,color:#ffffff</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>    style L fill:#adb5bd,color:#000000</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>    style U fill:#6d597a,color:#ffffff</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>    %% Outcome</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>    style V fill:#00b4d8,color:#ffffff,stroke:#000000,stroke-width:3px</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-conceptual-model" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-conceptual-model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<pre class="mermaid mermaid-js" data-label="fig-conceptual-model">flowchart TD
-    A[Wildfire Episode] --&gt; B[Smoke Cover]
+<pre class="mermaid mermaid-js" data-label="fig-conceptual-model">%%{init: {
+  &quot;theme&quot;: &quot;base&quot;,
+  &quot;themeVariables&quot;: {
+    &quot;fontSize&quot;: &quot;30px&quot;,
+    &quot;fontFamily&quot;: &quot;Arial&quot;,
+    &quot;primaryTextColor&quot;: &quot;#000000&quot;,
+    &quot;edgeLabelBackground&quot;: &quot;#ffffff&quot;,
+    &quot;lineColor&quot;: &quot;#333333&quot;
+  }
+}}%%
+
+flowchart TD
+
+    %% =======================
+    %% WILDFIRE FORCING
+    %% =======================
+    A[Wildfire] --&gt; B[Smoke]
     A --&gt; C[Ash Deposition]
-    
-    B --&gt; D[Reduced PAR&lt;br/&gt;~15-50%]
-    B --&gt; E[Reduced UV-B&lt;br/&gt;~30-80%]
-    
-    C --&gt; F[Particle Input&lt;br/&gt;1-6 µm]
-    C --&gt; G[Nutrient Pulse&lt;br/&gt;N, P, Metals]
-    C --&gt; H[Pyrogenic OM&lt;br/&gt;pyDOM, PyC]
-    
-    D --&gt; I[Light Limitation&lt;br/&gt;Deep Production ↓]
-    E --&gt; J[Photoinhibition Relief&lt;br/&gt;Surface Production ↑]
-    E --&gt; K[UV Photochemistry ↓&lt;br/&gt;DOM Transformation ↓]
-    
-    F --&gt; L[Direct Scattering&lt;br/&gt;Clarity ↓]
-    
-    G --&gt; M[Microbial Response]
-    H --&gt; M
-    J --&gt; M
-    K --&gt; M
-    
-    M --&gt; N[Community Shift&lt;br/&gt;Particle-Associated ↑]
-    M --&gt; O[EPS/TEP Production]
-    M --&gt; P[Nutrient Regeneration]
-    
-    O --&gt; Q[Particle Aggregation&lt;br/&gt;PSD Shift to &gt;6 µm]
-    Q --&gt; R[Sinking/Export ↑&lt;br/&gt;Clarity Recovery]
-    
-    P --&gt; S[Phytoplankton Growth]
-    S --&gt; T[Organic Particles ↑&lt;br/&gt;Clarity ↓]
-    
-    H --&gt; U[CDOM Absorption ↑&lt;br/&gt;Clarity ↓]
+
+    %% =======================
+    %% LIGHT + MATERIAL INPUTS
+    %% =======================
+    B --&gt; D[Light Reduction&lt;br/&gt;PAR and UV ↓]
+    C --&gt; E[Particles + pyDOM]
+    C --&gt; F[Nutrient Inputs&lt;br/&gt;N, P, Fe]
+
+    %% =======================
+    %% MICROBIAL CORE
+    %% =======================
+    D --&gt; M
+    E --&gt; M
+    F --&gt; M
+
+    M[Microbial Response&lt;br/&gt;Activity + Community Shift] --&gt; O[EPS / TEP Production]
+    M --&gt; P[Nutrient Recycling]
+    M --&gt; N[Particle-Associated Microbes ↑]
+
+    %% =======================
+    %% PHYTOPLANKTON
+    %% =======================
+    F --&gt; S[Phytoplankton Response]
+    P --&gt; S
+    D --&gt; S
+
+    S --&gt; S1[Biomass / Community Shift]
+    S --&gt; T[Small Organic Particles ↑]
+
+    %% =======================
+    %% ZOOPLANKTON
+    %% =======================
+    S --&gt; Z[Zooplankton Grazing]
+    Z --&gt; Z1[Fecal Pellets / Packaging]
+    Z --&gt; Z2[DOM Release]
+
+    Z2 --&gt; M
+
+    %% =======================
+    %% PARTICLE DYNAMICS
+    %% =======================
+    O --&gt; Q[Aggregation ↑&lt;br/&gt;Larger Particles]
+    T --&gt; Q
+    Z1 --&gt; Q
+    E --&gt; L[Direct Scattering ↑]
+
+    %% =======================
+    %% CLARITY OUTCOME
+    %% =======================
+    Q --&gt; R[Sinking / Export ↑]
+    E --&gt; U[CDOM / Color Effects]
     
     L --&gt; V[Net Clarity Change]
-    R --&gt; V
-    T --&gt; V
     U --&gt; V
-    
-    style A fill:#ff6b6b,color:#fff
-    style V fill:#4ecdc4,color:#fff
-    style M fill:#ffe66d,color:#000
-    style O fill:#a9e34b,color:#000
+    T --&gt; V
+    R --&gt; V
+
+    %% =======================
+    %% COLOR STYLING
+    =======================
+
+    %% Fire forcing
+    style A fill:#d62828,color:#ffffff,stroke:#000000,stroke-width:2px
+    style B fill:#f77f00,color:#000000
+    style C fill:#f77f00,color:#000000
+
+    %% Inputs
+    style D fill:#4cc9f0,color:#000000
+    style E fill:#cdb4db,color:#000000
+    style F fill:#b5838d,color:#ffffff
+
+    %% Microbial core
+    style M fill:#ffd166,color:#000000,stroke:#000000,stroke-width:3px
+    style N fill:#d9ed92,color:#000000
+    style O fill:#95d5b2,color:#000000
+    style P fill:#b7e4c7,color:#000000
+
+    %% Phytoplankton
+    style S fill:#2dc653,color:#ffffff
+    style S1 fill:#52b788,color:#000000
+    style T fill:#74c69d,color:#000000
+
+    %% Zooplankton
+    style Z fill:#1b9aaa,color:#ffffff
+    style Z1 fill:#76c893,color:#000000
+    style Z2 fill:#99d98c,color:#000000
+
+    %% Particle dynamics and optics
+    style Q fill:#40916c,color:#ffffff
+    style R fill:#1b4332,color:#ffffff
+    style L fill:#adb5bd,color:#000000
+    style U fill:#6d597a,color:#ffffff
+
+    %% Outcome
+    style V fill:#00b4d8,color:#ffffff,stroke:#000000,stroke-width:3px
 </pre>
 </div>
 </div>
@@ -6140,6 +6300,14 @@ Figure 2: Pilot experiment sampling timeline showing intensive early sampling t
 <li><p><strong>Paper 2 (Smoke-focused):</strong> “Spectral shading by wildfire smoke alters microbial community composition and ecosystem metabolism in Lake Tahoe”</p></li>
 <li><p><strong>Synthesis/methods paper:</strong> “Mesocosm approaches for testing wildfire impacts on lake clarity: design considerations for microbial community endpoints”</p></li>
 </ol>
+<p>Previous mesocosm work in Lake Tahoe has demonstrated that zooplankton community composition can significantly influence water clarity and particle dynamics <span class="citation" data-cites="bessZooplanktonInfluencesPhytoplankton2021">(<a href="#ref-bessZooplanktonInfluencesPhytoplankton2021" role="doc-biblioref">Bess et al. 2021</a>)</span>.</p>
+</section>
+<section id="partnerships-and-collaborative-framework" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="partnerships-and-collaborative-framework"><span class="header-section-number">5.5</span> Partnerships and Collaborative Framework</h2>
+<p>This project will be strengthened by partnerships that connect experimental design to ongoing fire management, restoration, and stewardship efforts in the Lake Tahoe Basin. Because the proposed mesocosm program depends on realistic ash materials, ecologically defensible burn contexts, and operationally feasible sourcing strategies, collaboration with prescribed-fire practitioners and land managers will be an important component of study development. Potential partners may include agencies and organizations involved in basin fuels reduction and prescribed burning, such as the USDA Forest Service Lake Tahoe Basin Management Unit, members of the Tahoe Fire &amp; Fuels Team, the California Tahoe Conservancy, the Nevada Division of Forestry, and local fire protection districts. These partnerships could help identify feasible pathways for ash collection, document burn conditions, and ensure that experimental materials reflect regionally relevant fire and fuels treatments.</p>
+<p>Partnerships may also contribute to interpretation of how source-fire conditions influence ash properties. For example, collaboration with fire practitioners could help contextualize ash materials in relation to fuel type, burn objectives, combustion completeness, treatment setting, and post-burn collection timing. Even when the mesocosm experiments are not designed to replicate any single field burn directly, these relationships can improve the realism and defensibility of ash-quality contrasts used in pilot and mesocosm phases.</p>
+<p>Where appropriate and only through relationship-based collaboration, this project could also engage with the significance of cultural burning in the Tahoe Basin. The Washoe Tribe of Nevada and California has longstanding cultural, historical, and stewardship ties to Lake Tahoe and is actively involved in restoration and culturally guided fire stewardship in traditional Washoe territories. Any engagement with cultural burning in this project should not treat it simply as a source of experimental material, but rather as part of a broader framework of Indigenous stewardship, ecological knowledge, and reciprocal partnership. If collaboration in this area is pursued, it should be guided by Washoe priorities, permissions, and protocols, with clear mutual benefits and respect for cultural significance, data sovereignty, and appropriate limits on sampling or interpretation.</p>
+<p>In practical terms, these partnerships could support the project in four ways: (1) identifying realistic and logistically feasible ash-source pathways for pilot experiments; (2) documenting source context for ash materials, including vegetation type and treatment setting; (3) informing interpretation of how prescribed fire and restoration practices may differ from uncontrolled wildfire in ways relevant to ash chemistry and ecological effects; and (4) creating opportunities for the research program to produce outputs useful beyond the mesocosms themselves, including preliminary guidance for restoration practitioners, land managers, and community partners interested in wildfire, water quality, and basin resilience.</p>
 </section>
 </section>
 <section id="timeline-and-feasibility" class="level1" data-number="6">
@@ -6181,12 +6349,122 @@ Figure 2: Pilot experiment sampling timeline showing intensive early sampling t
 <p><strong>Total estimated budget:</strong> ~$80,000–$150,000 over 2–3 years, depending on infrastructure availability and personnel support.</p>
 </section>
 </section>
-<section id="references" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> References</h1>
+<section id="can-nces" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Can nces</h1>
 <p>[References will be automatically generated from bibliography file]</p>
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-adminTahoeEnvironmentalResearch2014" class="csl-entry" role="listitem">
+<span class="nocase">admin, Site Factory</span>. 2014. <em>Tahoe <span>Environmental Research Center</span> - <span>Atmospheric Deposition</span></em>. Https://tahoe.ucdavis.edu/atmospheric-deposition.
+</div>
+<div id="ref-berryAtmosphericPollutant" class="csl-entry" role="listitem">
+Berry, Brandon, Shohei Watanabe, and Geoff Schladow. 2022. <em><span>ATMOSPHERIC POLLUTANT DEPOSITION MONITORING NITROGEN AND PHOSPHORUS DEPOSITION AT THE MID-LAKE STATION OF</span> <span>LAKE TAHOE</span></em>.
+</div>
+<div id="ref-bessZooplanktonInfluencesPhytoplankton2021" class="csl-entry" role="listitem">
+Bess, Zachary, Sudeep Chandra, Erin Suenaga, Suzanne Kelson, and Alan Heyvaert. 2021. <span>“Zooplankton Influences on Phytoplankton, Water Clarity, and Nutrients in <span>Lake Tahoe</span>.”</span> <em>Aquatic Sciences</em> 83 (2): 26. <a href="https://doi.org/10.1007/s00027-020-00772-6">https://doi.org/10.1007/s00027-020-00772-6</a>.
+</div>
+<div id="ref-casamayor2017MicrobialConservationPerspective" class="csl-entry" role="listitem">
+Casamayor, Emilio O. 2017. <span>“Towards a <span>Microbial Conservation Perspective</span> in <span>High Mountain Lakes</span>.”</span> In <em>High <span>Mountain Conservation</span> in a <span>Changing World</span></em>, edited by Jordi Catalan, Josep M Ninot, and M. Mercè Aniz. Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-55982-7_7">https://doi.org/10.1007/978-3-319-55982-7_7</a>.
+</div>
+<div id="ref-zotero-item-2691" class="csl-entry" role="listitem">
+Chandra, Sudeeo, F Scordo, E Suenaga, et al. 2022. <em>Impacts of <span>Smoke-Ash</span> from the 2021 <span>Wildfires</span> to the <span>Ecology</span> of <span>Lake Tahoe</span></em>. University of Nevada Reno’s Global Water Center; Utah State University; University of California Davis Tahoe Environmental Research Centre; Desert Research Institute; Miami University.
+</div>
+<div id="ref-datta1998EvidenceAtmosphericTransport" class="csl-entry" role="listitem">
+Datta, Seema, Laura L. McConnell, Joel E. Baker, James LeNoir, and James N. Seiber. 1998. <span>“Evidence for <span>Atmospheric Transport</span> and <span>Deposition</span> of <span>Polychlorinated Biphenyls</span> to the <span>Lake Tahoe Basin</span>, <span>California</span>-<span>Nevada</span>.”</span> <em>Environmental Science &amp; Technology</em> 32 (10): 1378–85. <a href="https://doi.org/10.1021/es970657t">https://doi.org/10.1021/es970657t</a>.
+</div>
+<div id="ref-demmelWildfireDrivenChangesTerrestrial" class="csl-entry" role="listitem">
+Demmel, Margaret Y., Christopher B. Wall, Cody J. Spiegel, et al. n.d. <em>Wildfire-<span>Driven Changes</span> in <span>Terrestrial Subsidies Shift Freshwater Microbial</span> and <span>Zooplankton Communities</span> to <span>New Compositional States</span></em>. <a href="https://doi.org/10.1111/mec.17794">https://doi.org/10.1111/mec.17794</a>.
+</div>
+<div id="ref-e.olson2023WildfiresWesternUnited" class="csl-entry" role="listitem">
+E. Olson, Nicole, Katie L. Boaggio, R. Byron Rice, Kristen M. Foley, and Stephen D. LeDuc. 2023. <em>Wildfires in the Western <span>United States</span> Are Mobilizing <span>PM</span> 2.5 -Associated Nutrients and May Be Contributing to Downwind Cyanobacteria Blooms</em>. June. <a href="https://doi.org/10.1039/D3EM00042G">https://doi.org/10.1039/D3EM00042G</a>.
+</div>
+<div id="ref-farruggia2024WildfireSmokeImpacts" class="csl-entry" role="listitem">
+Farruggia, Mary Jade, Janice Brahney, Andrew J. Tanentzap, et al. 2024. <span>“Wildfire Smoke Impacts Lake Ecosystems.”</span> <em>Global Change Biology</em> 30 (6): e17367. <a href="https://doi.org/10.1111/gcb.17367">https://doi.org/10.1111/gcb.17367</a>.
+</div>
+<div id="ref-fischer2023FluorescenceAbsorbanceIndices" class="csl-entry" role="listitem">
+Fischer, Sarah J., Timothy S. Fegel, Paul J. Wilkerson, Leah Rivera, Charles C. Rhoades, and Fernando L. Rosario-Ortiz. 2023. <span>“Fluorescence and <span>Absorbance Indices</span> for <span>Dissolved Organic Matter</span> from <span>Wildfire Ash</span> and <span>Burned Watersheds</span>.”</span> <em>ACS ES&amp;T Water</em> 3 (8): 2199–209. <a href="https://doi.org/10.1021/acsestwater.3c00017">https://doi.org/10.1021/acsestwater.3c00017</a>.
+</div>
+<div id="ref-goldberg2015RefractoryDissolvedOrganic" class="csl-entry" role="listitem">
+Goldberg, S. J., G. I. Ball, B. C. Allen, et al. 2015. <span>“Refractory Dissolved Organic Nitrogen Accumulation in High-Elevation Lakes.”</span> <em>Nature Communications</em> 6 (1): 6347. <a href="https://doi.org/10.1038/ncomms7347">https://doi.org/10.1038/ncomms7347</a>.
+</div>
+<div id="ref-goldman1998MultipleEnvironmentalStresses" class="csl-entry" role="listitem">
+Goldman, Charles R. 1998. <span>“Multiple <span>Environmental Stresses</span> on the <span>Fragile Lake Tahoe Ecosystem</span>.”</span> In <em>Multiple <span>Stresses</span> in <span>Ecosystems</span></em>. CRC Press.
+</div>
+<div id="ref-goldmanForestFiresAtmospheric1990" class="csl-entry" role="listitem">
+Goldman, Charles R., Alan D. Jassby, and Evelyne De Amezaga. 1990. <span>“Forest Fires, Atmospheric Deposition and Primary Productivity at <span>Lake Tahoe</span>, <span>California-Nevada</span>.”</span> <em>SIL Proceedings, 1922-2010</em> 24 (1): 499–503. <a href="https://doi.org/10.1080/03680770.1989.11898787">https://doi.org/10.1080/03680770.1989.11898787</a>.
+</div>
+<div id="ref-goranov2022MicrobialLabilizationDiversification" class="csl-entry" role="listitem">
+Goranov, Aleksandar I., Andrew S. Wozniak, Kyle W. Bostick, Andrew R. Zimmerman, Siddhartha Mitra, and Patrick G. Hatcher. 2022. <span>“Microbial Labilization and Diversification of Pyrogenic Dissolved Organic Matter.”</span> <em>Biogeosciences</em> 19 (5): 1491–514. <a href="https://doi.org/10.5194/bg-19-1491-2022">https://doi.org/10.5194/bg-19-1491-2022</a>.
+</div>
+<div id="ref-guo2023PredationHasSignificant" class="csl-entry" role="listitem">
+Guo, Ping, Cui Li, Jinxain Liu, and Baofeng Chai. 2023. <span>“Predation Has a Significant Impact on the Complexity and Stability of Microbial Food Webs in Subalpine Lakes.”</span> <em>Microbiology Spectrum</em> 11 (6): e02411–23. <a href="https://doi.org/10.1128/spectrum.02411-23">https://doi.org/10.1128/spectrum.02411-23</a>.
+</div>
+<div id="ref-hampton20242024LakeTahoea" class="csl-entry" role="listitem">
+Hampton, Stephanie E, Alexander L Forrest, Shohei Watanabe, and Lidia Tanaka. 2024. <em>2024 <span>Lake Tahoe Clarity Report</span></em>.
+</div>
+<div id="ref-ImpactsSmokeAsh2021" class="csl-entry" role="listitem">
+<em>Impacts of <span>Smoke-Ash</span> from the 2021 <span>Wildfires</span> to the <span>Ecology</span> of <span>Lake Tahoe</span> - <span>CONICET</span></em>. n.d.
+</div>
+<div id="ref-jassby1994AtmosphericDepositionNitrogen" class="csl-entry" role="listitem">
+Jassby, Alan D., John E. Reuter, Richard P. Axler, Charles R. Goldman, and Scott H. Hackley. 1994. <span>“Atmospheric Deposition of Nitrogen and Phosphorus in the Annual Nutrient Load of <span>Lake Tahoe</span> (<span>California-Nevada</span>).”</span> <em>Water Resources Research</em> 30 (7): 2207–16. <a href="https://doi.org/10.1029/94WR00754">https://doi.org/10.1029/94WR00754</a>.
+</div>
+<div id="ref-macaulay2025AddressingGrandEcologicala" class="csl-entry" role="listitem">
+Macaulay, Samuel J., Erik Jeppesen, Ulf Riebesell, et al. 2025. <span>“Addressing Grand Ecological Challenges in Aquatic Ecosystems: How Can Mesocosms Be Used to Advance Solutions?”</span> <em>Oikos</em> 2025 (5): e11020. <a href="https://doi.org/10.1111/oik.11020">https://doi.org/10.1111/oik.11020</a>.
+</div>
+<div id="ref-mackeyAerosolnutrientinducedPicoplanktonGrowth2013" class="csl-entry" role="listitem">
+Mackey, Katherine R. M., Deborah Hunter, Emily V. Fischer, et al. 2013. <span>“Aerosol-Nutrient-Induced Picoplankton Growth in <span>Lake Tahoe</span>.”</span> <em>Journal of Geophysical Research: Biogeosciences</em> 118 (3): 1054–67. <a href="https://doi.org/10.1002/jgrg.20084">https://doi.org/10.1002/jgrg.20084</a>.
+</div>
+<div id="ref-murphy2006WildfireEffectsSoil" class="csl-entry" role="listitem">
+Murphy, J. D., D. W. Johnson, W. W. Miller, R. F. Walker, E. F. Carroll, and R. R. Blank. 2006. <span>“Wildfire <span>Effects</span> on <span>Soil Nutrients</span> and <span>Leaching</span> in a <span>Tahoe Basin Watershed</span>.”</span> <em>Journal of Environmental Quality</em> 35 (2): 479–89. <a href="https://doi.org/10.2134/jeq2005.0144">https://doi.org/10.2134/jeq2005.0144</a>.
+</div>
+<div id="ref-NutrientEmissionsPrescribed" class="csl-entry" role="listitem">
+<em>Nutrient Emissions from Prescribed Fire in <span>Lake Tahoe Basin</span>: <span>Implications</span> from Field and Laboratory Observations - <span>ProQuest</span></em>. n.d.-a. Https://www.proquest.com/openview/ab06154c5044b81ae49551bb397ea0f7/1?pq-origsite=gscholar&amp;cbl=18750.
+</div>
+<div id="ref-NutrientEmissionsPrescribeda" class="csl-entry" role="listitem">
+<em>Nutrient Emissions from Prescribed Fire in <span>Lake Tahoe Basin</span>: <span>Implications</span> from Field and Laboratory Observations - <span>ProQuest</span></em>. n.d.-b. Https://www.proquest.com/docview/755041864?pq-origsite=gscholar&amp;fromopenview=true&amp;sourcetype=Dissertations%20&amp;%20Theses.
+</div>
+<div id="ref-PDFBacterialColonization" class="csl-entry" role="listitem">
+<span>“(<span>PDF</span>) <span>Bacterial</span> Colonization and Microbial Decomposition of Limnetic Organic Aggregates.”</span> n.d. <em>ResearchGate</em>. <a href="https://doi.org/10.3354/ame015127">https://doi.org/10.3354/ame015127</a>.
+</div>
+<div id="ref-rennert2025VariableEffectsFireretardant" class="csl-entry" role="listitem">
+Rennert, Monica E., and Jamie M. Kneitel. 2025a. <span>“Variable Effects of a Fire-Retardant Gradient on Seasonal Wetland Communities.”</span> <em>Ecotoxicology</em> 34 (4): 554–64. <a href="https://doi.org/10.1007/s10646-025-02855-2">https://doi.org/10.1007/s10646-025-02855-2</a>.
+</div>
+<div id="ref-rennert2025VariableEffectsFireretardanta" class="csl-entry" role="listitem">
+Rennert, Monica E., and Jamie M. Kneitel. 2025b. <span>“Variable Effects of a Fire-Retardant Gradient on Seasonal Wetland Communities.”</span> <em>Ecotoxicology</em> 34 (4): 554–64. <a href="https://doi.org/10.1007/s10646-025-02855-2">https://doi.org/10.1007/s10646-025-02855-2</a>.
+</div>
+<div id="ref-rochman2024InformingExposureLandscape" class="csl-entry" role="listitem">
+Rochman, Chelsea M., Kennedy Bucci, Desiree Langenfeld, et al. 2024. <span>“Informing the <span>Exposure Landscape</span>: <span>The Fate</span> of <span>Microplastics</span> in a <span>Large Pelagic In-Lake Mesocosm Experiment</span>.”</span> <em>Environmental Science &amp; Technology</em> 58 (18): 7998–8008. <a href="https://doi.org/10.1021/acs.est.3c08990">https://doi.org/10.1021/acs.est.3c08990</a>.
+</div>
+<div id="ref-zotero-item-2672" class="csl-entry" role="listitem">
+Smith, Douglas, and Jason Kuchnicki. 2010. <em>Final <span>Lake Tahoe Total Maximum Daily Load Report</span></em>. California Regional Water Quality ControlBoard; Nevada Division of EnvironmentalProtection.
+</div>
+<div id="ref-striebel2013DifferentMixingTechniques" class="csl-entry" role="listitem">
+Striebel, Maren, Leo Kirchmaier, and Peter Hingsamer. 2013. <span>“Different Mixing Techniques in Experimental Mesocosms—Does Mixing Affect Plankton Biomass and Community Composition?”</span> <em>Limnology and Oceanography, Methods / ASLO</em> 11 (4): 176–86. <a href="https://doi.org/10.4319/lom.2013.11.176">https://doi.org/10.4319/lom.2013.11.176</a>.
+</div>
+<div id="ref-su2022LighttoNutrientRatioAlpine" class="csl-entry" role="listitem">
+Su, Yaling, Yingxun Du, and Peng Xing. 2022. <span>“The <span class="nocase">Light-to-Nutrient Ratio</span> in <span>Alpine Lakes</span>: <span>Different Scenarios</span> of <span>Bacterial Nutrient Limitation</span> and <span>Community Structure</span> in <span>Lakes Above</span> and <span>Below</span> the <span>Treeline</span>.”</span> <em>Microbial Ecology</em> 83 (4): 837–49. <a href="https://doi.org/10.1007/s00248-021-01834-4">https://doi.org/10.1007/s00248-021-01834-4</a>.
+</div>
+<div id="ref-urbach2001UnusualBacterioplanktonCommunity" class="csl-entry" role="listitem">
+Urbach, Ena, Kevin L. Vergin, Lei Young, Ariel Morse, Gary L. Larson, and Stephen J. Giovannoni. 2001. <span>“Unusual Bacterioplankton Community Structure in Ultra-Oligotrophic <span>Crater Lake</span>.”</span> <em>Limnology and Oceanography</em> 46 (3): 557–72. <a href="https://doi.org/10.4319/lo.2001.46.3.0557">https://doi.org/10.4319/lo.2001.46.3.0557</a>.
+</div>
+<div id="ref-urmyVerticalRedistributionZooplankton2016" class="csl-entry" role="listitem">
+Urmy, Samuel S., Craig E. Williamson, Taylor H. Leach, S. Geoffrey Schladow, Erin P. Overholt, and Joseph D. Warren. 2016. <span>“Vertical Redistribution of Zooplankton in an Oligotrophic Lake Associated with Reduction in Ultraviolet Radiation by Wildfire Smoke.”</span> <em>Geophysical Research Letters</em> 43 (8): 3746–53. <a href="https://doi.org/10.1002/2016GL068533">https://doi.org/10.1002/2016GL068533</a>.
+</div>
+<div id="ref-wallFireTransformsEffects2024" class="csl-entry" role="listitem">
+Wall, Christopher B., Cody J. Spiegel, Evelyn M. Diaz, et al. 2024. <span>“Fire Transforms Effects of Terrestrial Subsidies on Aquatic Ecosystem Structure and Function.”</span> <em>Global Change Biology</em> 30 (1): e17058. <a href="https://doi.org/10.1111/gcb.17058">https://doi.org/10.1111/gcb.17058</a>.
+</div>
+<div id="ref-WildfireSmokeReduces" class="csl-entry" role="listitem">
+<em>Wildfire Smoke Reduces Lake Ecosystem Metabolic Rates Unequally Across a Trophic Gradient <span>Communications Earth</span> &amp; <span>Environment</span></em>. n.d. Https://www.nature.com/articles/s43247-024-01404-9.
+</div>
+<div id="ref-winder2008LakeWarmingFavours" class="csl-entry" role="listitem">
+Winder, Monika, John E Reuter, and S. Geoffrey Schladow. 2008. <span>“Lake Warming Favours Small-Sized Planktonic Diatom Species.”</span> <em>Proceedings of the Royal Society B: Biological Sciences</em> 276 (1656): 427–35. <a href="https://doi.org/10.1098/rspb.2008.1200">https://doi.org/10.1098/rspb.2008.1200</a>.
+</div>
+<div id="ref-zhang2002AircraftMeasurementsNitrogen" class="csl-entry" role="listitem">
+Zhang, Qi, John J. Carroll, Alan J. Dixon, and Cort Anastasio. 2002. <span>“Aircraft <span>Measurements</span> of <span>Nitrogen</span> and <span>Phosphorus</span> in and Around the <span>Lake Tahoe Basin</span>:  <span>Implications</span> for <span>Possible Sources</span> of <span>Atmospheric Pollutants</span> to <span>Lake Tahoe</span>.”</span> <em>Environmental Science &amp; Technology</em> 36 (23): 4981–89. <a href="https://doi.org/10.1021/es025658m">https://doi.org/10.1021/es025658m</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

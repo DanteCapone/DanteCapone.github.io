@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Molecular Methods | Dante Capone</title>
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <!-- Auth guard: redirect to login if not authenticated -->
+  <script src="../../assets/js/auth.js"></script>
+  <script>if (typeof requireAuth === 'function') { requireAuth(); }</script>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="../../index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../research.html">Research</a></li>
+        <li><a href="../../cv.html">CV</a></li>
+        <li><a href="../../art.html">Art</a></li>
+        <li class="nav-dropdown open" id="nav-current-research">
+          <button class="nav-dropdown-toggle" aria-expanded="true" aria-haspopup="true">
+            Current Research <span class="nav-lock">🔒</span><span class="nav-caret">&#9660;</span>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="../../research-plan/" class="protected-link">📄&nbsp; Research Plan</a>
+            <a href="../../methods/biological/" class="protected-link">🔬&nbsp; Biological Methods</a>
+            <a href="../../methods/molecular/" class="protected-link active">🧬&nbsp; Molecular Methods</a>
+            <div class="dropdown-divider"></div>
+            <a href="../../terc-resources/">🗂&nbsp; TERC Resources</a>
+          </div>
+        </li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <div class="container">
+
+      <div class="methods-header">
+        <span class="tag">Restricted — Work in Progress</span>
+        <h1>Molecular Methods</h1>
+        <p class="page-lede">Tahoe Ash Experiment — Mesocosm Program</p>
+        <p class="text-sm text-muted">
+          16S rRNA amplicon sequencing, DNA extraction, and bioinformatics pipeline.
+          Rendered from <code>methods/molecular_methods.qmd</code>.
+        </p>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="methods-placeholder">
+        <div class="placeholder-icon" aria-hidden="true">🧬</div>
+        <h2>Full protocol document coming soon</h2>
+        <p>
+          Detailed SOP and bioinformatics workflow under development. Will be rendered here
+          after pilot experiment validation.
+        </p>
+        <p>
+          Source <code>.qmd</code> available in the
+          <a href="https://github.com/DanteCapone/Tahoe_Ash_Experiment/tree/main/methods" target="_blank" rel="noopener">GitHub repository</a>.
+        </p>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- Pipeline Overview -->
+      <section>
+        <h2>Pipeline Overview</h2>
+        <div class="pipeline-steps">
+          <div class="pipeline-step">
+            <span class="step-num">1</span>
+            <div>
+              <strong>Sample Collection</strong>
+              <p class="text-sm text-muted">Sterivex filtration (0.2 µm), RNAlater preservation, flash-freeze –80°C</p>
+            </div>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">2</span>
+            <div>
+              <strong>DNA Extraction</strong>
+              <p class="text-sm text-muted">DNeasy PowerWater Sterivex Kit; Qubit + NanoDrop QC</p>
+            </div>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">3</span>
+            <div>
+              <strong>16S PCR Amplification</strong>
+              <p class="text-sm text-muted">515F/806R primers; V4 region; triplicate reactions</p>
+            </div>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">4</span>
+            <div>
+              <strong>Library Prep &amp; Sequencing</strong>
+              <p class="text-sm text-muted">Nextera XT dual indexing; Illumina MiSeq 2×250 bp</p>
+            </div>
+          </div>
+          <div class="pipeline-step">
+            <span class="step-num">5</span>
+            <div>
+              <strong>Bioinformatics</strong>
+              <p class="text-sm text-muted">QIIME2 + DADA2 denoising; SILVA 138 taxonomy; R (phyloseq, vegan)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <h2>Sequencing Timepoints</h2>
+        <table class="methods-table">
+          <thead>
+            <tr><th>Day</th><th>Pilot</th><th>Exp 1 (Ash)</th><th>Exp 2 (Shading)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>0 (baseline)</td><td>✓</td><td>✓</td><td>✓</td></tr>
+            <tr><td>3</td><td>✓</td><td>✓</td><td>✓</td></tr>
+            <tr><td>7</td><td>✓</td><td>✓</td><td>✓</td></tr>
+            <tr><td>14</td><td>—</td><td>✓</td><td>✓</td></tr>
+            <tr><td>28</td><td>—</td><td>✓</td><td>✓</td></tr>
+            <tr><td>10</td><td>Optional</td><td>—</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr class="divider" />
+      <p class="text-sm text-muted">
+        <button onclick="window.logoutResearch()" class="btn btn-outline btn-sm">Sign out</button>
+      </p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="https://github.com/DanteCapone" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:dcapone@ucsd.edu">Email</a></li>
+    </ul>
+    <p>&copy; <span id="year"></span> Dante Capone.</p>
+  </footer>
+
+  <script src="../../assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

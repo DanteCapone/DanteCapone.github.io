@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biological Methods | Dante Capone</title>
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <!-- Auth guard: redirect to login if not authenticated -->
+  <script src="../../assets/js/auth.js"></script>
+  <script>if (typeof requireAuth === 'function') { requireAuth(); }</script>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="../../index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../research.html">Research</a></li>
+        <li><a href="../../cv.html">CV</a></li>
+        <li><a href="../../art.html">Art</a></li>
+        <li class="nav-dropdown open" id="nav-current-research">
+          <button class="nav-dropdown-toggle" aria-expanded="true" aria-haspopup="true">
+            Current Research <span class="nav-lock">🔒</span><span class="nav-caret">&#9660;</span>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="../../research-plan/" class="protected-link">📄&nbsp; Research Plan</a>
+            <a href="../../methods/biological/" class="protected-link active">🔬&nbsp; Biological Methods</a>
+            <a href="../../methods/molecular/" class="protected-link">🧬&nbsp; Molecular Methods</a>
+            <div class="dropdown-divider"></div>
+            <a href="../../terc-resources/">🗂&nbsp; TERC Resources</a>
+          </div>
+        </li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <div class="container">
+
+      <div class="methods-header">
+        <span class="tag">Restricted — Work in Progress</span>
+        <h1>Biological &amp; Ecological Methods</h1>
+        <p class="page-lede">Tahoe Ash Experiment — Mesocosm Program</p>
+        <p class="text-sm text-muted">
+          Detailed protocols for biological, optical, and chemical measurements in the
+          pilot and full mesocosm experiments. Rendered from
+          <code>methods/biological_methods.qmd</code>.
+        </p>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="methods-placeholder">
+        <div class="placeholder-icon" aria-hidden="true">🔬</div>
+        <h2>Full protocol document coming soon</h2>
+        <p>
+          The detailed SOP document is being developed in Quarto and will be rendered here
+          after pilot experiment validation (Year 1, Months 4–6).
+        </p>
+        <p>
+          In the meantime, the source <code>.qmd</code> file is available in the
+          <a href="https://github.com/DanteCapone/Tahoe_Ash_Experiment/tree/main/methods" target="_blank" rel="noopener">GitHub repository</a>.
+        </p>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- Measurement Overview Table -->
+      <section>
+        <h2>Measurement Overview</h2>
+        <table class="methods-table">
+          <thead>
+            <tr>
+              <th>Measurement</th>
+              <th>Method</th>
+              <th>Priority</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Chlorophyll <em>a</em></td><td>Fluorometric (acetone extraction)</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Turbidity</td><td>In situ (NTU)</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Beam attenuation (670 nm)</td><td>WET Labs AC-S flow-through</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Particle size distribution</td><td>Coulter Counter / LISST</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Suspended particulate matter</td><td>Gravimetric (GF/F)</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Bacterial abundance</td><td>Flow cytometry (SYBR Green)</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>TEP / EPS</td><td>Alcian Blue spectrophotometric</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Nutrients (DIN, SRP, DOC)</td><td>Autoanalyzer + TOC</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>CDOM absorbance</td><td>Spectrophotometer (200–700 nm)</td><td>Essential</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Zooplankton</td><td>Net tow, microscopy</td><td>Standard</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Phytoplankton community</td><td>Microscopy / flow cytometry</td><td>Standard</td><td class="status-pending">SOP pending</td></tr>
+            <tr><td>Bacterial production</td><td>³H-leucine incorporation</td><td>Optional</td><td class="status-optional">Optional</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr class="divider" />
+      <p class="text-sm text-muted">
+        <button onclick="window.logoutResearch()" class="btn btn-outline btn-sm">Sign out</button>
+      </p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="https://github.com/DanteCapone" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:dcapone@ucsd.edu">Email</a></li>
+    </ul>
+    <p>&copy; <span id="year"></span> Dante Capone.</p>
+  </footer>
+
+  <script src="../../assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

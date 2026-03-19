@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In – Current Research | Dante Capone</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-brand">Dante Capone</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../research.html">Research</a></li>
+        <li><a href="../cv.html">CV</a></li>
+        <li><a href="../art.html">Art</a></li>
+        <li class="nav-dropdown" id="nav-current-research">
+          <button class="nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+            Current Research <span class="nav-lock">🔒</span><span class="nav-caret">&#9660;</span>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="../research-plan/" class="protected-link">📄&nbsp; Research Plan</a>
+            <a href="../methods/biological/" class="protected-link">🔬&nbsp; Biological Methods</a>
+            <a href="../methods/molecular/" class="protected-link">🧬&nbsp; Molecular Methods</a>
+            <div class="dropdown-divider"></div>
+            <a href="../terc-resources/">🗂&nbsp; TERC Resources</a>
+          </div>
+        </li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <div class="container">
+      <div class="login-wrapper">
+        <div class="login-box">
+          <div class="login-icon" aria-hidden="true">🔒</div>
+          <h1>Current Research</h1>
+          <p>This section contains work-in-progress research materials. Enter the access password to continue.</p>
+
+          <form id="login-form" autocomplete="off" novalidate>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                autocomplete="current-password"
+                required
+              />
+            </div>
+            <p class="login-error" id="login-error" role="alert">
+              Incorrect password. Please try again.
+            </p>
+            <button type="submit" class="btn btn-primary login-btn">Sign In</button>
+          </form>
+
+          <p class="login-note">
+            Access is for collaborators and research team members.<br />
+            <a href="../contact.html">Contact Dante</a> to request access.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Dante Capone.</p>
+  </footer>
+
+  <script src="../assets/js/auth.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* If already authenticated, redirect to intended page or research plan */
+    (function () {
+      if (window.isResearchAuth && window.isResearchAuth()) {
+        var params = new URLSearchParams(window.location.search);
+        var returnTo = params.get('return') || '/research-plan/';
+        window.location.replace(decodeURIComponent(returnTo));
+      }
+    })();
+
+    /* Login form handler */
+    document.getElementById('login-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var pw     = document.getElementById('password').value;
+      var params = new URLSearchParams(window.location.search);
+      var ret    = params.get('return') || '/research-plan/';
+      var err    = document.getElementById('login-error');
+
+      err.style.display = 'none';
+
+      if (!window.attemptLogin(pw, ret)) {
+        err.style.display = 'block';
+        document.getElementById('password').value = '';
+        document.getElementById('password').focus();
+      }
+    });
+  </script>
+</body>
+</html>
